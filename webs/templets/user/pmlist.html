@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<title>{$pt_sitename} - 会员中心 - 消息</title>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/basic.css">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/portal.css">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/pphelp.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="{$pt_siteurl}templets/user/js/common.js"></script>
+</head>
+<body>
+{pt.gettpl.user.header}
+<div id=pt_mainw>
+	<div id=pmsg_banner><h1>我的消息</h1></div>
+	<div id=nav3>
+		<a href="pm.php" class="here">收件箱</a>
+		<a href="pmsend.php">发件箱</a>
+		<a href="pmnew.php">发新消息</a>
+	</div>
+	<div id=message_box>
+		<div class=message></div>
+		<div class=newsmsg>
+			<form name="myform" action="" method="post">
+			<div class=newsmsgtt>收件箱<span class=f88>（{$pmnum} 条短消息）</span></div>
+			<div id="bookcase">
+				<table id="marklist" border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<th scope="col" width="10">&nbsp;</th>
+						<th scope="col" width="50"><input name="" type="checkbox" onclick="ptCheckAll(this,'delid[]');"/></th>
+						<th class="tleft" scope="col" width="200">标题</th>
+						<th scope="col" width="200">发件人</th>
+						<th scope="col" width="200">日期</th>
+					</tr>
+					{pt:for.pmnum}
+					<tr>
+						<td scope="col" nowrap="nowrap" width="10">&nbsp;</td>
+						<td class="tcenter" scope="col" width="50"><input name="delid[]" type="checkbox" value="{list.pmlist.pmid}" /></td>
+						<td class="tleft" scope="col" width="200"><a href="{list.pmlist.pmurl}">{list.pmlist.title}</a></td>
+						<td class="tcenter" scope="col" width="200">{list.pmlist.username}</td>
+						<td class="tcenter" scope="col" width="200">{list.pmlist.date}</td>
+					</tr>
+					{/pt:for}
+				</table>
+				<div class="bksbtn">
+					<label for="Submit1"></label>
+					<input name="checkall" type="button" class="submit" value="全 选" onclick="selectall('pmlist','delid[]')"/>
+					<label for="Submit2"></label>
+					<input name="del" type="submit" class="submit" value="删 除"/>
+					<label for="Submit3"></label>
+				</div>
+			</div>
+			</form>
+		</div>
+		<div class=cl></div>
+	</div>
+	<div class=cl></div>
+</div>
+<div class=cl></div>
+{pt.gettpl.user.footer}
+</body>
+</html>

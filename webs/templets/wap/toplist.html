@@ -1,0 +1,14 @@
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="TopLsit" title="{$topname}-{$pt_sitename}" newcontext="true">
+<p>
+{pt.gettpl.wap.header}
+=^={$topname}=^=<br/>
+{pt:for.count_list}
+<a href="book.php?bookid={list.pt_list.bookid}&amp;user={$user}" title="ÊéÒ³">¡¶{list.pt_list.bookname}¡·</a>/ <a href="chapter.php?cutid={list.pt_list.cutid}&amp;bookid={list.pt_list.bookid}&amp;chapterid={list.pt_list.chapterid}&amp;user={$user}" title="ÔÄ¶Á">{list.pt_list.chaptername}</a> / <a href="search.php?type=author&amp;key={list.pt_list.author}&amp;user={$user}" title="×÷Õß">{list.pt_list.author}</a> /{list.pt_list.update}<br/>
+----------<br/>
+{/pt:for}
+{pt.gettpl.wap.footer}
+</p>
+</card>
+</wml>

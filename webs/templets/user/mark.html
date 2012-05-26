@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<title>{$pt_sitename} - 会员中心 - 书架</title>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/basic.css">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/portal.css">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/pphelp.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="{$pt_siteurl}templets/user/js/common.js"></script>
+</head>
+<body>
+{pt.gettpl.user.header}
+<div id=pt_mainw>
+	<div id=pbk_banner><h1>我的书架</h1></div>
+	<div id=nav3>
+		<a href="mark.php" class="here">书架管理</a>
+		<a href="usermark.php">会员书架</a>
+		<a href="automark.php">浏览历史</a>
+	</div>
+	<div class=infoone style="margin: 0px">
+		<div class=infotitle2><h2>书架权限</h2></div>
+		<div class=chghob>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 500px">您好，<strong>{$username}</strong>！　您当前共有永久书架<font color="red"> <b>{$usermarkc}</b> </font>个，每个书架可藏书<font color="red"> <b>{$usermarknum}</b> </font>本</div>
+				<div class=cl></div>
+			</div>
+			<div class=cl></div>
+		</div>
+		<div class=infotitle2><h2>书架名称</h2></div>
+		<form name="myform" action="" method="post">
+		<div class=chghob>
+			{pt:for.usermarkc}
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">书架-{$i}：</div>
+				<div class=chgp3 style="width: 500px"><input type="text" name="{$i}" value="{list.markname}" size="15"/></div>
+				<div class=cl></div>
+			</div>
+			{/pt:for}
+		</div>
+		<div class=hobbtn>
+			<label for=submit><input name="dochange" type="submit" class="submit" value="修 改" /></label>
+		</div>
+		</form>
+	</div>
+</div>
+<div class="cl"></div>
+{pt.gettpl.user.footer}
+</body>
+</html>

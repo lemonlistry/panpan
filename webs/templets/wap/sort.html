@@ -1,0 +1,14 @@
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="Sort" title="分类阅读-{$pt_sitename}" newcontext="true">
+<p>
+{pt.gettpl.wap.header}
+=^=分类阅读=^=<br/>
+ | <a href="sort.php?type=list&amp;sortid=0&amp;page=1&amp;user={$user}" title="全部分类">全部分类</a> | 
+{pt:for.sortnum }
+<a href="{list.sortlist.url}" title="{list.sortlist.name}">{list.sortlist.name}</a> | 
+{/pt:for}<br/>
+{pt.gettpl.wap.footer}
+</p>
+</card>
+</wml>

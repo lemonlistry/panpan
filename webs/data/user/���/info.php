@@ -1,0 +1,15 @@
+<?php
+$username='点点';
+$password='b85acd15aa9e8008ec9c858bbb8de960';
+$email='haiyao@yahoo.com';
+$qq='35623322';
+$turename='';
+$sex='男';
+$birthday='';
+$userimg='';
+$usercity='北京';
+$telephone='';
+$msn='';
+$myurl='';
+$regdate='2012-04-24';
+?>

@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<title>{$pt_sitename} - 会员中心 - 注册</title>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/basic.css">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/pphelp.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="{$pt_siteurl}templets/user/js/common.js"></script>
+</head>
+<body>
+<div id="topnav">
+	<a href="{$pt_siteurl}" id="logo" title="{$pt_sitename}"></a>
+	<a href="{$pt_siteurl}user/">会员中心</a>|<a href="{$pt_siteurl}">返回首页</a>
+</div>
+<div class="main">
+	<div class="mainleft">
+		<h2 class="title">{$username}</h2>
+		<div class="loginbox1">
+			<dl>
+				<dt>
+					<img src="{pt:if ($userimg=='')}{$pt_siteurl}templets/user/images/face.gif{pt:else}{$userimg}{/pt:if}" border="0" height="120" width="120">
+				</dt>
+				<dd><a href="edit.php">修改资料</a><a href="editpwd.php">修改密码</a></dd>
+				<dd><a href="editlevel.php">自助升级</a><a href="logout.php">退出登录</a></dd>
+			</dl>
+		</div>
+		<div class="spline"></div>
+		<h2 class="title">用户中心</h2>
+		<ul class="question">
+			<li><a href="index.php">会员首页</a></li>
+			<li><a href="info.php">账户信息</a></li>
+			<li><a href="edit.php">资料设置</a></li>
+			<li><a href="mark.php">书架管理</a></li>
+			<li><a href="automark.php">浏览历史</a></li>
+			<li><a href="pm.php">站内消息</a></li>
+		</ul>
+	</div>
+	<div class="mainright">
+		<div class="tinfo">
+			<div class="title1"></div>
+		</div>
+		<div class="swbg"> 
+			<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+				<tr>
+					<td rowspan="2" valign="top">
+						<div class="swicos"></div>
+					</td>
+					<td style="height: 80px;" class="fred" valign="bottom" width="100%">恭喜您注册{$pt_sitename}成功！</td>
+				</tr>
+				<tr>
+					<td class="blue" valign="top" width="100%">
+						<div class="reg_nav">
+							<p>10秒后，自动转到【用户中心】</p>
+							<script language="javascript">setTimeout("redirect('{$pt_siteurl}user/');",10000);</script>
+							<p>&nbsp;</p>
+							<p>
+								<a href="{$pt_siteurl}" title="网站首页">【网站首页】</a>
+								<a href="{$pt_siteurl}user/" title="会员中心">【会员中心】</a>
+							</p>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div style="height:100px">
+{pt.gettpl.user.footer}
+</body>
+</html>

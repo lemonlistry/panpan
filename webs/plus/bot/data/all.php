@@ -1,0 +1,10 @@
+<?php
+$botclick['all']['1']='0';
+$botclick['all']['2']='0';
+$botclick['all']['3']='0';
+$botclick['all']['4']='0';
+$botclick['all']['5']='0';
+$botclick['all']['6']='0';
+$botclick['all']['7']='0';
+$botclick['all']['8']='0';
+?>

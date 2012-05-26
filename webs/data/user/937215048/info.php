@@ -1,0 +1,15 @@
+<?php
+$username='937215048';
+$password='e10adc3949ba59abbe56e057f20f883e';
+$email='qwan13870089077@163.com';
+$qq='937215048';
+$turename='';
+$sex='ÄÐ';
+$birthday='';
+$userimg='';
+$usercity='±±¾©';
+$telephone='';
+$msn='';
+$myurl='';
+$regdate='2012-04-25';
+?>

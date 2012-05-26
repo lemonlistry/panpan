@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<title>{$pt_sitename} - 会员中心 - 消息</title>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/basic.css">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/portal.css">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/pphelp.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="{$pt_siteurl}templets/user/js/common.js"></script>
+</head>
+<body>
+{pt.gettpl.user.header}
+<div id=pt_mainw>
+	<div id=pmsg_banner><h1>我的消息</h1></div>
+	<div id=nav3>
+		<a href="pm.php">收件箱</a>
+		<a href="pmsend.php">发件箱</a>
+		<a href="pmnew.php" class="here">发送消息</a>
+	</div>
+	<div id=message_box>
+		<div class=message></div>
+		<div class=newsmsg>
+			<form name="myform" action="pmsend.php" method="post" onsubmit="return pmCheck(this);">
+			<div class=newsmsgtt>发送消息<span class=f88>（写新消息）</span></div>
+			<div class=sendbox>
+				<input type="hidden" name="pmid" value="{$pmid}" />
+				<label for=textfield><span>收件人：</span></label>
+				<input type="text" name="username" value="" class=iptsend size="40"/>
+				<div class=spline></div>
+				<label for=label2><span>标题：</span></label>
+				<input type="text" name="title" value="" class=iptsend size="70"/>
+				<div class=spline></div>
+				<label for=textarea><span>内容：</span></label>
+				<textarea name="content" rows="10" cols="100"></textarea>
+				<div class=spline></div>
+				<div class=hobbtn>
+					<label for=label3></label>
+					<input type="submit" name="send" value="发 送" class="submit"/>
+					<label for=label4></label>
+					<input type="reset" id="button2" value="重 置" class="submit"/>
+				</div>
+				<div class=cl></div>
+			</div>
+			<div class=cl></div>
+			</form>
+		</div>
+	</div>
+	<div class=cl></div>
+</div>
+<div class=cl></div>
+{pt.gettpl.user.footer}
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?php
+$markname['1']='我的书架1';
+$markbook['1']='~||~15212~*~4034207~*~001 黑色七月（上）';
+$markname['2']='我的书架2';
+$markbook['2']='';
+$markname['3']='我的书架3';
+$markbook['3']='';
+$markname['4']='我的书架4';
+$markbook['4']='';
+$markname['5']='我的书架5';
+$markbook['5']='';
+$markname['6']='我的书架6';
+$markbook['6']='';
+$markname['7']='我的书架7';
+$markbook['7']='';
+$markname['8']='我的书架8';
+$markbook['8']='';
+$markname['9']='我的书架9';
+$markbook['9']='';
+$markname['10']='我的书架10';
+$markbook['10']='';
+?>

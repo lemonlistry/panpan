@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<title>{$pt_sitename} - 会员中心 - 首页</title>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/basic.css">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/portal.css">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/pphelp.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="{$pt_siteurl}templets/user/js/common.js"></script>
+</head>
+<body>
+{pt.gettpl.user.header}
+<div id=pt_mainw>
+	<div id=pinfo_banner><h1>我的信息</h1></div>
+	<div id=nav3>
+		<a href="index.php" class="here">用户中心</a>
+	</div>
+	<div class=infoone style="margin: 0px">
+		<div class=infotitle2><h2>登录提示</h2></div>
+		<div class=chghob>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 600px">您好，<strong>{$username}</strong>！　您的上次登录是在：<strong>{$logtime}</strong>　登录IP：<strong>{$logip}</strong></div>
+				<div class=cl></div>
+			</div>
+			<div class=cl></div>
+		</div>
+		<div class=infotitle2><h2>用户信息</h2></div>
+		<div class=chghob>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">当前等级：</div>
+				<div class=chgp3 style="width: 500px"><input type="text" value="{$userlevel}（等级{$userlv}）" size="15" readonly="readonly"/></div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">当前积分：</div>
+				<div class=chgp3 style="width: 500px"><input type="text" value="{$userpoint}" size="15" readonly="readonly"/></div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">升级需要积分：</div>
+				<div class=chgp3 style="width: 500px"><input type="text" value="{$usernextlevelpoint}" size="15" readonly="readonly"/>　{$levelupmsg}</div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">我的书架：</div>
+				<div class=chgp3 style="width: 500px">您当前共有永久书架<a href="mark.php"><font color="red"> <b>{$usermarkc}</b> </font></a>个，每个书架可藏书<font color="red"> <b>{$usermarknum}</b> </font>本</div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">我的推荐：</div>
+				<div class=chgp3 style="width: 500px">您每日拥有推荐票数<font color="red"> <b>{$uservotenum}</b> </font>张，今日剩余推荐票<font color="red"> <b>{$uservotenum-$votenum}</b> </font>张</div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">我的消息：</div>
+				<div class=chgp3 style="width: 500px">您当前共有未读消息<a href="pm.php"><font color="red"> <b>{$pmnum}</b> </font></a>条。</div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">我的好友：</div>
+				<div class=chgp3 style="width: 500px">您当前共有好友<a href="friend.php"><font color="red"> <b>0</b> </font></a>位</div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">我的贡献：</div>
+				<div class=chgp3 style="width: 500px">您当前贡献为<a href="myp.php"><font color="red"> <b>{$comepoint}</b> </font></a>点，共邀请<font color="red"> <b>{$comenum}</b> </font>位朋友来到{$pt_sitename}</div>
+				<div class=cl></div>
+			</div>
+			<div class=cl></div>
+		</div>
+	</div>
+</div>
+<div class=cl></div>
+{pt.gettpl.user.footer}
+</body>
+</html>

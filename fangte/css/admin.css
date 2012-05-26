@@ -1,0 +1,1193 @@
+@charset "utf-8";
+
+/***
+ *	58jie Admin Style
+ *
+ *	http://www.58jie.com
+ *
+ *	Copyright (c) 2011 58jie. All rights reserved.
+ **/
+
+.admin .body {
+	padding: 0px 10px;
+	height:100%;
+}
+
+.admin .adminBar {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	color: #444444;
+	background: url(../images/admin_x_bg.gif) 0px 0px repeat-x;
+}
+
+.admin .adminBar .icon {
+	width: 29px;
+	height: 29px;
+	line-height: 29px;
+	display: inline-block;
+	display: -moz-inline-stack;
+	zoom: 1;
+	*display: inline;
+	background: url(../images/admin_bg.gif) 0px 0px repeat-x;
+}
+
+.admin .bodyLeft {
+	width: 49%;
+	float: left;
+}
+
+.admin .bodyRight {
+	width: 49%;
+	float: right;
+}
+
+.admin .listTable {
+	width: 100%;
+	border: 1px solid #cccccc;
+}
+
+.admin .listTable th {
+	height: 30px;
+	line-height: 30px;
+
+	padding: 0px 10px;
+	color: #444444;
+	text-align: left;
+	background: url(../images/admin_x_bg.gif) 0px -30px repeat-x;
+}
+
+.admin .listTable td {
+	line-height: 30px;
+	text-align:left;
+	padding-left: 10px;
+	border-bottom: 1px dotted #dddddd;
+}
+
+.admin .copyright {
+	line-height: 30px;
+	clear: both;
+	text-align: right;
+	font-size: 12px;
+	color: #444444;
+}
+
+/* ---------- Login ---------- */
+
+body.login {
+	background-color: #f9f9f9;
+}
+
+.login .body {
+	width: 600px;
+	margin: 0px auto;
+	padding-top: 80px;
+}
+
+.login .loginBox {
+	width: 600px;
+}
+
+.login .loginBox .boxTop {
+	width: 600px;
+	height: 10px;
+	clear: both;
+	overflow: hidden;
+	background: url(../images/login_bg.gif) no-repeat 0px 0px;
+}
+
+.login .loginBox .boxMiddle {
+	width: 600px;
+	height: 200px;
+	clear: both;
+	padding: 40px 0px;
+	overflow: hidden;
+	background: url(../images/login_y_bg.gif) repeat-y 0px 0px;
+}
+
+.login .loginBox .boxBottom {
+	width: 600px;
+	height: 10px;
+	clear: both;
+	overflow: hidden;
+	background: url(../images/login_bg.gif) no-repeat 0px -30px;
+}
+
+.login div.formText {
+	width: 164px;
+	height: 22px;
+	padding: 3px;
+	float: left;
+	background: url(../images/login_bg.gif) no-repeat 0px -60px;
+}
+
+.login div.formText:hover {
+	background: url(../images/login_bg.gif) no-repeat -171px -60px;
+}
+
+.login div.formText input:focus {
+	background-color: #f3f6f8;
+}
+
+.login div.formText input {
+	width: 158px;
+	height: 12px;
+	line-height: 12px;
+	padding: 5px 3px 5px 3px;
+	padding: 6px 3px 4px 3px\0;
+	border: none;
+	background: none;
+}
+
+.login div.formTextS {
+	width: 74px;
+	height: 22px;
+	float: left;
+	padding: 3px;
+	background: url(../images/login_bg.gif) no-repeat -360px -60px;
+}
+
+.login div.formTextS:hover {
+	background: url(../images/login_bg.gif) no-repeat -450px -60px;
+}
+
+.login div.formTextS input:focus {
+	background-color: #f3f6f8;
+}
+
+.login div.formTextS input {
+	width: 68px;
+	height: 12px;
+	line-height: 12px;
+	padding: 5px 3px 5px 3px;
+	padding: 6px 3px 4px 3px\0;
+	border: none;
+	background: none;
+}
+
+.login #captcha {
+	text-transform: uppercase;
+}
+
+.login .loginLogo {
+	width: 195px;
+	height: 90px;
+	float: left;
+	padding-top: 45px;
+	padding-left: 40px;
+}
+
+.login .loginLogo_1 {
+	width: 195px;
+	height: 90px;
+	float: left;
+	padding-top: 20px;
+	padding-left: 40px;
+}
+
+.login .loginTable {
+	width: 340px;
+	float: right;
+	background: url(../images/login_separator.gif) no-repeat left center;
+}
+
+.login .loginTable th {
+	width: 90px;
+}
+
+.login .loginTable tr {
+	height: 40px;
+}
+
+.login .captchaImage {
+	float: left;
+	margin-left: 6px;
+}
+
+.login .captchaImage img {
+	cursor: pointer;
+}
+
+.login .homeButton {
+	width: 44px;
+	height: 32px;
+	line-height:32px;
+	float: left;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	background: url(../images/login_bg.gif) 0px -90px no-repeat;
+}
+
+.login .submitButton {
+	width: 70px;
+	height: 32px;
+	line-height:32px;
+	float: left;
+	border:none;
+	cursor: pointer;
+	outline: none;
+	background: url(../images/login_bg.gif) -44px -90px no-repeat;
+}
+
+.login .helpButton {
+	width: 55px;
+	height: 32px;
+	line-height:32px;
+	float: left;
+	border:none;
+	cursor: pointer;
+	outline: none;
+	background: url(../images/login_bg.gif) -114px -90px no-repeat;
+}
+
+.login .footer {
+	width: 600px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #656d77;
+	border-top: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.login .footer a {
+	padding: 0px 10px;
+}
+
+/* ---------- Header ---------- */
+
+body.header {
+	background: url(../images/header_x_bg.gif) 0px 0px repeat-x;
+}
+
+.header .body {
+	height: 60px;
+	padding-left: 150px;
+	position: relative;
+}
+
+.header .headerLogo {
+	width: 108px;
+	height: 50px;
+	position: absolute;
+	left: 20px;
+	top: 5px;
+	background: url(../images/logo.gif) 0px 0px no-repeat;
+}
+
+.header .headerTop {
+	width: 100%;
+	height: 27px;
+	clear: both;
+}
+
+.header .headerBottom {
+	width: 100%;
+	height: 33px;
+	clear: both;
+	padding-bottom: 3px;
+}
+
+.header .headerLink {
+	height: 27px;
+	line-height: 27px;
+	float: right;
+}
+
+.header .headerLink a {
+	padding: 0px 5px;
+}
+
+.header .headerMenu {
+	height: 30px;
+	float: left;
+}
+
+.header .headerMenu .menuLeft {
+	width: 5px;
+	height: 30px;
+	float: left;
+	background: url(../images/header_bg.gif) 0px 0px no-repeat;
+}
+
+.header .headerMenu ul {
+	height: 30px;
+	display: block;
+	float: left;
+	background: url(../images/header_x_bg.gif) 0px -60px repeat-x;
+}
+
+.header .headerMenu li {
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	background: url(../images/header_separator.gif) center right no-repeat;
+}
+
+.header .headerMenu li a {
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	float: left;
+	padding: 0px 20px;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.header .headerMenu li a:hover {
+	color: #f0f0f0;
+	background: url(../images/header_bg.gif) -90px 0px no-repeat;
+}
+
+.header .headerMenu li.home {
+	padding: 0px 20px;
+	background: none;
+}
+
+.header .headerMenu li.home a {
+	width: 48px;
+	height: 30px;
+	display: block;
+	outline: none;
+	background: url(../images/header_bg.gif) 0px -60px no-repeat;
+}
+
+.header .headerMenu li.home a:hover {
+	background: url(../images/header_bg.gif) 0px -90px no-repeat;
+}
+
+.header .headerMenu .menuRight {
+	width: 5px;
+	height: 30px;
+	float: left;
+	background: url(../images/header_bg.gif) -30px 0px no-repeat;
+}
+
+.header .userInfo {
+	height: 30px;
+	float: right;
+}
+
+.header .userInfo {
+	height: 30px;
+	line-height: 30px;
+	float: right;
+}
+
+.header .userInfo a {
+	padding-left: 10px;
+}
+
+.header .welcome {
+	color: #000000;
+}
+
+.header .profileIcon {
+	line-height: 30px;
+	padding: 7px 5px;
+	background: url(../images/header_bg.gif) 0px -30px no-repeat;
+}
+
+.header .logoutIcon {
+	line-height: 30px;
+	padding: 7px 5px;
+	background: url(../images/header_bg.gif) -30px -30px no-repeat;
+}
+
+/* ---------- Menu ---------- */
+
+.menu .menuContent {
+	height: 100%;
+}
+
+.menu dt {
+	height: 29px;
+	line-height: 29px;
+	background: url(../images/menu_bg.gif) 0px 0px repeat-x;
+}
+
+.menu dt:hover {
+	background: url(../images/menu_bg.gif) 0px -30px repeat-x;
+}
+
+.menu dt span { 	height: 29px;
+	line-height: 29px;
+	padding-left:20px;
+	display: block;
+	color: #336699;background: url(../images/admin_icon.gif) 0px -60px no-repeat; }
+
+
+.menu dd {
+	height: 25px;
+	line-height: 25px;
+	padding-left: 30px;
+	border-bottom: 1px solid #efefef;
+}
+
+.menu dd:hover {
+	background-color: #ffffd4;
+}
+
+/* ---------- Middle ---------- */
+
+.middle .main {
+	width: 6px;
+	height: 100%;
+	cursor: pointer;
+}
+
+.middle .leftArrow {
+	background: url(../images/middle_bg.gif) #d9d9d9 -6px center no-repeat;
+}
+
+.middle .leftArrow:hover {
+	background-color: #e2e2e2;
+}
+
+.middle .rightArrow {
+	background: url(../images/middle_bg.gif) #d9d9d9 -18px center no-repeat;
+}
+
+.middle .rightArrow:hover {
+	background-color: #eeeeee;
+}
+
+/* ---------- List ---------- */
+
+.list .formButton {
+	width: 75px;
+	height: 29px;
+	line-height: 29px;
+	margin-left: 6px;
+	text-align: center;
+	font-size: 12px;
+	cursor: pointer;
+	border: none;
+	background: url(../images/list_bg.gif) 0px -30px repeat-x;
+}
+
+.list .formButton:hover {
+	background: url(../images/list_bg.gif) 0px -60px repeat-x;
+}
+
+ .betchderive{ margin-left:60px; line-height:25px; float:left; height:auto; width:100%;}
+ .betchderive span{ color:#900; }
+
+.list .listBar {
+	height: 29px;
+	line-height: 29px;
+	clear: both;
+	background: url(../images/list_x_bg.gif) 0px 0px repeat-x;
+}
+
+.list .listBar span{ color:#F00;}
+.list .listBar h1 {
+	height: 29px;
+	line-height: 29px;
+	font-size: 12px;
+	color: #555555;
+}
+
+.list .listBar .icon {
+	width: 29px;
+	height: 29px;
+	line-height: 29px;
+	display: inline-block;
+	display: -moz-inline-stack;
+	zoom: 1;
+	*display: inline;
+	background: url(../images/list_bg.gif) -30px 0px no-repeat;
+}
+
+.list .listBar .pageInfo {
+	font-weight: normal;
+}
+
+.list .operateBar {
+	clear: both;
+	padding: 3px 0px;
+}
+
+.list .operateBar label {
+	padding-left: 30px;
+}
+
+.list .operateBar .addButton {
+	width: 75px;
+	height: 29px;
+	line-height: 29px;
+	margin-left: 6px;
+	text-align: center;
+	font-size: 12px;
+	cursor: pointer;
+	border: none;
+	background: url(../images/list_bg.gif) 0px -30px repeat-x;
+}
+
+.list .operateBar .addButton:hover {
+	background: url(../images/list_bg.gif) 0px -60px repeat-x;
+}
+
+.list .operateBar .searchText {
+	width: 150px;
+	height: 20px;
+	padding: 3px;
+	display: inline-block;
+	_display: inline;
+	background: url(../images/list_bg.gif) -180px -30px no-repeat;
+}
+
+.list .operateBar .searchText input {
+	width: 122px;
+	height: 12px;
+	line-height: 12px;
+	padding: 4px 3px 4px 25px;
+	padding: 5px 5px 3px 25px\0;
+	border: none;
+	background: none;
+}
+
+@-moz-document url-prefix() {
+	.list .operateBar .searchFormText input{
+		padding-top: 3px;
+		height: 18px;
+		line-height: 18px;
+	}
+}
+
+.list .operateBar .searchButton {
+	width: 44px;
+	height: 26px;
+	line-height: 26px;
+	cursor: pointer;
+	border: none;
+	background: url(../images/list_bg.gif) -336px -30px no-repeat;
+}
+
+.list table.listTable {
+	width: 100%;
+}
+
+.list table.listTable tr:hover {
+	background-color: #ffffd4
+}
+
+.list table.listTable th {
+	height: 29px;
+	line-height: 29px;
+	
+	padding-left: 5px;
+	font-family: "宋体", Arial;
+	text-align: left;
+	background: url(../images/list_x_bg.gif) 0px -30px repeat-x;
+}
+
+.list table.listTable th.check {
+	width: 30px;
+}
+
+.list table.listTable th .sort {
+	cursor: pointer;
+}
+
+.list table.listTable th .descSort {
+	width: 29px;
+	height: 29px;
+	line-height: 29px;
+	display: inline-block;
+	display: -moz-inline-stack;
+	zoom: 1;
+	*display: inline;
+	background: url(../images/list_bg.gif) -60px 0px no-repeat;
+}
+
+.list table.listTable th .ascSort {
+	width: 29px;
+	height: 29px;
+	line-height: 29px;
+	display: inline-block;
+	display: -moz-inline-stack;
+	zoom: 1;
+	*display: inline;
+	background: url(../images/list_bg.gif) -90px 0px no-repeat;
+}
+
+.list table.listTable td {
+	height: 29px;
+	line-height: 29px;
+	padding-left: 5px;
+	color: #666666;
+	word-break: break-all;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.list table.listTable td a {
+	color: #336699;
+}
+
+.list table.listTable td a:hover {
+	color: #ff6600;
+}
+
+.list .pagerBar {
+	width: 100%;
+	clear: both;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+.list .noRecord {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	clear: both;
+	color: red;
+	text-align: center;
+	border-bottom: 1px solid #cccccc;
+}
+
+.list .pagerBar .deleteButton {
+	width: 63px;
+	height: 29px;
+	line-height: 29px;
+	float: left;
+	margin-left: 6px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	background: url(../images/list_bg.gif) -90px -30px repeat-x;
+}
+
+.list .pagerBar .deleteButton:hover {
+	background: url(../images/list_bg.gif) -90px -60px repeat-x;
+}
+
+.list .downIcon {
+	width: 29px;
+	height: 29px;
+	line-height: 29px;
+	display: inline-block;
+	display: -moz-inline-stack;
+	zoom: 1;
+	*display: inline;
+	background: url(../images/list_bg.gif) no-repeat -120px 0px;
+}
+
+.list .upIcon {
+	width: 29px;
+	height: 29px;
+	line-height: 29px;
+	display: inline-block;
+	display: -moz-inline-stack;
+	zoom: 1;
+	*display: inline;
+	background: url(../images/list_bg.gif) no-repeat -150px 0px;
+}
+
+#pager ul.pages {
+	display: block;
+	float: right;
+	margin: 3px;
+	text-transform: uppercase;
+	font-size: 12px;
+	border: none;
+}
+
+#pager ul.pages li {
+	list-style: none;
+	float: left;
+	padding: 2px 5px;
+	margin: 0px 5px 0px 0px;
+	cursor: pointer;
+	text-decoration: none;
+	border: 1px solid #cccccc;
+}
+
+#pager ul.pages li:hover {
+	border: 1px solid #003f7e;
+}
+
+#pager ul.pages li.pgEmpty {
+	color: #cfcfcf;
+	padding: 2px 5px;
+	cursor: default;
+	border: 1px solid #cfcfcf;
+}
+
+#pager ul.pages li.pgCurrent {
+	color: #00000;
+	font-weight: 700;
+	border: 1px solid #003f7e;
+	background-color: #eeeeee;
+}
+
+/* ---------- Input ---------- */
+
+.input .body {
+	padding-bottom: 30px;
+}
+
+.input ul.tab {
+	height: 29px;
+	padding-left: 161px;
+	background: url(../images/input_x_bg.gif) 0px -30px repeat-x;
+}
+
+.input ul.tab li {
+	float: left;
+}
+
+.input ul.tab li input {
+	width: 100px;
+	height: 29px;
+	line-height: 29px;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	background: url(../images/input_bg.gif) -100px 0px no-repeat;
+}
+
+.input ul.tab li input.current {
+	background: url(../images/input_bg.gif) 0px 0px no-repeat;
+}
+
+.input .inputBar {
+	height: 29px;
+	line-height: 29px;
+	background: url(../images/input_x_bg.gif) 0px 0px repeat-x;
+}
+
+.input .inputBar h1 {
+	height: 29px;
+	line-height: 29px;
+	font-size: 12px;
+	color: #555555;
+}
+
+.input .inputBar .icon {
+	width: 29px;
+	height: 29px;
+	line-height: 29px;
+	display: inline-block;
+	display: -moz-inline-stack;
+	zoom: 1;
+	*display: inline;
+	background: url(../images/input_bg.gif) 0px -30px no-repeat;
+}
+
+.input table.inputTable {
+	width: 100%;
+}
+
+.input table.inputTable th {
+	width: 150px;
+	line-height: 25px;
+	padding: 5px 10px 5px 0px;
+	text-align: right;
+	color: #333333;
+	border-bottom: 1px solid #e1e1e1;
+	background-color: #f8f8f8;
+}
+
+.input table.inputTable tr:hover th {
+	background-color: #eeeeee;
+}
+
+.input table.inputTable tr.title th {
+	text-align: left;
+	padding-left: 10px;
+}
+
+.input table.inputTable td {
+	line-height: 25px;
+	padding: 5px 0px 5px 10px;
+	color: #666666;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.input .buttonArea {
+	padding: 10px 0px 10px 170px;
+	line-height: 25px;
+}
+
+.goodsImageArea {
+	height: 180px;
+}
+
+.goodsImageArea .example {
+	width: 130px;
+	height: 130px;
+	float: left;
+	margin-right: 10px;
+	background: url(../images/input_bg.gif) no-repeat -270px 0px;
+}
+
+.goodsImageArea .prev {
+	width: 8px;
+	height: 130px;
+	display: block;
+	float: left;
+	margin-right: 5px;
+	outline: none;
+	border: 1px solid #ededed;
+	background: url(../images/input_bg.gif) -210px 0px #fafafa no-repeat;
+}
+
+.goodsImageArea .prev:hover {
+	border: 1px solid #cccccc;
+	background-color: #f3f3f3;
+}
+
+.goodsImageArea .next {
+	width: 8px;
+	height: 130px;
+	display: block;
+	float: left;
+	margin-left: 5px;
+	outline: none;
+	border: 1px solid #ededed;
+	background: url(../images/input_bg.gif) -240px 0px #fafafa no-repeat;
+}
+
+.goodsImageArea .next:hover {
+	border: 1px solid #cccccc;
+	background-color: #f3f3f3;
+}
+
+.goodsImageArea .scrollable {
+	width: 502px;
+	height: 130px;
+	line-height: 130px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid #cccccc;
+}
+
+.goodsImageArea .items {
+	width: 20000em;
+	position: absolute;
+}
+
+.goodsImageArea li {
+	width: 90px;
+	height: 90px;
+	display: block;
+	float: left;
+	margin: 5px;
+	text-align: center;
+}
+
+.goodsImageArea .goodsImageBox {
+	position: relative;
+}
+
+.goodsImageArea .goodsImageBox .goodsImagePreview {
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	color: #969696;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale);
+	border: 1px solid #cfcfcf;
+}
+
+.goodsImageArea .goodsImageBox .goodsImagePreview:hover {
+	border: 1px solid #ffc097;
+}
+
+.goodsImageArea .goodsImageBox .goodsImagePreview img {
+	width: 90px;
+	height: 90px;
+}
+
+.goodsImageArea .goodsImageBox .goodsImageOperate {
+	width: 90px;
+	height: 25px;
+	display: none;
+	padding-top: 3px;
+	padding-left: 13px;
+	position: absolute;
+	top: 66px;
+	left: 1px;
+	z-index: 1;
+	background: url(../images/goods_image_operate_bg.png) no-repeat 0px 0px;
+}
+
+.goodsImageArea .goodsImageBox .goodsImageOperate .left {
+	width: 19px;
+	height: 19px;
+	display: block;
+	float: left;
+	margin-right: 1px;
+	overflow: hidden;
+	outline: none;
+}
+
+.goodsImageArea .goodsImageBox .goodsImageOperate .right {
+	width: 19px;
+	height: 19px;
+	display: block;
+	float: left;
+	margin-right: 1px;
+	overflow: hidden;
+	outline: none;
+}
+
+.goodsImageArea .goodsImageBox .goodsImageOperate .delete {
+	width: 19px;
+	height: 19px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	outline: none;
+}
+
+.goodsImageArea .goodsImageBox .goodsImageUploadButton {
+	width: 74px;
+	height: 22px;
+	line-height: 22px;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	top: 97px;
+	left: 0px;
+	outline: none;
+	cursor: pointer;
+	border: none;
+	background: url(../images/input_bg.gif) no-repeat 0px -60px;
+}
+
+.goodsImageArea .goodsImageBox .goodsImageUploadButton input {
+	width: 74px;
+	height: 22px;
+	line-height: 22px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+	font-size: 40px;
+	direction: rtl;
+	cursor: pointer;
+}
+
+.goodsImageArea .goodsImageBox .goodsImageUploadButton div {
+	width: 74px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+	cursor: pointer;
+}
+
+.body .goodsSpecificationTable {
+	border: 1px solid #e1e1e1;
+}
+
+.body .goodsSpecificationArea {
+	height: 120px;
+	padding: 5px;
+	overflow-y: scroll;
+	border: 1px solid #cccccc;
+}
+
+.body .goodsSpecificationPreview {
+	height: 120px;
+	padding: 5px;
+	overflow-y: scroll;
+	cursor: default;
+	border: 1px solid #cccccc;
+}
+
+.body .goodsSpecificationPreview ul .text {
+	float: left;
+	padding: 0px 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	border: 1px solid #cccccc;
+}
+
+.body .goodsSpecificationPreview ul .image {
+	width: 22px;
+	height: 22px;
+	float: left;
+	padding: 1px;
+	margin-top: 5px;
+	margin-right: 5px;
+	border: 1px solid #cccccc;
+}
+
+.body .goodsSpecificationPreview ul .image img {
+	width: 22px;
+	height: 22px;
+}
+
+.body .goodsSpecificationValueSelect span {
+	width: 60px;
+	height: 21px;
+	line-height: 21px;
+	display: block;
+	padding: 3px 0px;
+	text-align: center;
+	cursor: pointer;
+	border: 1px dotted #cccccc;
+}
+
+.body .goodsSpecificationValueSelect span:hover {
+	border: 1px dotted #ff6600;
+}
+
+.body .goodsSpecificationValueSelect span img {
+	width: 22px;
+	height: 22px;
+}
+
+.body .goodsSpecificationValueSelect .goodsSpecificationValueSelected {
+	border: 1px solid #ff8a00;
+}
+
+.body .goodsSpecificationValueSelect ul {
+	width: 215px;
+	display: none;
+	padding: 0px 5px 5px 5px;
+	position: absolute;
+	z-index: 1;
+	border: 1px solid #ff8a00;
+	background-color: #ffffd4;
+}
+
+.body .goodsSpecificationValueSelect ul .text {
+	float: left;
+	padding: 0px 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+}
+
+.body .goodsSpecificationValueSelect ul .image {
+	float: left;
+	padding: 1px;
+	margin-top: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+}
+
+.body .goodsSpecificationValueSelect ul .image img {
+	width: 22px;
+	height: 22px;
+	display: block;
+}
+
+.body .goodsSpecificationValueSelect ul .notAllowed {
+	cursor: not-allowed;
+	color: #cccccc;
+}
+
+/* ---------- Goods Specification ---------- */
+
+.goodsSpecification .goodsSpecificationValueTable {
+	border: 1px solid #e1e1e1;
+}
+
+.goodsSpecification .goodsSpecificationValueTable tr th {
+	padding: 5px;
+	text-align: left;
+}
+
+.goodsSpecification .goodsSpecificationValueTable tr td {
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #e1e1e1;
+}
+
+.goodsSpecification .goodsSpecificationValueTable tr .upGoodsSpecificationValue, .goodsSpecification .goodsSpecificationValueTable tr .downGoodsSpecificationValue, .goodsSpecification .goodsSpecificationValueTable tr .deleteGoodsSpecificationValue {
+	margin: 0px 5px;
+}
+
+.goodsSpecification .goodsSpecificationValueImage .goodsSpecificationValueImagePreview {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin: 0px 10px;
+	position: static;
+	color: #969696;
+	overflow: hidden;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale);
+	border: 1px solid #cfcfcf;
+}
+
+.goodsSpecification .goodsSpecificationValueImage .goodsSpecificationValueImagePreview:hover {
+	border: 1px solid #ff6600;
+}
+
+.goodsSpecification .goodsSpecificationValueImage .goodsSpecificationValueImagePreview img {
+	width: 30px;
+	height: 30px;
+}
+
+.goodsSpecification .goodsSpecificationValueImage .goodsSpecificationValueImageUploadButton {
+	width: 74px;
+	height: 22px;
+	line-height: 22px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	top: 5px;
+	left: 0px;
+	outline: none;
+	cursor: pointer;
+	border: none;
+	background: url(../images/admin_button.gif) no-repeat 0px -90px;
+}
+
+.goodsSpecification .goodsSpecificationValueImage input {
+	width: 74px;
+	height: 22px;
+	line-height: 22px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+	font-size: 40px;
+	direction: rtl;
+	cursor: pointer;
+}
+
+.goodsSpecification .goodsSpecificationValueImage div {
+	width: 74px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+	cursor: pointer;
+}
+
+/***********************2011年12月08日添加样式********************************/
+.betchderive{ height:auto; line-height:30px;}
+.hderive{ width:52px; height:auto;}
+.hderive a{ width:52px; height:24px;   background:url(../images/derive.gif); text-align:center; display:block; margin-bottom:10px;}

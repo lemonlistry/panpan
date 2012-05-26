@@ -1,0 +1,10 @@
+<?php
+$botclick['year']['1']='0';
+$botclick['year']['2']='0';
+$botclick['year']['3']='0';
+$botclick['year']['4']='0';
+$botclick['year']['5']='0';
+$botclick['year']['6']='0';
+$botclick['year']['7']='0';
+$botclick['year']['8']='0';
+?>

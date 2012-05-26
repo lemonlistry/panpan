@@ -1,0 +1,27 @@
+<?php
+//书籍信息
+$infocon="<?php\n";
+$infocon.="\$cutid='$cutid';\n";
+$infocon.="\$bookname='$bookname';\n";
+$infocon.="\$author='$author';\n";
+$infocon.="\$sortcname='$sortcname';\n";
+$infocon.="\$sortcid='$sortcid';\n";
+$infocon.="\$sortnname='$sortnname';\n";
+$infocon.="\$sortnid='$sortnid';\n";
+$infocon.="\$bookinfo='$bookinfo';\n";
+$infocon.="\$bookimg='$bookimg';\n";
+$infocon.="\$isover='$isover';\n";
+$infocon.="\$sign='$lastsign';\n";
+$infocon.="\$lastupdate='$lastupdate';\n";
+$infocon.="\$lastsize='$lastsize';\n";
+$infocon.="\$chaptername='$lastchaptername';\n";
+$infocon.="\$chapterid='$lastchapterid';\n";
+$infocon.="\$allclick='$allclick';\n";
+$infocon.="\$allvote='$allvote';\n";
+$infocon.="\$goodnum='$goodnum';\n";
+$infocon.="\$addon='$addon';\n";
+$infocon.="\$createtime='".time()."';\n";
+$infocon.="?>";
+//写入缓存
+$pt->writeto( $infofile, $infocon );
+?>

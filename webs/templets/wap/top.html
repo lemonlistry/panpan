@@ -1,0 +1,14 @@
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="Top" title="小说排行-{$pt_sitename}" newcontext="true">
+<p>
+{pt.gettpl.wap.header}
+=^=小说排行=^=<br/>
+| {pt:list row="12"}
+<a href="top.php?type=list&amp;topid={$i}&amp;user={$user}" title="{list.pt_top.name}">{list.pt_top.name}</a> | 
+{/pt:list}<br/>
+{pt.gettpl.wap.footer}
+</p>
+</card>
+</wml>
+

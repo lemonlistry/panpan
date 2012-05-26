@@ -1,0 +1,61 @@
+
+/* Css Document */
+body{background:#fff url(../images/bodybg.gif) repeat-x;}
+#header{ width:970px; margin:0 auto; height:232px; position:relative}
+/* µÇÂ½Ìõ */
+.loginbar{ height:26px; padding:4px 15px 0; overflow:hidden;}
+.loginbar .fl a{ line-height:22px; margin:0 3px;}
+#login{float:right}
+#login .loginbox{ padding-top:4px;}
+#login .submit{background: url(../images/pic.gif) -112px -60px;border:0;color:#025b81;height:20px;width:50px;*padding-top:3px}
+#login .regforget{background: url(../images/pic.gif) -174px -60px;border:0;color:#025b81;height:20px;width:113px; float:left;text-align:center; margin-left:8px;*margin-top:1px;}
+#login .regforget a{ line-height:22px}
+#login #msg_count_tip{background:url(../images/pic.gif) -320px -60px; padding-left:20px}
+/* logo */
+#logo{position:absolute;width:190px;height:90px;background:url(/images/logo.gif) no-repeat;top:51px;}
+#logo a{ display:block; width:184px; height:55px}
+#logo p{color:#153E11;display:block;font-size:13px;height:20px;letter-spacing:2px;text-decoration:none;width:190px;text-align:center; padding-top:12px}
+/* Ö÷µ¼º½ */
+#header .nav .banner{ height:60px;}
+#header .nav{ padding:14px 0 0 210px; clear:both;height:115px;}
+#header .nav ul{ background:url(../images/pic.gif) no-repeat; margin-top:11px; height:40px; padding-left:1px;display:block}
+#header .nav ul li{ float:left;width:83px;text-align:center; position:relative}
+#header .nav ul li .hot{ position:absolute; width:17px; height:22px; top:-5px;right:0px}
+#header .nav ul li a{display:block;line-height:39px;color:#454545; font-size:13px; line-height:42px}
+#header .nav ul li a.fred{ color:#b0251e}
+#header .nav ul li a:hover,
+#header .nav ul li a.on{display:block;width:83px;height:39px;background:url(../images/pic.gif) -1px -50px; text-decoration:none; color:#fff;font-weight:bold;}
+#header .nav ul li a.on{ font-size:14px}
+
+
+/* ·ÖÀàµ¼º½ */
+#header .nav2{ clear:both;text-align:center;color:#025b81; height:26px;line-height:26px;padding-left:105px;position:relative;}
+#header .nav2 a,#header .nav2 a:link,#header .nav2 a:active{color:#025b81;}
+#header .nav2 a:hover{ color:#FE8A01}
+#header .nav2 span{ padding:0 6px;color:#025b81;}
+#header .nav2 a.vip,#header .nav2 a.vip:link,#header .nav2 a.vip:active,#header .nav2 a.vip:hover{ background:url(../images/pic.gif) -580px -398px ; width:98px; height:28px;position:absolute; float:left;top:-4px; padding:2px 0 0 1px;left:20px;_padding-top:3px}
+/* ËÑË÷ */
+.searchbar{ height:46px; overflow:hidden; background:url(../images/pic.gif) 0 -99px;}
+.searchbar .key{ line-height:45px; padding-left:16px; width:455px; float:left; height:45px; color:#888; overflow:hidden}
+.searchbar .key a,
+.searchbar .key a:link,
+.searchbar .key a:active{ color:#fe8a01; margin-right:10px;}
+.searchbar .search{ float:right; padding:11px 16px 0 0;width:465px;}
+.search .text{width:270px; border:1px solid #ccc;padding:3px 5px 0 22px;*padding:2px 5px 1px 22px;font-size:14px;height:19px;line-height:19px; background:#fff url(../images/pic.gif) -950px 4px no-repeat; color:#999;float:left}
+.search_button{ background:url(../images/pic.gif) -870px 0; width:63px; height:24px; border:0;float:left}
+/* ËÑË÷select */
+.selSearch{float:left;width:68px;background:#fff;height:22px;line-height:22px;border:1px solid #ccc;margin:0 10px;}
+.nowSearch{float:left;width:48px;height:21px;line-height:22px;padding-top:1px;overflow:hidden;padding-left:4px;color:#454545; cursor:pointer}
+.btnSel{float:right;border-left:1px solid #ccc;width:14px;height:22px;}
+.btnSel a{background:url(../images/pic.gif) no-repeat -812px 0;display:block;width:14px;height:22px;}
+.btnSel a:hover{background:url(../images/pic.gif) no-repeat -832px -1px;border:1px solid #fff;width:12px;height:20px;}
+.selOption{ z-index:999;position:absolute;margin-left:-1px;width:68px;background:#fff;border:1px solid #ccc;clear:both; height:auto}
+.selOption a{display:block;height:21px;padding-left:5px;line-height:21px;color:#000;}
+.selOption a:hover{color:#fff;background:#95d5f1;text-decoration:none;}
+
+/* ËÑË÷inputµ¯³ö²ã */
+#searchkeyword{ z-index:999;position:absolute;width:297px; border:1px solid #ccc;border-top:0;background:#fff; overflow:auto;*margin-top:-10px;opacity:0.8;filter: Alpha(opacity=80);}
+#searchkeyword a{display:block;height:22px;padding-left:5px;line-height:22px;color:#000;}
+#searchkeyword a:hover{color:#fff;background:#95d5f1;text-decoration:none;}
+
+#login-block,#userinfo{right:68px;}

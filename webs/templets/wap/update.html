@@ -1,0 +1,14 @@
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="Update" title="更新列表-{$pt_sitename}" newcontext="true">
+<p>
+{pt.gettpl.wap.header}
+=^={$sortname}=^=<br/>
+{pt:for.count_list}
+<a href="book.php?bookid={list.pt_update_list.bookid}&amp;user={$user}" title="书页">《{list.pt_update_list.bookname}》</a>/ <a href="chapter.php?cutid={list.pt_update_list.cutid}&amp;bookid={list.pt_update_list.bookid}&amp;chapterid={list.pt_update_list.chapterid}&amp;user={$user}" title="阅读">{list.pt_update_list.chaptername}</a> / <a href="search.php?type=author&amp;key={list.pt_update_list.author}&amp;user={$user}" title="作者">{list.pt_update_list.author}</a> /{list.pt_update_list.update}<br/>
+----------<br/>
+{/pt:for}
+{pt.gettpl.wap.footer}
+</p>
+</card>
+</wml>

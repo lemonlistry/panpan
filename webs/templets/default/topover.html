@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBliC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<head>
+<title>{$title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<meta name="keywords" content="{$keywords}" />
+<meta name="description" content="{$description}" />
+<meta name="author" content="{$pt_sitename},{$pt_siteurl}"/> 
+<meta name="copyright" content="本站小说都是由网友转载于网络，与本站立场无关,若转载小说侵犯了您的权益，请联系"/>
+<link href="{$pt_siteurl}templets/default/css/basic.css" type="text/css" rel="stylesheet"/>
+<link href="{$pt_siteurl}templets/default/css/header.css" type="text/css" rel="stylesheet"/>
+<link href="{$pt_siteurl}templets/default/css/book.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<!-- 头部 -->
+{pt.gettpl.header}
+<!--第一屏-->
+<div class="spline"></div>
+
+<div class="wrap">
+	<div class="rankbox">
+    	<div id="rankleft">
+            <div class="ranknav">
+            <h3>排行榜索引</h3>
+                {pt:list row='12'}
+                <a  {pt:if $i==$topid}class="set"{/pt:if} href="{list.pt_topover.url}">{list.pt_topover.name}</a>  
+          		{/pt:list}
+                <a href="#"></a>
+                <a href="{$topurl}">小说排行</a>
+            </div>
+            <div class="jbbg"></div>
+    	</div>
+	
+    	<div id="rankright">
+        	<h3>推荐小说</h3>
+        	<ul>
+                {pt.getblocklist.1}
+                {pt.getblocklist.4}
+                {pt.getblocklist.7}
+                {pt.getblocklist.8}
+                {pt.getblocklist.9}
+                {pt.getblocklist.10}
+        	</ul>
+    	</div>
+        <div id="rank">
+            <div id="update" class="btable update" style="background:#fff;width:758px;height:2970px">
+                <div class="title">
+                    <div class="ment">        
+                        <dt class="active">
+                            <a class="store">{$topname}  → 小说列表</a>
+                        </dt>      
+                    </div>
+                </div>
+                <div class="con">
+                    <ul class="column">
+                        <li class="ro1">所属类别 </li>
+                        <li class="ro2">目录/书名/章节</li>
+                        <li class="ro3">作者 </li>
+                        <li class="ro4">更新时间 </li>
+                    </ul>
+                    <div id="update_Content0">
+                    {pt:list row='100'}
+                    <ul>
+                        <li class="ro1"><a href="{list.pt_list.sorturl}" target="_blank">[{list.pt_list.sortname}]</a> </li>
+                        <li class="ro2">
+                            <a class="f141" href="{list.pt_list.readurl}" target="_blank">[目录]</a>&nbsp;&nbsp;
+                            <a class="f14"  href="{list.pt_list.bookurl}" target="_blank">{list.pt_list.bookname}</a>&nbsp;&nbsp;&nbsp;
+                            <a href="{list.pt_list.chapterurl}" target="_blank" title="{list.pt_list.bookname} / {list.pt_list.chaptername}">{list.pt_list.chaptername}</a>
+                        </li>
+                        <li class="ro3"><a href="{list.pt_list.authorurl}" target="_blank">{list.pt_list.author}</a></li>
+                        <li class="ro4">{list.pt_list.update}</li>
+                    </ul>
+                    {/pt:list}
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>	
+</div>
+
+<div class="spline"></div>
+
+{pt.gettpl.footer}
+</body>
+</html>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

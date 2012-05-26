@@ -1,0 +1,17 @@
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="SearchList" title="搜索“{$key}”结果-{$pt_sitename}" newcontext="true">
+<p>
+{pt.gettpl.wap.header}
+请输入搜索内容<br/>
+<input type="text" size="10" name="key"/><br/>
+搜索: <anchor><go method="post" href="search.php?user={$user}" accept-charset="{$charset}"><postfield name="key" value="$(key)"/><postfield name="type" value="boookname"/></go>书名</anchor>.<anchor><go method="post" href="search.php?user={$user}" accept-charset="{$charset}"><postfield name="key" value="$(key)"/><postfield name="type" value="author"/></go>作者</anchor><br/>
+=^={$key}=^=<br/>
+{pt:for.searchnum}
+<a href="book.php?bookid={list.search_list.bookid}&amp;user={$user}" title="书页">《{list.search_list.bookname}》</a>/ <a href="chapter.php?cutid={list.search_list.cutid}&amp;bookid={list.search_list.bookid}&amp;chapterid={list.search_list.chapterid}&amp;user={$user}" title="阅读">{list.search_list.chaptername}</a> / <a href="search.php?type=author&amp;key={list.search_list.author}&amp;user={$user}" title="作者">{list.search_list.author}</a> /{list.search_list.update} <br/>
+----------<br/>
+{/pt:for}
+{pt.gettpl.wap.footer}
+</p>
+</card>
+</wml>

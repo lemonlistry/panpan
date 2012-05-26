@@ -1,0 +1,18 @@
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="Mark" title="书架-{$pt_sitename}" newcontext="true">
+<p>
+{pt.gettpl.wap.header}
+=^={$nowmarkname}=^=<br/>
+容量:（{$marknum}/{$usermarknum}）<br/>
+----------<br/>
+{pt:for.marknum}
+<a href="book.php?bookid={list.marklist.bookid}&amp;user={$user}" title="书页">{list.marklist.bookname}</a><br/>
+书签: {list.marklist.markinfo}<br/>
+<a href="read.php?cutid={list.marklist.cutid}&amp;bookid={list.marklist.bookid}&amp;user={$user}" title="目录">[目录]</a>  <a href="mark.php?type=action&amp;action=del&amp;markid={$markid}&amp;bookid={list.marklist.bookid}&amp;user={$user}" title="下架">[下架]</a><br/>
+----------<br/>
+{/pt:for}
+{pt.gettpl.wap.footer}
+</p>
+</card>
+</wml>

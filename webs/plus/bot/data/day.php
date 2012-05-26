@@ -1,0 +1,10 @@
+<?php
+$botclick['day']['1']='0';
+$botclick['day']['2']='0';
+$botclick['day']['3']='0';
+$botclick['day']['4']='0';
+$botclick['day']['5']='0';
+$botclick['day']['6']='0';
+$botclick['day']['7']='0';
+$botclick['day']['8']='0';
+?>

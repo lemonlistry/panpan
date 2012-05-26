@@ -1,0 +1,12 @@
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="Search" title="搜索-{$pt_sitename}" newcontext="true">
+<p>
+{pt.gettpl.wap.header}
+请输入搜索内容<br/>
+<input type="text" size="10" name="key"/><br/>
+搜索: <anchor><go method="post" href="search.php?user={$user}" accept-charset="{$charset}"><postfield name="key" value="$(key)"/><postfield name="type" value="boookname"/></go>书名</anchor>.<anchor><go method="post" href="search.php?user={$user}" accept-charset="{$charset}"><postfield name="key" value="$(key)"/><postfield name="type" value="author"/></go>作者</anchor><br/>
+{pt.gettpl.wap.footer}
+</p>
+</card>
+</wml>

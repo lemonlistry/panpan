@@ -1,0 +1,23 @@
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="SortList" title="{$sortname}-{$pt_sitename}" newcontext="true">
+<p>
+{pt.gettpl.wap.header}
+=^={$sortname}=^=<br/>
+{pt:for.count_list}
+<a href="book.php?bookid={list.pt_list.bookid}&amp;user={$user}" title="书页">《{list.pt_list.bookname}》</a>/ <a href="chapter.php?cutid={list.pt_list.cutid}&amp;bookid={list.pt_list.bookid}&amp;chapterid={list.pt_list.chapterid}&amp;user={$user}" title="阅读">{list.pt_list.chaptername}</a> / <a href="search.php?type=author&amp;key={list.pt_list.author}&amp;user={$user}" title="作者">{list.pt_list.author}</a> /{list.pt_list.update}<br/>
+----------<br/>
+{/pt:for}
+<a href="sort.php?type=list&amp;sortid={$sortid}&amp;page=1&amp;user={$user}" title="首页">[首页]</a><a href="sort.php?type=list&amp;sortid={$sortid}&amp;page={$pagec}&amp;user={$user}" title="尾页">[尾页]</a> ({$page}/{$pagec})<br/>
+{pt:for.pageend}
+{pt:if $i==$page-$pagestart}
+ [{$pagestart+$i}] 
+{pt:else}
+ <a href="sort.php?type=list&amp;sortid={$sortid}&amp;page={$pagestart+$i}&amp;user={$user}"  title="第{$i}页">{$pagestart+$i}</a> 
+{/pt:if}
+{/pt:for}<br/>
+跳至<input type="text" name="gonum" size="3" value="{$page}" maxlength="4" format="*N"/><a href="sort.php?type=list&amp;sortid={$sortid}&amp;page=$(gonum)&amp;user={$user}" title="GO">GO&gt;&gt;</a><br/>
+{pt.gettpl.wap.footer}
+</p>
+</card>
+</wml>

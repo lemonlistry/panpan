@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBliC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<head>
+<title>{$title}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<meta name="keywords" content="{$keywords}" />
+<meta name="description" content="{$description}" />
+<meta name="author" content="{$pt_sitename},{$pt_siteurl}"/> 
+<meta name="copyright" content="本站小说都是由网友转载于网络，与本站立场无关,若转载小说侵犯了您的权益，请联系"/>
+<link href="{$pt_siteurl}templets/default/css/basic.css" type="text/css" rel="stylesheet"/>
+<link href="{$pt_siteurl}templets/default/css/header.css" type="text/css" rel="stylesheet"/>
+<link href="{$pt_siteurl}templets/default/css/book.css" type="text/css" rel="stylesheet"/>
+<script language='javascript'>
+    function copyToClipBoard(){
+        var clipBoardContent=''; 
+        var thisurl=window.location;
+        clipBoardContent+='这里的小说很不错，你也来看看吧\r\n地址:';
+        clipBoardContent+=window.location;
+        window.clipboardData.setData("Text",clipBoardContent);
+        alert("你已复制链接及标题,您可以通过QQ、邮件、论坛等方式发送给您的好友!共同分享阅读的快乐！");
+    }
+
+</script> 
+</head>
+<body>
+<!-- 头部 -->
+{pt.gettpl.header}
+<!--第一屏-->
+<div class="spline"></div>
+
+<div class="listmain">
+
+<div class="main">
+
+
+<div class="spline"></div>
+<!-- 位置 -->
+
+<div class="loca">
+    <div>
+		<span class="rhome">		 
+		<a onclick="copyToClipBoard()" style="cursor:pointer">复制本页地址并向好友推荐</a></span>
+        <strong>您的位置：</strong>
+        <a href="{$pt_siteurl}">{$pt_sitename}</a> →  小说搜索        
+    </div>
+</div>
+<!-- 位置 结束 -->
+<div class="spline"></div>
+<!-- 第一屏 -->
+<div class="wrap">
+<!-- 右侧榜单 -->
+<div class="sidearea" style="float:right">
+    <div class="sother flside">
+    	<div id="bjtbtj">
+    		<div class="qbqt">
+                <div >
+                    <ul>
+                        {pt.getblocklist.11}
+                    </ul>                  
+                </div>
+            </div>		
+    	</div>	
+    </div>
+           
+    <div class="spline"></div>
+    
+    <div class="ph" id="favoritesbook">
+    	<div class="title">
+    		<h3>
+    			新书潜力榜
+    		</h3>
+    	</div>
+    	<div class="con">
+    		<ul style="OVERFLOW: hidden; HEIGHT: 359px">
+                {pt.getblocklist.7}
+            </ul>
+    	</div>
+    </div>    
+       
+    <div class="spline"></div>
+		
+</div>
+    <!-- 右侧榜单 结束 -->
+
+<div class="mainarea">
+    <div id="booksearch" class="btable update">
+    		<div class="title">
+				约有<span>{$searchnum}</span>项符合<strong>“{$key}”</strong>的查询结果，为节省资源只显示一页，本页最多20项.
+            </div>
+            {pt:for.searchnum}
+            <div class="list">
+           	    <h1>
+           	    	<a href="{list.search_list.bookurl}" class="f14" target="_blank">{list.search_list.bookname}</a>          	    	
+           	    	
+           	    	
+           	    </h1>
+                <p>
+                	作者：<em><a href="{list.search_list.authorurl}" target="_blank">{list.search_list.author}</a></em>
+                	分类：<em><a href="{list.search_list.sorturl}" target="_blank">{list.search_list.sortname}</a></em>
+                </p>
+            	<p>{list.search_list.bookinfo}</p>
+               
+                <div>
+                	<p class="fl"><em>最新更新：</em><a href="{list.search_list.chapterurl}" target="_blank" class="limit" >{list.search_list.chaptername}</a>  {list.search_list.update}</p>
+                	<p class="fr">
+                		        	    	
+                		<a href="{list.search_list.bookurl}" target="_blank">查看书页</a>
+                        /
+                		<a href="{list.search_list.readurl}" target="_blank">阅读免费章节</a>
+                        /
+                		<a href="{list.search_list.downurl}" target="_blank">下载本书</a>
+                	</p>
+                </div>    
+            </div>
+	    	{/pt:for}
+            
+	    	
+            
+	    	
+
+            
+     		
+            
+            <!-- 翻页 -->
+           
+            
+            <!-- 翻页 结束 -->
+            
+            
+        </div>
+</div>
+
+
+</div></div></div>
+
+<div class="spline"></div>
+
+{pt.gettpl.footer}
+
+</body>
+</html>

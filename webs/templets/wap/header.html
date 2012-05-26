@@ -1,0 +1,7 @@
+{$hello}
+{pt:if ($username=="")}
+游客！<a href="reg.php" title="注册">注册</a> | <a href="login.php" title="登陆">登陆</a><br/>
+{pt:else}
+{$username}！<a href="mark.php?user={$user}" title="书架">书架</a> | <a href="logout.php" title="退出">退出</a><br/>
+{/pt:if}
+<a href="index.php?user={$user}" title="首页">首页</a>.<a href="update.php?user={$user}" title="更新">更新</a>.<a href="sort.php?user={$user}" title="分类">分类</a>.<a href="top.php?user={$user}" title="排行">排行</a>.<a href="over.php?user={$user}">全本</a>.<a href="search.php?user={$user}" title="搜索">搜索</a><br/>

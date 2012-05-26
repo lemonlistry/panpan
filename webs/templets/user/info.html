@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<title>{$pt_sitename} - 会员中心 - 账户</title>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/basic.css">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/portal.css">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/pphelp.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="{$pt_siteurl}templets/user/js/common.js"></script>
+</head>
+<body>
+{pt.gettpl.user.header}
+<div id=pt_mainw>
+	<div id=pact_banner><h1>账户信息</h1></div>
+	<div id=nav3>
+		<a href="info.php" class="here">详细资料</a>
+	</div>
+	<div class=infoone style="margin: 0px">
+		<div class=infotitle2><h2>详细资料</h2></div>
+		<div class=chghob>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">用户名：</div>
+				<div class=chgp3 style="width: 500px"><input type="text" value="{$username}" size="15" readonly="readonly"/></div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">当前积分：</div>
+				<div class=chgp3 style="width: 500px"><input type="text" value="{$userpoint}" size="15" readonly="readonly"/></div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">当前等级：</div>
+				<div class=chgp3 style="width: 500px"><input type="text" value="{$userlevel}（等级{$userlv}）" size="15" readonly="readonly"/></div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">贡献值：</div>
+				<div class=chgp3 style="width: 500px"><input type="text" value="{$comepoint}" size="15" readonly="readonly"/></div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">E-mail：</div>
+				<div class=chgp3 style="width: 500px"><input type="text" value="{$email}" size="15" readonly="readonly"/></div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">QQ号码：</div>
+				<div class=chgp3 style="width: 500px"><input type="text" value="{$qq}" size="15" readonly="readonly"/></div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">姓名：</div>
+				<div class=chgp3 style="width: 500px"><input type="text" value="{$turename}" size="15" readonly="readonly"/></div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">性别：</div>
+				<div class=chgp3 style="width: 500px"><input type="text" value="{$sex}" size="15" readonly="readonly"/></div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">生日：</div>
+				<div class=chgp3 style="width: 500px"><input type="text" value="{$birthday}" size="15" readonly="readonly"/></div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">头像：</div>
+				<div class=chgp3 style="width: 500px"><input type="text" value="{$userimg}" size="15" readonly="readonly"/></div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">来自：</div>
+				<div class=chgp3 style="width: 500px"><input type="text" value="{$usercity}" size="15" readonly="readonly"/></div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">电话：</div>
+				<div class=chgp3 style="width: 500px"><input type="text" value="{$telephone}" size="15" readonly="readonly"/></div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">MSN：</div>
+				<div class=chgp3 style="width: 500px"><input type="text" value="{$msn}" size="15" readonly="readonly"/></div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">个人主页：</div>
+				<div class=chgp3 style="width: 500px"><input type="text" value="{$myurl}" size="15" readonly="readonly"/></div>
+				<div class=cl></div>
+			</div>
+			<div class=chgjg>
+				<div class=chgp1 style="width: 150px">注册时间：</div>
+				<div class=chgp3 style="width: 500px"><input type="text" value="{$regdate}" size="15" readonly="readonly"/></div>
+				<div class=cl></div>
+			</div>
+			<div class=cl></div>
+		</div>
+	</div>
+</div>
+<div class=cl></div>
+{pt.gettpl.user.footer}
+</body>
+</html>

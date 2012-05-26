@@ -1,0 +1,19 @@
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="MarkAdd" title="书签-{$pt_sitename}" newcontext="true">
+<p>
+{pt.gettpl.wap.header}
+=^=书架管理=^=<br/>
+{pt:if ($action=="add")}
+选择要加入书架:<br/>
+{pt:for.usermarkc}
+({$i}) <a href="mark.php?type=action&amp;action=add&amp;markid={$i}&amp;bookid={$bookid}&amp;chapterid={$chapterid}&amp;user={$user}" title="添加">{list.markname}</a><br/>
+{/pt:for}
+{pt:else}
+确认删除？<br/>
+<a href="mark.php?type=action&amp;action=delete&amp;markid={$markid}&amp;bookid={$bookid}&amp;user={$user}" title="确认">[确认]</a>  <a href="mark.php?type=list&amp;markid={$markid}&amp;user={$user}" title="取消">[取消]</a><br/>
+{/pt:if}
+{pt.gettpl.wap.footer}
+</p>
+</card>
+</wml>

@@ -1,0 +1,68 @@
+
+.PKEImage {
+        background: #ECE9D8;
+        border: 1px solid #0A246A;
+        padding:0;margin:0;
+}
+
+.PKEImageRaised, .PKEImage:hover {
+        background: #D3D3D3;
+        border: 1px outset;
+}
+
+.PKEImageLowered, .PKEImage:active {
+        background: #D3D3D3;
+        border: 1px inset;
+}
+
+.PKEVertSep {
+        margin: 0 4px 0 4px;
+}
+
+.PKEBack {
+        background: #DDDAD3;
+        border: 1px outset;
+        letter-spacing: 0;
+        
+}
+
+.PKEBack tbody tr td, .PKEBack tr td {
+
+        background: #DDDAD3;
+        padding: 0;
+}
+
+.PKEDiv {
+        display: block;
+        position: relative;
+}
+
+
+.PKEImage {background:#EFEDDE;border:1px solid #EFEDDE;width:25px;height:24px;margin:0px;}
+.PKEImageRaised,.PKEImage:hover {background:#B6BDD2;border:1px solid #0A246A;width:25px;height:24px;margin:0px;}
+.PKEImageLowered,.PKEImage:active {background:#8592B5;border:1px solid #0A246A;width:25px;height:24px;margin:0px;}
+.PKESep {margin:0 2px 0 2px;width:1px;height:20px;border:0px}
+.PKEBar {
+	margin:0 2px 0 4px;
+	width:3px;
+	height:15px;
+	border:0px;
+}
+.PKEBack {
+	background:#EFEDDE;
+	letter-spacing:0;
+	height:24px;
+	border:0px;
+	border-top: 1px solid gray;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	margin:0;
+	padding:0;
+padding: 2px;
+}
+.PKEBack tbody tr td, .PKEBk tr td {margin:0;padding:0;background:#EFEDDE;height:24px;}
+.PKEDiv {display:block;position:relative}
+
+
+.mainIframe{background:#FFF;border: 1px solid #C0C0C0;padding:0;margin:0;
+}

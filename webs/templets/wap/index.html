@@ -1,0 +1,22 @@
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="index" title="{$pt_sitename}" newcontext="true">
+<p>
+<img src="{$pt_siteurl}/images/logo.gif" alt="{$pt_sitename}"/><br/>
+{pt.gettpl.wap.header}
+请输入搜索内容<br/>
+<input type="text" size="10" name="key"/><br/>
+搜索: <anchor><go method="post" href="search.php?user={$user}" accept-charset="{$charset}"><postfield name="key" value="$(key)"/><postfield name="type" value="boookname"/></go>书名</anchor>.<anchor><go method="post" href="search.php?user={$user}" accept-charset="{$charset}"><postfield name="key" value="$(key)"/><postfield name="type" value="author"/></go>作者</anchor><br/>
+<img src="{$pt_siteurl}templets/wap/images/tk.gif" alt="登录"/>登陆后将本页存为书签，下次可免登陆！<br/>
+<img src="{$pt_siteurl}templets/wap/images/hot.gif" alt="热门"/>{$pt_wap_title1}☆<br/>
+{pt:for.pt_waptjnum_1}
+<a href="{list.pt_list_tj1.bookurl}">《{list.pt_list_tj1.bookname}》</a> <br/>
+{/pt:for}
+<img src="{$pt_siteurl}templets/wap/images/hot.gif" alt="热门"/>{$pt_wap_title2}☆<br/>
+{pt:for.pt_waptjnum_2}
+<a href="{list.pt_list_tj2.bookurl}">《{list.pt_list_tj2.bookname}》</a> <br/>
+{/pt:for}
+{pt.gettpl.wap.footer}
+</p>
+</card>
+</wml>

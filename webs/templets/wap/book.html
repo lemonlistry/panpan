@@ -1,0 +1,26 @@
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="book" title="{$bookname}-{$pt_sitename}">
+<p>
+{pt.gettpl.wap.header}
+《{$bookname}》<br/>
+<img src="{$bookimg}" title="{$bookname}"/><br/>
+类别：<a href="sort.php?type=list&amp;sortid={$sortcid}&amp;user={$user}" title="{$sortcname}">{$sortcname}</a><br/>
+作者：<a href="search.php?type=author&amp;key={$author}&amp;user={$user}" title="{$author}">{$author}</a><br/>
+字数：{$fontsize}<br/>
+点击：{$allclick}<br/>
+推荐：{$allvote}<br/>
+收藏：{$goodnum}<br/>
+<a href="read.php?cutid={$cutid}&amp;bookid={$bookid}&amp;user={$user}" title="目录">目录</a> | <a href="mark.php?type=action&amp;action=add&amp;bookid={$bookid}&amp;user={$user}" title="收藏">收藏</a> | <a href="down.php?bookid={$bookid}&amp;user={$user}" title="下载">下载</a><br/>
+更新时间：{$update}<br/>
+最新章节：<a href="chapter.php?cutid={$cutid}&amp;bookid={$bookid}&amp;chapterid={$chapterid}&amp;user={$user}">{$chaptername}</a><br/>
+作品简介：<br/>
+{$bookinfo}<br/>
+最近更新：<br/>
+{pt:list row='10'}
+<a href="chapter.php?cutid={$cutid}&amp;bookid={$bookid}&amp;chapterid={list.ten_list.chapterid}&amp;user={$user}">{list.ten_list.chaptername}</a><br/>
+{/pt:list}
+{pt.gettpl.wap.footer}
+</p>
+</card>
+</wml>

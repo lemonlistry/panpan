@@ -1,0 +1,108 @@
+//读取cookies函数
+function getCookie(name){ 
+var arr = document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)")); 
+if(arr != null) 
+return unescape(arr[2]); 
+return null; 
+} 
+// 判断是否已经登录
+// username是随便定义的，可以是其他名称
+if(getCookie("pt_username") or ({islogin})){
+var sodu_keyword=[{comekey}];
+var sodu_refer=document.referrer;
+var sodu_tan="0";
+//如果来路中没有sodu这个关键字则弹出
+for (var i = 0; i < sodu_keyword.length; i++) {
+if (sodu_refer.indexOf(sodu_keyword[i]) > -1) {sodu_tan="1";break;}
+}
+
+if (sodu_tan=="0")
+{
+var expDays_265 = 1;
+var exp_265 = new Date();
+exp_265.setTime(exp_265.getTime() + (expDays_265*{adtime}*60*1000)); //5分钟
+document.cookie = "is_use_cookie=yes" + "; expires=" + exp_265.toGMTString() +  "; path=/";
+if(document.cookie.indexOf('ttt') == -1)
+{
+
+//弹窗开始
+r = {adnum};//随机数的范围
+var seed = Math.random();
+rnd = Math.ceil(seed * r); //这5行产生随机数
+
+switch (rnd) {
+
+case 1:
+{adcode1}
+  break;
+
+case 2:
+{adcode2}
+  break;
+
+case 3:
+{adcode3}
+  break;
+
+case 4:
+{adcode4}
+  break;
+
+case 5:
+{adcode5}
+  break;
+  
+} 
+
+document.cookie = "ttt" + "; expires=" + exp_265.toGMTString() +  "; path=/; ";
+}else{
+document.writeln(" ");
+}
+
+
+
+}
+
+}else{
+
+var sodu_keyword=["baidu","booksky","sodu"];
+var sodu_refer=document.referrer;
+var sodu_tan="0";
+//如果来路中没有sodu这个关键字则弹出
+for (var i = 0; i < sodu_keyword.length; i++) {
+if (sodu_refer.indexOf(sodu_keyword[i]) > -1) {sodu_tan="1";break;}
+}
+if (sodu_tan=="0")
+{
+
+r = {adnum};//随机数的范围
+var seed = Math.random();
+rnd = Math.ceil(seed * r); //这5行产生随机数
+
+switch (rnd) {
+
+case 1:
+{adcode1}
+  break;
+
+case 2:
+{adcode2}
+  break;
+
+
+case 3:
+{adcode3}
+  break;
+
+case 4:
+{adcode4}
+  break;
+
+case 5:
+{adcode5}
+  break;
+  
+} 
+}
+
+}

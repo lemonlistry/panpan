@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<title>{$pt_sitename} - 会员中心 - 设置</title>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/basic.css">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/portal.css">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/pphelp.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="{$pt_siteurl}templets/user/js/common.js"></script>
+</head>
+<body>
+{pt.gettpl.user.header}
+<div id=pt_mainw>
+	<div id=psetup_banner><h1>账户管理</h1></div>
+	<div id=nav3>
+		<a href="edit.php">修改资料</a> | 
+		<a href="editpwd.php">修改密码</a> | 
+		<a href="editlevel.php" class="here">自助升级</a>
+	</div>
+	<form name="myform" action="" method="post">
+		<div class=infoone style="margin: 0px">
+			<div class=infotitle2><h2>自助升级</h2></div>
+			<div class=chghob>
+				<div class=chgjg>
+					<div class=chgp1 style="width: 150px">用户名：</div>
+					<div class=chgp3 style="width: 500px"><input type="text" name="username" value="{$username}" size="15" readonly="readonly"/></div>
+					<div class=cl></div>
+				</div>
+				<div class=chgjg>
+					<div class=chgp1 style="width: 150px">当前积分：</div>
+					<div class=chgp3 style="width: 500px"><input type="text" name="username" value="{$userpoint}" size="15" readonly="readonly"/></div>
+					<div class=cl></div>
+				</div>
+				<div class=chgjg>
+					<div class=chgp1 style="width: 150px">升级所需积分：</div>
+					<div class=chgp3 style="width: 500px"><input type="text" name="username" value="{$usernextlevelpoint}" size="15" readonly="readonly"/></div>
+					<div class=cl></div>
+				</div>
+				<div class=chgjg>
+					<div class=chgp1 style="width: 150px">当前称号：</div>
+					<div class=chgp3 style="width: 500px"><input type="text" name="username" value="{$userlevel}（等级{$userlv}）" size="15" readonly="readonly"/></div>
+					<div class=cl></div>
+				</div>
+				<div class=chgjg>
+					<div class=chgp1 style="width: 150px">升级后称号：</div>
+					<div class=chgp3 style="width: 500px"><input type="text" name="username" value="{$userlevelup}（等级{$userlv+1}）" size="15" readonly="readonly"/></div>
+					<div class=cl></div>
+				</div>
+				<div class=cl><br/></div>
+				<div class=chgjg>
+					<div class=chgp1 style="width: 150px">当前权限：</div>
+					<div class=chgp3 style="width: 500px">{$nowinfo}</div>
+					<div class=cl></div>
+				</div>
+				<div class=cl><br/></div>
+				<div class=chgjg>
+					<div class=chgp1 style="width: 150px">升级后权限：</div>
+					<div class=chgp3 style="width: 500px">{$upinfo}</div>
+					<div class=cl></div>
+				</div>
+				<div class=cl></div>
+			</div>
+			<div class=hobbtn>{$levelupmsg}</div>
+		</div>
+	</form>
+</div>
+<div class=cl></div>
+{pt.gettpl.user.footer}
+</body>
+</html>

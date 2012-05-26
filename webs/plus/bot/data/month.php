@@ -1,0 +1,10 @@
+<?php
+$botclick['month']['1']='0';
+$botclick['month']['2']='0';
+$botclick['month']['3']='0';
+$botclick['month']['4']='0';
+$botclick['month']['5']='0';
+$botclick['month']['6']='0';
+$botclick['month']['7']='0';
+$botclick['month']['8']='0';
+?>

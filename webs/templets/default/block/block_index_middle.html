@@ -1,0 +1,16 @@
+{pt:list row="5" }                          
+	{pt:if $i==1}
+	<div class="ft">            
+		<a target="_blank" href="{list.pt_tpl_block.bookurl}"><img src="{list.pt_tpl_block.bookimg}" alt="{list.pt_tpl_block.bookname}"  class="imgbg"/></a>
+		<h3><a href="{list.pt_tpl_block.bookurl}" title="{list.pt_tpl_block.bookname}" target="_blank">{list.pt_tpl_block.bookname}</a></h3>
+		<em>¿‡–Õ£∫<a href="{list.pt_tpl_block.sortnurl}" target="_blank">{list.pt_tpl_block.sortnname}</a></em>
+		<p>
+			<a href="{list.pt_tpl_block.bookurl}" target="_blank" class="limit">{list.pt_tpl_block.bookinfo}</a><a href="{list.pt_tpl_block.bookurl}" target="_blank" class="more">°æœÍœ∏°ø</a>
+		</p>			
+	</div>
+	<ul>
+	{pt:else}
+		<li><a target="_blank" href="{list.pt_tpl_block.bookurl}" target="_blank"><b>{list.pt_tpl_block.bookname}:</b>{list.pt_tpl_block.bookinfo}</a></li>
+	{/pt:if}
+{/pt:list}
+	</ul>

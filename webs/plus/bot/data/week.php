@@ -1,0 +1,10 @@
+<?php
+$botclick['week']['1']='0';
+$botclick['week']['2']='0';
+$botclick['week']['3']='0';
+$botclick['week']['4']='0';
+$botclick['week']['5']='0';
+$botclick['week']['6']='0';
+$botclick['week']['7']='0';
+$botclick['week']['8']='0';
+?>

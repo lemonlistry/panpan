@@ -1,0 +1,17 @@
+<?php
+$adid=<<<flink
+bookinfo
+flink;
+$adname=<<<flink
+ÊéÒ³¼ò½éÏÂ·½
+flink;
+$adsize=<<<flink
+468*60
+flink;
+$adinfo=<<<flink
+
+flink;
+$adcode=<<<flink
+
+flink;
+?>

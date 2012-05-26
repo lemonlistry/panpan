@@ -1,0 +1,75 @@
+
+INPUT.submit {
+	BORDER-BOTTOM: #b2b2b2 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #b2b2b2 1px solid; LINE-HEIGHT: 20px; BACKGROUND: url(../images/bg.gif) #ffffff repeat-x 0px -1065px; HEIGHT: 23px; COLOR: #454545; BORDER-TOP: #b2b2b2 1px solid; BORDER-RIGHT: #b2b2b2 1px solid
+}
+.main {
+	BORDER-BOTTOM: #adb9c2 1px solid; BORDER-LEFT: #adb9c2 1px solid; MARGIN: 200px auto; WIDTH: 300px; BACKGROUND: url(../images/pplbg.gif) #fff repeat-y; BORDER-TOP: #adb9c2 1px solid; BORDER-RIGHT: #adb9c2 1px solid
+}
+.mainleft {
+	WIDTH: 300px; PADDING-TOP: 10px;PADDING-bottom: 10px
+}
+
+.mainleft .title {
+	LINE-HEIGHT: 32px; MARGIN: 0px auto 0 40px; PADDING-LEFT: 10px; WIDTH: 220px; BACKGROUND: url(../images/pp.gif) 0px -44px; HEIGHT: 31px; COLOR: #025b81; OVERFLOW: hidden;text-align:left
+}
+.loginbox1 {
+	clear:both;PADDING-LEFT: 16px; COLOR: #666; PADDING-TOP: 10px
+}
+.loginbox1 INPUT.text {
+	BORDER-BOTTOM: #c8c8c8 1px solid; BORDER-LEFT: #c8c8c8 1px solid; PADDING-BOTTOM: 2px; LINE-HEIGHT: 16px; PADDING-LEFT: 24px; WIDTH: 160px; PADDING-RIGHT: 0px; BACKGROUND: #fff; HEIGHT: 24px; BORDER-TOP: #c8c8c8 1px solid; BORDER-RIGHT: #c8c8c8 1px solid; PADDING-TOP: 3px
+}
+.loginbox1 INPUT.user {
+	BACKGROUND: url(../images/pic.gif) #fff no-repeat -950px -427px
+}
+.loginbox1 INPUT.rand {
+	BACKGROUND: url(../images/pic.gif) #fff no-repeat -946px -636px
+}
+.loginbox1 INPUT.pass {
+	BACKGROUND: url(../images/pic.gif) #fff no-repeat -950px -427px
+}
+.loginbox1 INPUT.pass {
+	BACKGROUND-POSITION: -950px -454px
+}
+.loginbox1 INPUT.submit {
+	WIDTH: 90px
+}
+.loginbox1 INPUT.reg {
+	BORDER-BOTTOM: #5eb4d8 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #5eb4d8 1px solid; LINE-HEIGHT: 20px; WIDTH: 90px; BACKGROUND: url(../images/bg.gif) #ffffff repeat-x 0px -1270px; HEIGHT: 23px; COLOR: #454545; CLEAR: both; BORDER-TOP: #5eb4d8 1px solid; BORDER-RIGHT: #5eb4d8 1px solid
+}
+.loginbox1 SPAN {
+	LINE-HEIGHT: 24px; COLOR: #666
+}
+.loginbox1 .forget {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; BACKGROUND: url(../images/pp.gif) no-repeat -940px -46px; PADDING-TOP: 3px
+}
+A.forgetlink:link {
+	DISPLAY: inline-block; COLOR: #5eb4d8; TEXT-DECORATION: underline
+}
+A.forgetlink:visited {
+	DISPLAY: inline-block; COLOR: #5eb4d8; TEXT-DECORATION: underline
+}
+A.forgetlink:hover {
+	TEXT-DECORATION: none
+}
+
+.loginbox1 DL {
+	MARGIN: 0px auto; WIDTH: 176px
+}
+.loginbox1 DT {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 14px; PADDING-LEFT: 15px; WIDTH: 124px; PADDING-RIGHT: 15px; BACKGROUND: url(http://home.zongheng.com/images/pt_bg.gif) no-repeat -549px -49px; HEIGHT: 124px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 14px
+}
+.frd_request {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 14px; PADDING-LEFT: 15px; WIDTH: 124px; PADDING-RIGHT: 15px; BACKGROUND: url(http://home.zongheng.com/images/pt_bg.gif) no-repeat -549px -49px; HEIGHT: 124px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 14px
+}
+.loginbox1 DT IMG {
+	WIDTH: 124px; HEIGHT: 124px
+}
+.loginbox1 DD {
+	TEXT-ALIGN: center; LINE-HEIGHT: 24px; WIDTH: 152px; FLOAT: left; HEIGHT: 24px; OVERFLOW: hidden
+}
+.loginbox1 DD A:link {
+	MARGIN: 0px 5px; COLOR: #6d2c06
+}
+.loginbox1 DD A:visited {
+	MARGIN: 0px 5px; COLOR: #6d2c06
+}

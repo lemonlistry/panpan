@@ -1,0 +1,24 @@
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="reg" title="用户注册_{$pt_sitename}" newcontext="true">
+<p>
+<a href="index.php?user={$user}"><img src='{$pt_siteurl}images/logo.gif' alt='{$pt_sitename}' /></a><br/>
+<a href="index.php?user={$user}" title="首页">[首页]</a> <a href="login.php" title="登录">[登录]</a><br/>
+【在线注册】<br/>
+帐号: <input type="text" size="10" name="username"/><br/>
+密码: <input type="text" size="10" name="password"/><br/>
+邮件: <input type="text" size="10" name="email"/><br/>
+QQ: <input type="text" size="10" name="qq"/><br/>
+<anchor title="提交注册">提交注册
+	<go method="post" href="wapreg.php" accept-charset="{$charset}">
+		<postfield name="action" value="reg"/>
+		<postfield name="username" value="$(username)"/>
+		<postfield name="password" value="$(password)"/>
+		<postfield name="email" value="$(email)"/>
+		<postfield name="qq" value="$(qq)"/>
+	</go>
+</anchor><br/>
+{pt.gettpl.wap.footer}
+</p>
+</card>
+</wml>

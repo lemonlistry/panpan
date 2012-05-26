@@ -1,0 +1,154 @@
+﻿@charset "utf-8";
+.con{ background:#fff}
+/* 红黑排行榜 */
+#rb h3{position:relative; padding-left:8px}
+#rb h3 dd{float:left; display:block;position:absolute}
+#rb h3 dd#rb1{ left:55px}
+#rb h3 dd a{display:block;width:48px;height:28px;overflow:hidden;line-height:28px;text-align:center;color:#5eb4d8; }
+#rb h3 dd.normal a{ background:#f1f1f1;width:46px;height:27px;border:1px solid #e0dfdf; border-top-width:0; }
+#rb h3 dd.active a{ background:#fff;width:46px;border:1px solid #e0dfdf; border-width:0 1px; }
+#rb h3 dd.active a:hover,#rb h3 dd a:hover{text-decoration:none}
+#rbCon1 ul{ background:url(../images/bg.gif) 6px -615px no-repeat; height:240px; padding:4px 6px 0;}
+#rbCon0,#rbCon1{position:relative}
+#rbCon0 .ment,#rbCon1 .ment{top:-28px;line-height:26px;position: absolute;right:0px}
+/* 文章列表 _height:22px; */
+.news ul{padding:7px 6px 6px;}
+.news ul li{padding-left:20px;height:24px;overflow:hidden;background:url(../images/pic.gif) no-repeat -955px -521px; clear:both}
+.news ul li *{line-height:24px;}
+.news ul li a,
+.news ul li a:link,
+.news ul li a:visited{color:#454545;display:block;overflow:hidden;font-size:14px;}
+.news ul li a:hover{color:#FE8A01;}
+.news ul li span{float:right;width:60px;text-align:right;color:#888;font-size:11px;font-family:Arial}
+/* 专题图片列表 */
+.ztphoto ul{ padding:10px 8px 2px}
+.ztphoto ul li{ float:left; height:182px; width:170px; overflow:hidden; padding:0 8px 0 7px}
+.ztphoto ul li img{ background:#fffdf1; padding:4px; border:1px solid #e0dfdf; margin-bottom:5px}
+.ztphoto ul li p{ clear:both; line-height:21px}
+/* 幻灯 */
+.newsflash{ background:#eff9fd; border:1px solid #e0dfdf; padding:7px;}
+#focusimg {position:relative;width:360px;background:#fff;height:346px; overflow:hidden}
+#fij_l {overflow: hidden;width:360px; height:280px;}
+#fij_l img{width:360px; height:280px;}
+#fij_l SPAN {display: block; overflow: hidden;}
+#focustext {clear:both;display:block;font-weight:bold; padding:5px 0 0 8px;height:60px;margin-top:-140px;border:1px solid #ccc;border-top:0}
+#textjj{margin-top:-40px;text-indent:2em; padding:0 10px; line-height:18px; height:36px; overflow:hidden; color:#666}
+#focustext A,#focustext A:visited{color:#069;font-size:14px;text-decoration: none; line-height:22px}
+#focustext A:hover,#focustext A:active {text-decoration: underline}
+#fig_r {overflow:hidden;height:60px;padding-top:10px;position:relative;top:-140px; padding-left:4px}
+#blackbg{overflow:hidden;height:70px;background:#000;position:relative;top:-70px;-moz-opacity: 0.3;opacity:0.3;filter: alpha(opacity=30);}
+.fig_r_img,.fig_r_img_On,HTML .fig_r_img{width:74px;float:left;height:60px;cursor: pointer; padding-left:13px}
+.fig_r_img img { -moz-opacity:0.5;opacity: 0.5;width:64px; height:48px;border:1px solid #ccc;filter: alpha(opacity=50);}
+.fig_r_img_On img {width:64px; height:48px;border:2px solid #fff;}
+
+/* 新闻列表 */
+.newslist ul{padding:17px 15px 16px 15px;border-bottom:1px dashed #ccc;margin:0 10px;}
+.newslist ul li{ padding:3px 0; height:19px}
+.newslist ul li a{Letter-spacing:1px;margin-right:10px; color:#999}
+.newslist ul li a.f14{ color:#454545}
+.newslist ul li em{float:right;color:#999;font-size:11px;font-family:Arial}
+.newslist li p{ padding:5px 0}
+span.tip{border:1px solid #ccc;background:#f1f1f1;padding:0 3px;*padding-top:2px;Letter-spacing:1px;color:#999;}
+/* 专题列表 */
+.ztinfo{padding:25px 40px;height:100%}
+.ztinfo a img{ border:1px solid #e0dfdf; margin-top:3px}
+.ztbg{ background:#f5f5f5; }
+.ztinfo .fr{ width:520px}
+.ztinfo .fr h3 a{ color:#00358b; line-height:22px}
+.ztinfo .fr a{ color:#5eb4d8; line-height:22px}
+.ztinfo .fr p{ height:60px; line-height:20px; text-indent:2em; overflow:hidden; color:#666; padding:3px 0}
+.ztinfo .fr strong{ color:#666}
+.ztinfo .fr em{ color:#666;font-size:11px;font-family:Arial; padding-right:20px}
+/* 留言列表 */
+.lytitle{background:url(../images/bg.gif) 0 -1020px;height:28px;border:1px solid #8fb9d0; line-height:28px;padding:4px 20px 0 28px; overflow:hidden; clear:both}
+.lytitle span{background:url(../images/bg.gif) 0 -220px;display:block;float:left;border:1px solid #e0dfdf; height:25px; line-height:28px; font-size:14px; margin-right:20px; font-weight:normal;padding:0 10px;color:#069}
+.lytitle a.fl{font-size:14px;color:#454545; float:left}
+.lytitle em a,.lytitle em a:link,.lytitle em a:visited{margin-left:15px;color:#999;}
+.lytitle a.fr{color:#069;}
+.lylist{padding:1px;border:1px solid #e0dfdf; background:#fff;clear:both; margin-top:3px; }
+.lylist .title{ background:#efefef; color:#666; font-size:14px; line-height:30px; height:28px; overflow:hidden; border-bottom:1px solid #e0dfdf;padding:0 15px;}
+.lylist .notice{background:#f0fafe;line-height:30px;padding:0 15px;}
+/* 广播 */
+#notice{background:#f0fafe;height:28px;line-height:28px;overflow:hidden;}
+#notice ul{ padding:0 15px;}
+#notice ul li{color:#999; padding-right:15px;}
+#notice ul li em{ font-weight:bold; background:url(../images/pic.gif) -950px -33px no-repeat; padding-left:25px; color:#fe8a01;}
+#notice ul li a{ font-size:14px;}
+
+
+.lylist p{ line-height:24px; font-size:14px; padding:8px; color:#454545}
+.lylist .title .close{float:right;background:url(../images/pic.gif) -950px -667px no-repeat;display:block;height:20px;width:20px;}
+/* 新闻阅读 */
+#news h1{ color:#069;font-size:20px; font-family:"黑体"; font-weight:normal; text-align:center; padding:20px 0 10px;}
+.newsfont{border:1px solid #96d4e8;border-width:1px 0;height:25px;text-align:center;line-height:25px;margin:5px 50px 10px;color:#999}
+.newsfont span{color:#5b98b7; margin-right:12px}
+.newsfont a:hover{ text-decoration:none}
+.newsfont span.fr{color:#000;}
+.newsfont em,#news .pl .pl_a span{color:#fe8a01;}
+.fontb,.fontb * {font-size:18px;line-height:28px;}
+.fontm,.fontm * {font-size:14px;line-height:26px;}
+.fonts,.fonts * {font-size:12px;line-height:20px;}
+#newsmain{ padding:0 50px;overflow:hidden;}
+#newsmain p{padding:0.7em 0; text-indent:2em; color:#454545}
+#newsmain p.img{ text-indent:0; text-align:center}
+#newsmain .page{text-align:center;padding-top:10px; float:none}
+#newsmain .page a{font-size:12px;float:none}
+#news .dig{clear:both; height:60px;}
+#news .dig td{ padding:20px 10px;}
+#news .dig span{background: url(../images/bg.gif) 0 -1090px repeat-x; display:block; height:56px; border:1px solid #c8904c; }
+#news .dig span.fd{ background-position:0 -1150px; border-color:#50a9c5;}
+#news .dig span em{float:left;color:#fff; font-size:30px;text-align:center;font-family:Arial; line-height:56px; float:left; padding:0 5px}
+#news .dig span a{ background:url(../images/pic.gif) 0 -556px; display:block; width:60px; height:56px; float:left}
+#news .dig span.fd a{ background-position:-60px -556px;}
+#news .pl span{ color:#999; line-height:22px;}
+#news .pl a{ font-size:14px; color:#025b81}
+#news .pl a.pl_a,#newsother .gn a.fl{background:url(../images/pic.gif) -958px -735px no-repeat; font-size:12px; padding-left:18px; color:#025b81}
+#news .pl a:hover,#news .pl a.pl_a:hover,#newsother .gn a.fl:hover,#newsother .gn .fr a:hover{color:#FE8A01}
+
+/* 新闻阅读其他功能 */
+#newsother{padding:0 32px;}
+#newsother .line{background:url(../images/b_xdashed.gif) repeat-x; height:1px; overflow:hidden; clear:both}
+#newsother .gn{ padding:15px 0; height:14px;}
+#newsother .gn a.fl{ background-position:-958px -755px;}
+#newsother .gn span a{color:#025b81; margin:0 15px;}
+#newsother span{color:#025b81}
+#newsother .aboutlink,#newsother .zxgx{ padding:15px 15px 15px 18px;}
+#newsother .aboutlink ul,#newsother .zxgx ul{ margin-top:5px;}
+#newsother .aboutlink li,#newsother .zxgx li{ height:28px; overflow:hidden}
+#newsother .aboutlink li *{ line-height:28px;font-size:14px;color:#666}
+#newsother .aboutlink li em{color:#999; font-size:11px; font-family:Arial; padding-left:12px;}
+#newsother .zxgx li{ width:165px; float:left}
+#newsother .zxgx li *{ line-height:28px;font-size:13px;color:#666}
+#newsother .zxgx .more{ clear:both; float:right; display:block; height:50px;line-height:30px;color:#025b81;}
+#newsother .zxgx li a:hover,#newsother .zxgx a.more:hover{ color:#FE8A01}
+
+/* 翻页 */
+.pages_btns{clear: both;overflow:hidden;margin-top:3px;background:url(../images/bg.gif) 0 -900px repeat-x;height:34px;border:1px solid #ccc;border-width:0 1px}
+.postbtn {cursor: pointer; }
+.pages_btns .pages em { line-height: 26px; }
+.threadflow { float:right;line-height:26px;border-left:1px solid #ccc;margin-right:-1px}
+.pages a, .pages strong, .pages em, .pages kbd, #multipage .pages em { float: left; padding: 0 8px; line-height:26px; }
+.pages a, .pages a:visited,.threadflow a {border-left:1px solid white;border-right:1px solid #DAD7CB;color:#666;display:block;float:left;padding:3px 10px;text-decoration:none;margin-top:1px;}
+.pages_btns strong {background:url(../images/bg.gif) 0 -940px repeat-x;color:#993300 !important;margin-top:1px;font-weight: bold;}
+.pages a:hover ,.threadflow a:hover{background:url(../images/bg.gif) 0 -980px repeat-x ;color:#395500;padding:3px 10px;margin-top:1px;text-decoration:none;height:}
+.pages_btns strong,.pages_btns em,.pages kbd {border-left:1px solid white;border-right:1px solid #ccc;color:#666;display:block;float:left;overflow:hidden;padding:3px 10px}
+.pages em{float:right;border:0;}
+.pages a.prev,.pages a.next {line-height:26px;font-family:Verdana,Arial,Helvetica,sans-serif; }
+.pages kbd { margin: 0;height:33px;}
+* html .pages kbd { padding: 1px 8px;}
+.pages kbd input{border:1px solid #ccc;margin-top:8px !important; * > margin-top:1px!important;margin:6px 4px 0 3px;padding:0 2px;height:17px;}
+.pages kbd>input{margin-bottom: 2px; }
+
+/* 最新评论 */
+#zxplr{ height:390px;overflow:hidden}
+.zxplr *{line-height:20px;}
+.zxplr{padding:5px;background:#fff}
+.zxplr ul{ height:327px;overflow:hidden; background:none}
+.zxplr ul li{height:38px;overflow:hidden;padding:4px;background:url(../images/zxplrbg.gif) repeat-x;}
+.zxplr ul li div{ height:18px; overflow:hidden;color:#FE8A01;}
+.zxplr ul li p,.zxplr ul li p a,.zxplr ul li p a:link,.zxplr ul li p a:visited{ color:#025B81}
+.zxplr ul li p a:hover{color:#FE8A01;}
+.zxplr ul li p{ height:20px; overflow:hidden; width:180px;}
+.zxplr .more{background:url(../images/xdashed.gif) repeat-x scroll 0 top; padding:6px}
+
+#newslist .bookpage{border-top:1px dashed #CCCCCC; margin-top:-2px; padding-top:2px}

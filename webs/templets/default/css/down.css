@@ -1,0 +1,158 @@
+BODY {
+	FONT-SIZE: 12px; MARGIN: 0px; FONT-FAMILY: "宋体";
+}
+INPUT {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #999999 1px solid; COLOR: #333333; PADDING-TOP: 0px; BORDER-BOTTOM: #999999 1px solid; FONT-FAMILY: Tahoma, Arial, Helvetica; BACKGROUND-COLOR: #f1f8ff
+}
+TEXTAREA {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-SIZE: 12px; BACKGROUND: #ffffff; LEFT: -2px; BORDER-LEFT: #999999 1px solid; COLOR: #000000; BORDER-BOTTOM: #999999 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+SELECT {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #ffffff; LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #999999 1px solid; COLOR: #000000; LINE-HEIGHT: 10px; PADDING-TOP: 0px; BORDER-BOTTOM: #999999 1px solid; POSITION: relative; TOP: 0px
+}
+A:link {
+	COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif, "宋体"; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif, "宋体"; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif, "宋体"; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif, "宋体"; TEXT-DECORATION: underline
+}
+.newstitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #cc0000; LINE-HEIGHT: 18px
+}
+.booktitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 30px; COLOR: #ff3300; FONT-FAMILY: "隶书"
+}
+.tb0 {
+	BORDER-RIGHT: #f1f1f1 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #f1f1f1 1px solid; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; BORDER-LEFT: #f1f1f1 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #f1f1f1 1px solid
+}
+.tb1 {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 6px; BACKGROUND: #ccc; PADDING-BOTTOM: 0px; BORDER-LEFT: #999 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #999 1px solid
+}
+.tbsep {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT: 9px Verdana; COLOR: #a9a9a9; TEXT-ALIGN: center
+}
+.LoginCss {
+	FLOAT: right
+}
+.inputout {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #cccccc 1px solid; COLOR: #333333; PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif, 宋体; BACKGROUND-COLOR: #ffffff
+}
+.inputover {
+	BORDER-RIGHT: #4b4b6f 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #4b4b6f 1px solid; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #4b4b6f 1px solid; COLOR: #000000; PADDING-TOP: 0px; BORDER-BOTTOM: #4b4b6f 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif, 宋体; BACKGROUND-COLOR: #ffeec2
+}
+.buttonout {
+	BORDER-RIGHT: #4c7a9e 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #c8dcf3 1px solid; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #c8dcf3 1px solid; COLOR: #333333; PADDING-TOP: 0px; BORDER-BOTTOM: #4c7a9e 1px solid; FONT-FAMILY: Tahoma, Arial, Helvetica; BACKGROUND-COLOR: #f1f8ff; TEXT-DECORATION: underline
+}
+.buttonover {
+	BORDER-RIGHT: #bb5503 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #bb5503 1px solid; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #bb5503 1px solid; COLOR: #000000; PADDING-TOP: 0px; BORDER-BOTTOM: #bb5503 1px solid; FONT-FAMILY: Tahoma, Arial, Helvetica; BACKGROUND-COLOR: #fbe694; TEXT-DECORATION: underline
+}
+.radios {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BACKGROUND-COLOR: #fff7b1; BORDER-RIGHT-WIDTH: 0px
+}
+
+BODY {
+	PADDING-RIGHT: 32px; PADDING-LEFT: 32px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #eeeeee
+}
+.divm {
+	BORDER-RIGHT: #bbb 1px solid; PADDING-RIGHT: 20px; BORDER-TOP: #bbb 1px solid; PADDING-LEFT: 20px; MARGIN: 40px auto auto; BORDER-LEFT: #bbb 1px solid; WIDTH: 300px; BORDER-BOTTOM: #bbb 1px solid; HEIGHT: 60px; BACKGROUND-COLOR: #ffffff
+}
+#imgs {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 50px; PADDING-TOP: 12px
+}
+#texts {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 240px; COLOR: #cc0000; PADDING-TOP: 20px
+}
+
+#Header {
+	CLEAR: both; MARGIN-LEFT: auto; WIDTH: 990px; MARGIN-RIGHT: auto; BACKGROUND-COLOR: #ffffff
+}
+#Header #Login {
+	BACKGROUND-IMAGE: url(/skin/default/images/bg_head01.gif); MARGIN: auto; HEIGHT: 30px; TEXT-ALIGN: right
+}
+#Header #Login #Anchor {
+	PADDING-RIGHT: 5px; FLOAT: left; WIDTH: 308px; PADDING-TOP: 8px; TEXT-ALIGN: left
+}
+#Header #Login #LText {
+	PADDING-RIGHT: 5px; FLOAT: right; WIDTH: 670px; PADDING-TOP: 5px
+}
+#Header #Top {
+	MARGIN: auto; HEIGHT: 71px
+}
+#Header #Top #Logo {
+	MARGIN-TOP: 2px; FLOAT: left
+}
+#Header #Top #Menu {
+	MARGIN-TOP: 5px; FLOAT: right; WIDTH: 100%; HEIGHT: 61px
+}
+#Header #Top #Menu #Mt1 {
+	FLOAT: left; LINE-HEIGHT: 200%; MARGIN-RIGHT: 5px; TEXT-ALIGN: right
+}
+#Header #Top #Menu #Mt2 {
+	FLOAT: right; LINE-HEIGHT: 200%; MARGIN-RIGHT: 5px; TEXT-ALIGN: right
+}
+#menus {
+	MARGIN-TOP: 2px; MARGIN-LEFT: auto; WIDTH: 990px; MARGIN-RIGHT: auto; HEIGHT: 30px; BACKGROUND-COLOR: #585d71; TEXT-ALIGN: center
+}
+#menus UL {
+	MARGIN: 0px; WIDTH: 100%; COLOR: #ffffff; LIST-STYLE-TYPE: none; BACKGROUND-COLOR: #585d71; TEXT-ALIGN: center
+}
+#menus .headdiv1 {
+	FONT-SIZE: 15px; FLOAT: left; WIDTH: 97px; COLOR: #ffffff; PADDING-TOP: 8px; HEIGHT: 20px; TEXT-ALIGN: center
+}
+#menus A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#menus .headdiv1 A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#menus .headdiv1 A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#menus .headdiv1 A:hover {
+	BACKGROUND-POSITION: 100px 50%; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(); COLOR: #ffffff; BACKGROUND-REPEAT: repeat-x; TEXT-DECORATION: underline
+}
+#menus .headdiv1 A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#menus .headdiv2 {
+	FLOAT: left; WIDTH: 2px; HEIGHT: 25px
+}
+#htop {
+	FONT-SIZE: 12px; PADDING-BOTTOM: 8px; MARGIN-LEFT: auto; WIDTH: 990px; LINE-HEIGHT: 18px; MARGIN-RIGHT: auto; PADDING-TOP: 8px; FONT-FAMILY: "宋体"; TEXT-ALIGN: center
+}
+A.headblack:link {
+	FONT-SIZE: 12px; COLOR: green; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A.headblack:visited {
+	FONT-SIZE: 12px; COLOR: green; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A.headblack:hover {
+	FONT-SIZE: 12px; COLOR: red; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A.headblack:active {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+#endtop {
+	BORDER-RIGHT: #9bc9df 1px solid; BORDER-TOP: #9bc9df 1px solid; MARGIN-BOTTOM: 8px; MARGIN-LEFT: auto; BORDER-LEFT: #9bc9df 1px solid; WIDTH: 990px; MARGIN-RIGHT: auto; BORDER-BOTTOM: #9bc9df 1px solid; HEIGHT: 35px; BACKGROUND-COLOR: #f0f8fc
+}
+
+
+#Footer {
+	CLEAR: both; MARGIN-LEFT: auto; WIDTH: 1003px; MARGIN-RIGHT: auto
+}
+#Footer HR {
+	COLOR: #c2ceda
+}
+#Footer #EndLink {
+	TEXT-ALIGN: center
+}
+#Footer #CopyRight {
+	TEXT-ALIGN: center
+}
+

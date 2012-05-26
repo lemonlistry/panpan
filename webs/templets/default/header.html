@@ -1,0 +1,54 @@
+<div id="header">
+	<div id="logo">
+		<a href="{$PT_SITEURL}"></a>
+		<p>— 海量小说阅读下载 —</p>
+	</div>
+	<div class="loginbar">
+		<div class="fl">
+		<a href="#" onclick="SetHome(this)">+ 设为首页</a>　
+		<a href="#" onclick="addfavor('{$pt_siteurl}','{$pt_sitename}')">+ 收藏本站</a>
+		</div><!-- 右侧链接 结束 --><!-- 登陆框 -->
+		<iframe src="{$PT_SITEURL}login.php" scrolling="no" frameborder="0" width="780" height="24"></iframe>
+	</div>
+	<div class="nav">
+		<div class="banner">{pt.getad.topbanner}</div>
+		<ul>
+            {pt:list row='9'}
+            {pt:if $i<9}
+			<li><a  href="{list.pt_templets_nav.url}">{list.pt_templets_nav.name}</a> </li>
+            {pt:else}
+            <li>
+                <div class="hot"><img src="http://static.zongheng.com/v2_0/images/hot.gif" alt="VIP充值"/></div>
+                <a  href="{list.pt_templets_nav.url}" class="fred fb">{list.pt_templets_nav.name}</a> 
+            </li>
+            {/pt:if}
+            {/pt:list} 
+		</ul>
+	</div>
+	<div class="nav2">
+        <a href="#" class="vip" title="VIP作品" id="vip_book">VIP作品</a>
+		{pt:for.sortnum }
+			<a  href="{list.pt_templets_sortnav.url}">{list.pt_templets_sortnav.name}</a>
+            {pt:if ($i<$sortnum)}<span>┊</span>{/pt:if}
+        {/pt:for}
+	</div>
+	<div class="searchbar">
+		<div class="key">关键词：{pt.getfunc.baidu(6)}</div>
+		<div class="search">
+        
+		<form action="{$pt_siteurl}{$pt_filename_search}" method="get" target="_blank">
+        <input type="text" name="key" onmousedown="this.value='';this.onmousedown=null;" class="text" value="请输入您要搜索的内容"/>
+        <select name="type" class="selSearch">
+            <option value="bookname" class="selOption">书名</option>
+            <option value="author" class="selOption">作者</option>
+        </select>
+        
+        <input type="submit" class="submit search_button fl" value=""/>
+		</form>
+        <div class="cl"></div>
+    </div>
+	</div>
+	<div id="userinfo">
+		<div class="topuser"></div>
+	</div>
+</div>

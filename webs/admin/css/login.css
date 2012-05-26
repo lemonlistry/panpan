@@ -1,0 +1,43 @@
+BODY {
+	BACKGROUND-IMAGE: url(../images/body.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #ecf5ff;font:12px Arial, Helvetica, sans-serif;
+	margin: 0px;
+}
+#enter {
+	PADDING-LEFT: 70px; MARGIN: 220px auto 0px; WIDTH: 380px; POSITION: relative
+}
+.validates {
+	LEFT: 390px; POSITION: absolute; TOP: 100px
+}
+.text {
+	BORDER-RIGHT: #2888cf 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #2888cf 1px solid; PADDING-LEFT: 2px; BACKGROUND: url(../images/input.gif) repeat-x; PADDING-BOTTOM: 0px; FONT: 12px Arial, "ËÎÌו", Verdana, sans-serif; BORDER-LEFT: #2888cf 1px solid; WIDTH: 143px; COLOR: #555; PADDING-TOP: 1px; BORDER-BOTTOM: #2888cf 1px solid; HEIGHT: 17px
+}
+.text2 {
+	BORDER-RIGHT: #2888cf 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #2888cf 1px solid; PADDING-LEFT: 2px; BACKGROUND: url(../images/input.gif) repeat-x; PADDING-BOTTOM: 0px; FONT: 12px Arial, "ËÎÌו", Verdana, sans-serif; BORDER-LEFT: #2888cf 1px solid; WIDTH: 56px; COLOR: #555; PADDING-TOP: 1px; BORDER-BOTTOM: #2888cf 1px solid; HEIGHT: 17px
+}
+TABLE {
+	MARGIN: 14px 0px 0px
+}
+TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 8px; COLOR: #fff; PADDING-TOP: 0px
+}
+.width160 {
+	WIDTH: 160px
+}
+.validate {
+	POSITION: relative; TOP: 3px
+}
+TH {
+	PADDING-TOP: 25px; TEXT-ALIGN: left
+}
+.btnEnter {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(../images/enter.gif); BORDER-BOTTOM-WIDTH: 0px; WIDTH: 63px; HEIGHT: 23px; BORDER-RIGHT-WIDTH: 0px
+}
+.btnBack {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(../images/backhome.gif); BORDER-BOTTOM-WIDTH: 0px; WIDTH: 89px; HEIGHT: 23px; BORDER-RIGHT-WIDTH: 0px
+}
+.btnBorget {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(../images/forget.gif); BORDER-BOTTOM-WIDTH: 0px; WIDTH: 89px; HEIGHT: 23px; BORDER-RIGHT-WIDTH: 0px
+}
+P {
+	MARGIN-TOP: 25px; FONT-WEIGHT: normal; COLOR: #999
+}

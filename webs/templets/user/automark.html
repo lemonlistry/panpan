@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<title>{$pt_sitename} - 会员中心 - 足迹</title>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/basic.css">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/portal.css">
+<link rel="stylesheet" type="text/css" href="{$pt_siteurl}templets/user/css/pphelp.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="{$pt_siteurl}templets/user/js/common.js"></script>
+</head>
+<body>
+{pt.gettpl.user.header}
+<div id="pt_mainw">
+	<div id="pspoor_banner"><h1>我的足迹</h1></div>
+	<div id="nav3">
+		<a href="mark.php">书架管理</a>
+		<a href="usermark.php">会员书架</a>
+		<a href="automark.php" class="here">浏览历史</a>
+	</div>
+	<div id="bookcase">
+		<div class="bksel">
+			<ul>
+				<li class="fred fb">【<a href="usermark.php" class="fred fb">使用会员书架管理书签</a>】</li>
+				{pt:if ($username=='')}
+				<li class="inmark"><a href="reg.php" title="注册会员 使用更多功能">注册会员　使用更多功能</a></li>
+				{/pt:if}
+			</ul>
+		</div>
+		<form name="myform" action="" method="post">
+		<table id="marklist" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<th scope="col" width="10">&nbsp;</th>
+				<th scope="col" width="40"><input name="" type="checkbox" onclick="ptCheckAll(this,'delid[]');"/></th>
+				<th class="tleft" scope="col" width="150">书名</th>
+				<th scope="col" width="350">最新章节</th>
+				<th scope="col" width="80">更新时间</th>
+				<th scope="col" width="100">书签记录</th>
+				<th scope="col" width="60">操作</th>
+			</tr><tr>
+				<td colspan="7" scope="col">
+					<table border="0" cellpadding="0" cellspacing="0">
+						{pt:for.marknum}
+						<tr>
+							<td scope="col" nowrap="nowrap" width="10">&nbsp;</td>
+							<td class="tcenter" scope="col" width="40"><input name="delid[]" type="checkbox" value="{list.marklist.bookid}" /></td>
+							<td class="tleft" scope="col" width="150"><a href="{list.marklist.bookurl}" title="{list.marklist.bookname}" target="_blank" class="f14">{list.marklist.bookname}</a></td>
+							<td scope="col" width="350"><a href="{list.marklist.chapterurl}" title="《{list.marklist.bookname}》最新章节：{list.marklist.chaptername}" target="_blank">{list.marklist.chaptername}</a></td>
+							<td class="tcenter" scope="col" width="80">{list.marklist.update}</td>
+							<td class="tcenter" scope="col" width="100"><a href="#" title="浏览历史不可用此功能，请使用您的会员书架">{list.marklist.markchapter}</a></td>
+							<td class="tcenter fblue2" scope="col" width="60"><a href="automark.php?action=del&delid={list.marklist.bookid}">移除</a></td>
+						</tr>
+						{/pt:for}
+					</table>
+				</td>
+			</tr>
+		</table>
+		<div class="bksbtn">
+			<label for="Submit1"></label>
+			<input name="checkall" type="button" class="submit" value="全 选" onclick="selectall('marklist','delid[]')">
+			<label for="Submit2"></label>
+			<input name="del" type="submit" class="submit" value="移 除">
+			<label for="Submit3"></label>
+		</div>
+		</form>
+	</div>
+</div>
+<div class="cl"></div>
+{pt.gettpl.user.footer}
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="Read" title="{$bookname}章节目录-{$pt_sitename}">
+<p>
+{pt.gettpl.wap.header}
+<a href="book.php?bookid={$bookid}&amp;username={$username}">《{$bookname}》</a><br/>
+作者：{$author}<br/> 
+<a href="read.php?cutid={$cutid}&amp;bookid={$bookid}&amp;user={$user}" title="目录">目录</a> | <a href="mark.php?type=action&amp;action=add&amp;bookid={$bookid}&amp;user={$user}" title="收藏">收藏</a> | <a href="down.php?bookid={$bookid}&amp;user={$user}" title="下载">下载</a><br/>
+=^=^=^=^=^=<br/>
+{pt:php}
+for($i=$pagestart;$i<=$pageend;$i++){
+    echo $pt_list[$i]['con'];
+}
+{/pt:php}
+<br/>每页30条，共{$pagenum}页，当前第{$page}页。<br/>
+{pt:for.pagenum}
+{pt:if ($i==$page)}
+[{$i}]
+{pt:else}
+<a href="read.php?cutid={$cutid}&amp;bookid={$bookid}&amp;page={$i}&amp;user={$user}">{$i}</a>
+{/pt:if}
+{/pt:for}<br/>
+{pt.gettpl.wap.footer}
+</p>
+</card>
+</wml>

@@ -1,0 +1,11 @@
+<?php
+$cachetime['index']='0.5';
+$cachetime['sort']='2';
+$cachetime['over']='12';
+$cachetime['top']='12';
+$cachetime['topover']='12';
+$cachetime['search']='12';
+$cachetime['data']='1';
+$cachetime['read']='1';
+$cachetime['chapter']='24';
+?>

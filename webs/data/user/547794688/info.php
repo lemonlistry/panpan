@@ -1,0 +1,15 @@
+<?php
+$username='547794688';
+$password='41f85baf061d96cb93d1b2a8c72edba0';
+$email='547794688@qq.com';
+$qq='547794688';
+$turename='';
+$sex='ÄÐ';
+$birthday='';
+$userimg='';
+$usercity='ºþÄÏ';
+$telephone='';
+$msn='';
+$myurl='';
+$regdate='2012-04-24';
+?>

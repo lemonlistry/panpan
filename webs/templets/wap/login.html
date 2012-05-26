@@ -1,0 +1,13 @@
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="login" title="ำรปงตวยฝ_{$pt_sitename}" newcontext="true">
+<p>
+<a href="index.php?user={$user}"><img src='{$pt_siteurl}images/logo.gif' alt='{$pt_sitename}' /></a><br/>
+<a href="index.php?user={$user}" title="สืาณ">[สืาณ]</a> <a href="reg.php" title="ืขฒแ">[ืขฒแ]</a><br/>
+ีสบล: <input type="text" size="10" name="username"/><br/>
+รÜย๋: <input type="text" size="10" name="password"/><br/>
+<anchor title="ตวยฝ">ตวยฝ<go method="post" href="waplog.php" accept-charset="{$charset}"><postfield name="action" value="login" /><postfield name="username" value="$(username)"/><postfield name="password" value="$(password)"/></go></anchor><br/>
+{pt.gettpl.wap.footer}
+</p>
+</card>
+</wml>

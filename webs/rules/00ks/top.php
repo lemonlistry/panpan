@@ -1,0 +1,52 @@
+<?php
+$pt_top['1']['name']='总点击榜';
+$pt_top['1']['url']=$pt->gettopurl('1');
+$pt_top['2']['name']='月点击榜';
+$pt_top['2']['url']=$pt->gettopurl('2');
+$pt_top['3']['name']='周点击榜';
+$pt_top['3']['url']=$pt->gettopurl('3');
+$pt_top['4']['name']='总推荐榜';
+$pt_top['4']['url']=$pt->gettopurl('4');
+$pt_top['5']['name']='月推荐榜';
+$pt_top['5']['url']=$pt->gettopurl('5');
+$pt_top['6']['name']='周推荐榜';
+$pt_top['6']['url']=$pt->gettopurl('6');
+$pt_top['7']['name']='总收藏榜';
+$pt_top['7']['url']=$pt->gettopurl('7');
+$pt_top['8']['name']='总字数榜';
+$pt_top['8']['url']=$pt->gettopurl('8');
+$pt_top['9']['name']='原创点击';
+$pt_top['9']['url']=$pt->gettopurl('9');
+$pt_top['10']['name']='新书周榜';
+$pt_top['10']['url']=$pt->gettopurl('10');
+$pt_top['11']['name']='全本回顾';
+$pt_top['11']['url']=$pt->gettopurl('11');
+$pt_top['12']['name']='入站时间';
+$pt_top['12']['url']=$pt->gettopurl('12');
+$topoverurl=$pt->gettopoverurl($topid);
+$code=$pt->getcode('http://www.00ks.com/Book/ShowBookTop.aspx?id='.$topid);
+$topname=$pt_top[$topid]['name'];
+$pt_list=$pt->steal($code,'<ul class="column" style="border-bottom:none;">','<div id="foot">',false,false);
+$pt_listcon=explode('<ul>',$pt_list);
+$pt_list=null;
+$count_list=count($pt_listcon)-1;
+for ($i=1;$i<=$count_list;$i++){
+    $pt_list[$i]['bookname']=$pt->steal($pt_listcon[$i],'Index.aspx">','</',false,false);
+    $pt_list[$i]['chaptername']=$pt->steal($pt_listcon[$i],'.html">','<',false,false);
+    $pt_list[$i]['sortname']=$pt->steal($pt_listcon[$i],'.aspx">','</',false,false);
+    $pt_list[$i]['sortid']=$pt->steal($pt_listcon[$i],'/Book/LN/','.aspx',false,false);
+    $pt_list[$i]['sorturl']=$pt->getsorturl($pt_list[$i]['sortid']);
+    $pt_list[$i]['cutid']=$pt->steal($pt_listcon[$i],'/Html/Book/','/',false,false);
+    $pt_list[$i]['bookid']=$pt->steal($pt_listcon[$i],'<a class="f14" href="http://www.00ks.com/Book/','/',false,false);
+    $pt_list[$i]['chapterid']=$pt->steal($pt_listcon[$i],'</a> <a href="http://www.00ks.com/Html/Book/'.$pt_list[$i]['cutid'].'/'.$pt_list[$i]['bookid'].'/','.html',false,false)+PT_PLUSTID;
+	$pt_list[$i]['bookid']=$pt_list[$i]['bookid']+PT_PLUSBID;
+	$pt_list[$i]['cutid']=floor($pt_list[$i]['bookid']/1000);
+    $pt_list[$i]['bookurl']=$pt->getbookurl($pt_list[$i]['bookid']);
+    $pt_list[$i]['readurl']=$pt->getreadurl($pt_list[$i]['cutid'],$pt_list[$i]['bookid']);
+    $pt_list[$i]['chapterurl']=$pt->getchapterurl($pt_list[$i]['cutid'],$pt_list[$i]['bookid'],$pt_list[$i]['chapterid']);
+    $pt_list[$i]['update']=$pt->steal($pt_listcon[$i],'<li class="ro4" style="padding-right:20px;">','</',false,false);
+    $pt_list[$i]['author']=$pt->steal($pt_listcon[$i],'<li class="ro3">','</li>',false,false);
+    $pt_list[$i]['author']=$pt->steal($pt_list[$i]['author'],'.aspx">','</',false,false);
+    $pt_list[$i]['authorurl']=$pt->getsearchurl($pt_list[$i]['author'],'author');
+}
+?>

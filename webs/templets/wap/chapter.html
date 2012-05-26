@@ -1,0 +1,15 @@
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="chapter" title="{$chaptername}-{$bookname}-{$pt_sitename}">
+<p>
+{pt.gettpl.wap.header}
+<a href="book.php?bookid={$bookid}&amp;user={$user}">《{$bookname}》</a><br/>
+<a href="read.php?cutid={$cutid}&amp;bookid={$bookid}&amp;user={$user}" title="目录">目录</a> | <a href="mark.php?type=action&amp;action=add&amp;bookid={$bookid}&amp;chapterid={$chapterid}&amp;user={$user}" title="收藏">收藏</a> | <a href="down.php?bookid={$bookid}&amp;user={$user}" title="下载">下载</a><br/>
+{$chaptername}<br/>
+<a href="{$backurl}">[上一章]</a> <a href="{$nexturl}">[下一章]</a><br/>
+{$chaptercontent}<br/>
+<a href="{$backurl}">上章</a> | <a href="{$nexturl}">下章</a> | <a href="read.php?cutid={$cutid}&amp;bookid={$bookid}&amp;user={$user}" title="目录">目录</a><br/>
+{pt.gettpl.wap.footer}
+</p>
+</card>
+</wml>

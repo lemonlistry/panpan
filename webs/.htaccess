@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteRule ^(.*)sort_([0-9]+)_([0-9]+).html$ $1sort.php\?sortid=$2&page=$3 [L]
+RewriteRule ^(.*)over_([0-9]+).html$ $1over.php\?page=$2 [L]
+RewriteRule ^(.*)top_(.*)_([0-9]+).html$ $1top.php\?topid=$2&page=$3 [L]
+RewriteRule ^(.*)topover_(.*)_([0-9]+).html$ $1topover.php\?topid=$2&page=$3 [L]
+RewriteRule ^(.*)book_([0-9]+).html$ $1book.php\?bookid=$2 [L]
+RewriteRule ^(.*)down_(.*)_([0-9]+).html$ $1down.php\?bookid=$3&type=$2 [L]
+RewriteRule ^(.*)readend_([0-9]+).html$ $1readend.php?bookid=$2 [L]
+RewriteRule ^(.*)read_([0-9]+)_([0-9]+).html$ $1read.php\?cutid=$2&bookid=$3 [L]
+RewriteRule ^(.*)chapter_([0-9]+)_([0-9]+)_([0-9]+).html$ $1chapter.php?\cutid=$2&bookid=$3&chapterid=$4 [L]

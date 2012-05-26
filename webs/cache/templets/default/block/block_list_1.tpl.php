@@ -1,0 +1,1 @@
+<li><a href="<?php echo $pt_block_list[$i]['bookurl']?>" target="_blank"><?php echo $pt_block_list[$i]['bookname']?></a></li>

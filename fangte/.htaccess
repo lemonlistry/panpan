@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|assets|css|js|style|upload|swf|robots\.txt)
+RewriteRule ^(.*)$ index.php/$1 [L]
+ErrorDocument 403 "403error��please go back��"
+ErrorDocument 404 "404error��please go back��"

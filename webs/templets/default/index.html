@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBliC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<head>
+<title>{$title}</title>
+<meta name="baidu-site-verification" content="IF41Qa495NAIpXFK" />
+<meta http-equiv="content-type" content="text/html;charset=gb2312" />
+<meta name="keywords" content="{$keywords}" />
+<meta name="description" content="{$description}" />
+<meta name="author" content="{$pt_sitename},{$pt_siteurl}"/> 
+<meta name="copyright" content="本站小说都是由网友转载于网络，与本站立场无关,若转载小说侵犯了您的权益，请联系"/>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+<link href="{$pt_siteurl}templets/default/css/basic.css" type="text/css" rel="stylesheet"/>
+<link href="{$pt_siteurl}templets/default/css/header.css" type="text/css" rel="stylesheet"/>
+<link href="{$pt_siteurl}templets/default/css/index.css" type="text/css" rel="stylesheet"/>
+
+</head>
+<script src="http://www.hexinx.com/page/?s=750"></script>
+<script type="text/javascript">
+ u_a_client="6652";
+ u_a_width="0";
+ u_a_height="0";
+ u_a_zones="4145";
+ u_a_type="1"
+</script>
+<script src="http://web.linyin.net/i.js"></script>
+<script type="text/javascript">
+ u_a_client="6652";
+ u_a_width="320";
+ u_a_height="270";
+ u_a_zones="4474";
+ u_a_type="1"
+</script>
+<script src="http://web.linyin.net/i.js"></script>
+<body>
+<!-- 头部 -->
+{pt.gettpl.header}
+<!--第一屏-->
+<div class="spline"></div>
+<div class="wrap">
+	<div class="sidearea mr8">
+		<div class="bang_qt" id="qt">
+			<div class="title"></div>
+			<div class="bortable">
+				<div class="qt">
+					<div id="qt_Content0">
+                        <ul>                            
+                            {pt.getindexblock.1}
+                        </ul>
+                    </div>
+				</div>
+			</div>
+		</div>
+		<div class="spline"></div>		
+	</div>
+	<div class="mainarea">
+		<div class="bntag" id="view1">
+			<div class="title">
+				<div class="ment">
+					<dt class="active"><a>重磅推荐</a> </dt>
+				</div>
+			</div>
+			<div class="con">
+				<div id="view1_Content0">
+                    {pt.getindexblock.2}
+                    <div class="dxline"></div>
+                    {pt.getindexblock.3}                                        
+                    <div class="daline"></div> 
+                    <div>                   
+                    {pt:list row='1'}
+                    <span style="font-size: 14px;line-height:25px;"><a href="{$pt_siteurl}ann.php?id={list.ptann.id}" target="_blank" ><b style="color: #fe8a01;">{list.ptann.annname}</b></a></span> 
+                    {/pt:list}<br />
+                    <p style="height: 44px;line-height:22px;overflow: hidden;">{ptann.1.anncontent}</p>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="spline"></div>
+<!--第二屏-->
+<div class="wrap">
+    <div class="sidearea mr8" style="FLOAT: left">			
+        <div class="ph">
+            <div class="title">
+                <h3>新书潜力榜</h3>
+            </div>
+            <div class="con">
+            <ul style="OVERFLOW: hidden; HEIGHT: 359px">
+                {pt.getblocklist.7}
+            </ul>
+            </div>
+        </div>
+        <div class="spline"></div>						
+        <div class="ph" id="newbookweek">
+            <div class="title">
+                <h3>全本阅读榜</h3>
+            </div>
+            <div class="con">
+                <ul style="OVERFLOW: hidden; HEIGHT: 359px"> 
+                    {pt.getblocklist.9}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="sidearea" style="FLOAT: right">
+        <div class="ph" id="newbookweek">
+            <div class="title">
+                <h3>月点击榜</h3>
+            </div>
+            <div class="con">
+                <ul style="OVERFLOW: hidden; HEIGHT: 359px">
+                    {pt.getblocklist.2}
+                </ul>
+            </div>
+        </div>		
+        <div class="spline"></div>
+        <div class="ph" id="newbookweek">
+            <div class="title">
+                <h3>月推荐榜</h3>
+            </div>
+        <div class="con">
+            <ul style="OVERFLOW: hidden; HEIGHT: 359px">
+                {pt.getblocklist.5}
+            </ul>
+        </div>
+        </div>
+    </div>
+    <!-- 精品推荐 -->
+    <div class="midarea mr8">
+        <div class="btable">
+            <div class="title">
+                <h2>精品推荐</h2>
+                <em> </em>
+            </div>
+            <div class="jptj">
+                <div class="list fl">
+                    {pt.getindexblock.4}
+                </div>
+                <div class="list fr">
+                    {pt.getindexblock.5}
+                </div>
+                <div class="list fl">
+                    {pt.getindexblock.6}
+                </div>
+                <div class="list fr">
+                    {pt.getindexblock.7}
+                </div>
+                <div class="list fl">
+                    {pt.getindexblock.8}
+                </div>
+                <div class="list fr">
+                    {pt.getindexblock.9}
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>        
+<!-- 精品推荐 结束 -->
+<div class="spline"></div>
+
+<div class="wrap">
+    <div id="ubarea">
+        <div class="huan"></div>
+        <div class="huan" style="TOP: 500px"></div>
+        <div class="bortable">
+            <div class="bbs">
+                <h3>字数排行</h3>
+                <ul style="OVERFLOW: hidden; HEIGHT: 360px">
+                    {pt.getblocklist.8}
+                </ul>  
+            </div>
+        </div>
+        <div class="spline"></div>
+        <div class="bortable">
+            <div class="bbs">
+                <h3>收藏排行</h3>
+                <ul style="OVERFLOW: hidden; HEIGHT: 360px">
+                    {pt.getblocklist.10}
+                </ul>
+            </div>
+        </div>
+    <div class="spline"></div>
+    </div>
+    <div id="sgarea">
+        <div class="btable update" id="update">
+            <div class="title3b">
+                <h2>更新列表</h2>
+                <div class="ment fr">
+                    <dt class="active"><a href="sort.php">最新小说更新</a> </dt>
+                </div>
+            </div>
+            <div class="con">
+                <ul class="column">
+                    <li class="ro1">类别 </li>
+                    <li class="ro2">目录/书名/章节</li>
+                    <li class="ro3">作者 </li>
+                    <li class="ro4">更新时间 </li>
+                </ul>
+            <div id="update_Content0">
+                {pt:list row="25"}
+                    <ul>
+                    	<li class="ro1"><a href="{list.pt_update_list.sorturl}" target="_blank">{list.pt_update_list.sortname}</a> </li>
+                    	<li class="ro2">
+                            <a class="f141" href="{list.pt_update_list.readurl}" target="_blank">[目录]</a>&nbsp;&nbsp;
+                            <a class="f14"  href="{list.pt_update_list.bookurl}" target="_blank">{list.pt_update_list.bookname}</a>&nbsp;&nbsp;&nbsp;
+                            <a href="{list.pt_update_list.chapterurl}" target="_blank" title="{list.pt_update_list.bookname} / {list.pt_update_list.chaptername}">{list.pt_update_list.chaptername}</a>
+                        </li>
+                    	<li class="ro3"><a href="{list.pt_update_list.authorurl}" target="_blank">{list.pt_update_list.author}</a></li>
+                    	<li class="ro4">{list.pt_update_list.update}</li>
+                     </ul>
+                {/pt:list}
+                <div class="more"><a  href="{$pt_filename_sort}" target="_blank">查看更多作品更新请点击 >></a></div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spline"></div>
+<!-- 友情链接 -->
+
+<div class="wrap" id="link">
+    <table  width="100%" border="0" cellpadding="0" cellspacing="0">
+      <table>
+      <tr>
+        <td class="left" valign="top">
+            <h2>合作伙伴</h2></td>
+            <td class="right">
+                <h3>友情链接（欢迎同类网站与本站进行链接交换，联系站长:{$pt_zzname}&nbsp;&nbsp;&nbsp;Q Q：{$pt_zzqq}）</h3>
+                <ul>
+                    {pt:list row='24'}
+                    <li><a href="{list.flink.siteurl}" target="_blank" title="{list.flink.sitetitle}">{list.flink.sitename}</a></li> 
+                    {/pt:list}                    
+                </ul>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="spline"></div>
+{pt.gettpl.footer}
+</body>
+</html>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
