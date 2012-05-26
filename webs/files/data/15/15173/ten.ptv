@@ -1,72 +1,72 @@
 <?php
-$ten_list[1]['chapterid']=4444234;
-$ten_list[1]['chaptername']='第十五章';
-$ten_list[1]['update']='更新时间:2012-5-22 23:45:59
+$ten_list[1]['chapterid']=4459442;
+$ten_list[1]['chaptername']='第十八章';
+$ten_list[1]['update']='更新时间:2012-5-27 0:00:26
 ';
-$ten_list[1]['chapterurl']=$pt->getchapterurl('15','15173','4444234');
-$ten_list[1]['urltitle']='更新时间:2012-5-22 23:45:59
+$ten_list[1]['chapterurl']=$pt->getchapterurl('15','15173','4459442');
+$ten_list[1]['urltitle']='更新时间:2012-5-27 0:00:26
+更新字数:5745';
+$ten_list[2]['chapterid']=4459441;
+$ten_list[2]['chaptername']='第十七章';
+$ten_list[2]['update']='更新时间:2012-5-27 0:00:22
+';
+$ten_list[2]['chapterurl']=$pt->getchapterurl('15','15173','4459441');
+$ten_list[2]['urltitle']='更新时间:2012-5-27 0:00:22
+更新字数:5973';
+$ten_list[3]['chapterid']=4459440;
+$ten_list[3]['chaptername']='第十六章';
+$ten_list[3]['update']='更新时间:2012-5-27 0:00:17
+';
+$ten_list[3]['chapterurl']=$pt->getchapterurl('15','15173','4459440');
+$ten_list[3]['urltitle']='更新时间:2012-5-27 0:00:17
+更新字数:6888';
+$ten_list[4]['chapterid']=4444234;
+$ten_list[4]['chaptername']='第十五章';
+$ten_list[4]['update']='更新时间:2012-5-22 23:45:59
+';
+$ten_list[4]['chapterurl']=$pt->getchapterurl('15','15173','4444234');
+$ten_list[4]['urltitle']='更新时间:2012-5-22 23:45:59
 更新字数:6139';
-$ten_list[2]['chapterid']=4438479;
-$ten_list[2]['chaptername']='第十四章';
-$ten_list[2]['update']='更新时间:2012-5-22 7:48:52
+$ten_list[5]['chapterid']=4438479;
+$ten_list[5]['chaptername']='第十四章';
+$ten_list[5]['update']='更新时间:2012-5-22 7:48:52
 ';
-$ten_list[2]['chapterurl']=$pt->getchapterurl('15','15173','4438479');
-$ten_list[2]['urltitle']='更新时间:2012-5-22 7:48:52
+$ten_list[5]['chapterurl']=$pt->getchapterurl('15','15173','4438479');
+$ten_list[5]['urltitle']='更新时间:2012-5-22 7:48:52
 更新字数:6220';
-$ten_list[3]['chapterid']=4438478;
-$ten_list[3]['chaptername']='第十三章';
-$ten_list[3]['update']='更新时间:2012-5-22 7:48:50
+$ten_list[6]['chapterid']=4438478;
+$ten_list[6]['chaptername']='第十三章';
+$ten_list[6]['update']='更新时间:2012-5-22 7:48:50
 ';
-$ten_list[3]['chapterurl']=$pt->getchapterurl('15','15173','4438478');
-$ten_list[3]['urltitle']='更新时间:2012-5-22 7:48:50
+$ten_list[6]['chapterurl']=$pt->getchapterurl('15','15173','4438478');
+$ten_list[6]['urltitle']='更新时间:2012-5-22 7:48:50
 更新字数:6516';
-$ten_list[4]['chapterid']=4431462;
-$ten_list[4]['chaptername']='第十二章';
-$ten_list[4]['update']='更新时间:2012-5-19 23:59:29
+$ten_list[7]['chapterid']=4431462;
+$ten_list[7]['chaptername']='第十二章';
+$ten_list[7]['update']='更新时间:2012-5-19 23:59:29
 ';
-$ten_list[4]['chapterurl']=$pt->getchapterurl('15','15173','4431462');
-$ten_list[4]['urltitle']='更新时间:2012-5-19 23:59:29
+$ten_list[7]['chapterurl']=$pt->getchapterurl('15','15173','4431462');
+$ten_list[7]['urltitle']='更新时间:2012-5-19 23:59:29
 更新字数:6242';
-$ten_list[5]['chapterid']=4431461;
-$ten_list[5]['chaptername']='第十一章';
-$ten_list[5]['update']='更新时间:2012-5-19 23:59:27
+$ten_list[8]['chapterid']=4431461;
+$ten_list[8]['chaptername']='第十一章';
+$ten_list[8]['update']='更新时间:2012-5-19 23:59:27
 ';
-$ten_list[5]['chapterurl']=$pt->getchapterurl('15','15173','4431461');
-$ten_list[5]['urltitle']='更新时间:2012-5-19 23:59:27
+$ten_list[8]['chapterurl']=$pt->getchapterurl('15','15173','4431461');
+$ten_list[8]['urltitle']='更新时间:2012-5-19 23:59:27
 更新字数:5917';
-$ten_list[6]['chapterid']=4431460;
-$ten_list[6]['chaptername']='第十章';
-$ten_list[6]['update']='更新时间:2012-5-19 23:59:24
+$ten_list[9]['chapterid']=4431460;
+$ten_list[9]['chaptername']='第十章';
+$ten_list[9]['update']='更新时间:2012-5-19 23:59:24
 ';
-$ten_list[6]['chapterurl']=$pt->getchapterurl('15','15173','4431460');
-$ten_list[6]['urltitle']='更新时间:2012-5-19 23:59:24
+$ten_list[9]['chapterurl']=$pt->getchapterurl('15','15173','4431460');
+$ten_list[9]['urltitle']='更新时间:2012-5-19 23:59:24
 更新字数:6495';
-$ten_list[7]['chapterid']=4431459;
-$ten_list[7]['chaptername']='第九章';
-$ten_list[7]['update']='更新时间:2012-5-19 23:59:23
+$ten_list[10]['chapterid']=4431459;
+$ten_list[10]['chaptername']='第九章';
+$ten_list[10]['update']='更新时间:2012-5-19 23:59:23
 ';
-$ten_list[7]['chapterurl']=$pt->getchapterurl('15','15173','4431459');
-$ten_list[7]['urltitle']='更新时间:2012-5-19 23:59:23
+$ten_list[10]['chapterurl']=$pt->getchapterurl('15','15173','4431459');
+$ten_list[10]['urltitle']='更新时间:2012-5-19 23:59:23
 更新字数:6022';
-$ten_list[8]['chapterid']=4431458;
-$ten_list[8]['chaptername']='第八章';
-$ten_list[8]['update']='更新时间:2012-5-19 23:59:22
-';
-$ten_list[8]['chapterurl']=$pt->getchapterurl('15','15173','4431458');
-$ten_list[8]['urltitle']='更新时间:2012-5-19 23:59:22
-更新字数:6969';
-$ten_list[9]['chapterid']=4431457;
-$ten_list[9]['chaptername']='第七章';
-$ten_list[9]['update']='更新时间:2012-5-19 23:59:19
-';
-$ten_list[9]['chapterurl']=$pt->getchapterurl('15','15173','4431457');
-$ten_list[9]['urltitle']='更新时间:2012-5-19 23:59:19
-更新字数:6133';
-$ten_list[10]['chapterid']=4431456;
-$ten_list[10]['chaptername']='第六章';
-$ten_list[10]['update']='更新时间:2012-5-19 23:59:17
-';
-$ten_list[10]['chapterurl']=$pt->getchapterurl('15','15173','4431456');
-$ten_list[10]['urltitle']='更新时间:2012-5-19 23:59:17
-更新字数:6002';
 ?>
