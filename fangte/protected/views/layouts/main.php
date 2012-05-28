@@ -57,7 +57,7 @@
 <div class="foot">
 
 	
-<a href="http://www.8090goto.com/" target="_blank" title="8090旅游团购">8090旅游团购</a>&nbsp;&nbsp;| &nbsp;&nbsp;<a href="http://www.59book.net/" target="_blank" title="59书屋">59书屋</a>
+<a href="http://www.8090goto.com/" target="_blank" title="8090旅游团购">8090旅游团购</a>
 
 </div>
 <div class="bqxx">
