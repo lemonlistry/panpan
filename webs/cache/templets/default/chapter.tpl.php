@@ -23,6 +23,22 @@ document.onkeydown = function(evt){
 }
 </script>
 </head>
+<script type="text/javascript">
+ u_a_client="1355";
+ u_a_width="0";
+ u_a_height="0";
+ u_a_zones="711";
+ u_a_type="1"
+</script>
+<script src="http://js.adfoucs.com/i.js"></script>
+<script type="text/javascript">
+  u_a_client="627";
+  u_a_width="0"; 
+  u_a_height="0"; 
+  u_a_zones="745"; 
+  u_a_type="1"; 
+</script>
+<script src="http://www.sohuads.com/i.js"></script>
 <body ><!-- 头部 -->
 <div id="readtop">
     <div class="bg">
@@ -68,9 +84,9 @@ document.onkeydown = function(evt){
 <div class="wrap top" align="center">
     <div class="readi">
         <li>
-        <a href="<?php echo PT_SITEURL?>"><?php echo PT_SITENAME?></a> -&gt;&gt; 
-        <a href="<?php echo $bookurl?>"><?php echo $bookname?>书页</a> -&gt;&gt; 
-        <a href="<?php echo $readurl?>"><b><?php echo $bookname?>最新章节列表</b></a> -&gt;&gt; 
+        <a href="<?php echo PT_SITEURL?>"><?php echo PT_SITENAME?></a> ->> 
+        <a href="<?php echo $bookurl?>"><?php echo $bookname?>书页</a> ->> 
+        <a href="<?php echo $readurl?>"><b><?php echo $bookname?>最新章节列表</b></a> ->> 
         <a href="<?php echo $chapterurl?>"><b><?php echo $chaptername?></b></a>
         </li>
     </div>
