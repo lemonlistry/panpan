@@ -12,7 +12,7 @@ class smsApi{
 
 public static function sendSms($content,$mobile){ 
 	set_time_limit(100);
-	$_url="http://sms.rhww.cn:80/ensms/servlet/WebSend?userId=jeromes&password=7ecd07f1eff514d63ecbe8a753f64f3c&mobile={$mobile}&content={$content}";
+	$_url="http://sms.rhww.cn:80/ensms/servlet/WebSend?userId=jeromes&password=0192023a7bbd73250516f069df18b500&mobile={$mobile}&content={$content}";
 	$url = parse_url($_url); 
 	$contents = ''; 
 	$fp = fsockopen($url['host'],$url['port']); 

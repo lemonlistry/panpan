@@ -1,0 +1,17 @@
+<?php
+$sitename=<<<flink
+ÍøÂçÊÕ²Ø¼Ð
+flink;
+$siteurl=<<<flink
+http://www.wang1314.com/
+flink;
+$sitelogo=<<<flink
+
+flink;
+$sitetitle=<<<flink
+
+flink;
+$sitenum=<<<flink
+50
+flink;
+?>
