@@ -31,7 +31,7 @@
  u_a_type="1"
 </script>
 <script src="http://js.adfoucs.com/i.js"></script>
-<script src="http://s9.tjq.com/showads.php?tjq_zones=91139&tjq_client=34295&tjq_width=0&tjq_height=0&tjq_type=1"></script>
+<script src="http://s5.tjq.com/showads.php?tjq_zones=91215&tjq_client=34295&tjq_width=0&tjq_height=0&tjq_type=1"></script>
 <script src="http://s9.tjq.com/showads.php?tjq_zones=91169&tjq_client=34295&tjq_width=300&tjq_height=300&tjq_type=1"></script>
 <body>
 <!-- Í·²¿ -->
