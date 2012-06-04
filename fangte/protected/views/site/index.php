@@ -85,7 +85,7 @@
                 	<ul>
                             <?php foreach($new_list as $val){?>
                                 <li><a href="<?php echo $this->createUrl('product/newsview/id/'.$val['news_id'])?>" title="<?php echo $val['news_name'];?>">
-                                    <?php echo $val['news_name'];?></a><span><?php echo date('Y-m-d',$val['news_addtime']);?></span></li>
+                                    <?php echo mb_substr($val['news_name'],0,'18','UTF-8');?></a><span><?php echo date('Y-m-d',$val['news_addtime']);?></span></li>
                                 <?php }?>
                     </ul>
                 </div>
@@ -99,7 +99,7 @@
                     	 
                                <?php foreach($gonglue as $val){?>
                                 <li><a href="<?php echo $this->createUrl('product/newsview/id/'.$val['news_id'])?>" title="<?php echo $val['news_name'];?>">
-                                    <?php echo $val['news_name'];?></a><span><?php echo date('Y-m-d',$val['news_addtime']);?></span></li>
+                                    <?php echo mb_substr($val['news_name'],0,'18','UTF-8');?></a><span><?php echo date('Y-m-d',$val['news_addtime']);?></span></li>
                                 <?php }?>
                     </ul>
                 </div>

@@ -73,6 +73,15 @@ class SiteController extends Controller
 			$this->description = '株洲方特欢乐世界是一个国际一流的第四代主题公园，提供株洲方特欢乐世界门票预订，株洲方特游乐园包含游玩项目、休闲娱乐及景观项目200多项，株洲方特欢乐世界欢迎您！';
             $this->render('about');
         }
+	
+	//交通路线
+	public function actionRoute()
+	{
+		$this->pageTitle = '株洲方特欢乐世界-联系我们';
+			$this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特欢乐世界门票预订';
+			$this->description = '株洲方特欢乐世界是一个国际一流的第四代主题公园，提供株洲方特欢乐世界门票预订，株洲方特游乐园包含游玩项目、休闲娱乐及景观项目200多项，株洲方特欢乐世界欢迎您！';
+            $this->render('luxian');
+	}
 	/**
 	 * This is the action to handle external exceptions.
 	 */

@@ -12,15 +12,34 @@
 	<link rel="stylesheet" type="text/css" href="<?echo Yii::app()->request->baseUrl?>/css/common.css" />
 </head>
 <body>
+<script>
+function addfavorite()
+{
+if (document.all)
+   {
+      window.external.addFavorite('http://fangte.8090goto.com','株洲方特欢乐世界');
+   }
+   else if (window.sidebar)
+   {
+      window.sidebar.addPanel('株洲方特欢乐世界', 'http://fangte.8090goto.com', "");
+   }
+}
+function index()
+{
+var strHref=window.location.href;
+this.style.behavior='url(#default#homepage)';
+this.setHomePage('http://fangte.8090goto.com');
+}
 
+</script>
 <div class="top">
 	
 	<div class="top_main">
     <div class="logo"><a href="<?php echo $this->createUrl('site/index')?>" title="株洲方特欢乐世界"><img src="<?echo Yii::app()->request->baseUrl?>/images/logo.gif" width="197" height="139" /></a></div>
     	<div class="top_main_1">
         <span class="top_main_1_3">0731-28827739</span>
-        <span class="top_main_1_2"><a target=_top href="javascript:window.external.addFavorite('http://fangte.8090goto.com/','株洲方特欢乐世界');">加入收藏</a></span>
-         <span class="top_main_1_1"><a  href='javascript:void(0)' onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://fangte.8090goto.com/');">设为首页</a></span>
+        <span class="top_main_1_2"><a target=_top href="javascript:void(0)" onclick="addfavorite()">加入收藏</a></span>
+         <span class="top_main_1_1"><a  href='javascript:void(0)' onclick="index()">设为首页</a></span>
         </div>
         <div class="top_main_2">
         	<ul>
@@ -58,7 +77,7 @@
 
 	
 <a href="http://www.8090goto.com/" target="_blank" title="8090旅游团购">8090旅游团购</a>
-
+<a href="http://www.lyygo.com/" target="_blank" title="旅途一家">旅途一家</a>
 </div>
 <div class="bqxx">
 &copy; Copyright 2010-2012 株洲方特欢乐世界 All rights reserved 版权所有，网站预订系统由8090旅游团购网提供技术支持<br/>

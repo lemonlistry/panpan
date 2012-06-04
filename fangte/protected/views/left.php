@@ -11,7 +11,7 @@
 			
 			<li><a href="<?php echo $this->createUrl('site/about')?>" title="联系方式">联系方式</a></li>
 			
-			<li><a href="custom.asp?id=4" title="交通线路">交通线路</a></li>
+			<li><a href="<?php echo $this->createUrl('site/Route')?>" title="交通线路">交通线路</a></li>
 			
         </ul>
         </div>
@@ -31,6 +31,7 @@
         <div class="mid_left_title">
    	    	<h3><a href="<?php echo $this->createUrl('product/news');?>" title="株洲方特欢乐世界新闻" style="color:#FFFFFF;"><img src="<?php echo Yii::app()->request->baseUrl?>/images/left_3.jpg" width="203" height="92" /></a></h3>
         </div>
+	
         <div class="mid_left_cont">
         <ul>
         
@@ -41,9 +42,13 @@
                         <li><a href="<?php echo $this->createUrl('product/news/cid/3')?>" title="跟团线路">跟团线路</a></li>
         </ul>
         </div>
-        <div class="mid_left_wd_title">
-        	<h3><a href="" title="株洲方特欢乐世界精彩问答">精彩问答</a></h3>
+	<div class="mid_left_title">
+   	    	<h3><a href="http://www.8090goto.com/?view=147" title="预付款" style="color:#FFFFFF;" target='_blank'><img src="<?php echo Yii::app()->request->baseUrl?>/images/yufukuan.gif" width="203" height="92" /></a></h3>
         </div>
+        <div class="mid_left_wd_title">
+        	<h3><a href="<?php echo $this->createUrl('site/index');?>" title="株洲方特欢乐世界精彩问答">精彩问答</a></h3>
+        </div>
+	
         <div class="mid_left_wd_cont">
         	<ul>
             
