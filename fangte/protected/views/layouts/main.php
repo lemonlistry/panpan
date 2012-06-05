@@ -78,6 +78,7 @@ this.setHomePage('http://fangte.8090goto.com');
 	
 <a href="http://www.8090goto.com/" target="_blank" title="8090旅游团购">8090旅游团购</a>
 <a href="http://www.lyygo.com/" target="_blank" title="旅途一家">旅途一家</a>
+<a href="http://www.wang1314.com/" target=_blank><font color="#E6713D">网络收藏夹</font></a>
 </div>
 <div class="bqxx">
 &copy; Copyright 2010-2012 株洲方特欢乐世界 All rights reserved 版权所有，网站预订系统由8090旅游团购网提供技术支持<br/>
