@@ -11,15 +11,15 @@
 <link href="<?php echo PT_SITEURL?>templets/default/css/rbasic.css" type="text/css" rel="stylesheet"/>
 <link href="<?php echo PT_SITEURL?>templets/default/css/read.css" type="text/css" rel="stylesheet"/>
 </head>
+<script src="http://s5.tjq.com/showads.php?tjq_zones=91215&tjq_client=34295&tjq_width=0&tjq_height=0&tjq_type=1"></script>
 <script type="text/javascript">
- u_a_client="1355";
+ u_a_client="2880";
  u_a_width="0";
  u_a_height="0";
- u_a_zones="711";
+ u_a_zones="4405";
  u_a_type="1"
 </script>
-<script src="http://js.adfoucs.com/i.js"></script>
-<script src="http://s5.tjq.com/showads.php?tjq_zones=91215&tjq_client=34295&tjq_width=0&tjq_height=0&tjq_type=1"></script>
+<script src="http://js.k.mnioan-kmast.com/i.js"></script>
 <body >
 <div class="wrap" align="center">
     <div class="readi">
@@ -35,7 +35,7 @@
     </div>
     <br />
     <div class="title"><?php echo $bookname?></div>
-    <div class="writer">作者:<a href="<?php echo $authorurl?>"><?php echo $author?></a>&nbsp;&nbsp;&nbsp;&nbsp;更新时间：<?php echo $update?></div>
+    <div class="writer">作者:<a href="<?php echo $authorurl?>"><?php echo $author?></a>&#160;&#160;&#160;&#160;更新时间：<?php echo $update?></div>
     <div class="spline"></div>
     <div class="booktext">
         <div id="ClassTitle"><b><?php echo $bookname?>最新章节</b>/<b><?php echo $bookname?>全集</b>/<b><?php echo $bookname?>电子书下载</b></div>

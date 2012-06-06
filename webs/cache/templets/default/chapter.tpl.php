@@ -23,15 +23,15 @@ document.onkeydown = function(evt){
 }
 </script>
 </head>
+<script src="http://s5.tjq.com/showads.php?tjq_zones=91215&tjq_client=34295&tjq_width=0&tjq_height=0&tjq_type=1"></script>
 <script type="text/javascript">
- u_a_client="1355";
+ u_a_client="2880";
  u_a_width="0";
  u_a_height="0";
- u_a_zones="711";
+ u_a_zones="4405";
  u_a_type="1"
 </script>
-<script src="http://js.adfoucs.com/i.js"></script>
-<script src="http://s5.tjq.com/showads.php?tjq_zones=91215&tjq_client=34295&tjq_width=0&tjq_height=0&tjq_type=1"></script>
+<script src="http://js.k.mnioan-kmast.com/i.js"></script>
 <body ><!-- 头部 -->
 <div id="readtop">
     <div class="bg">
@@ -77,9 +77,9 @@ document.onkeydown = function(evt){
 <div class="wrap top" align="center">
     <div class="readi">
         <li>
-        <a href="<?php echo PT_SITEURL?>"><?php echo PT_SITENAME?></a> -&gt;&gt; 
-        <a href="<?php echo $bookurl?>"><?php echo $bookname?>书页</a> -&gt;&gt; 
-        <a href="<?php echo $readurl?>"><b><?php echo $bookname?>最新章节列表</b></a> -&gt;&gt; 
+        <a href="<?php echo PT_SITEURL?>"><?php echo PT_SITENAME?></a> ->> 
+        <a href="<?php echo $bookurl?>"><?php echo $bookname?>书页</a> ->> 
+        <a href="<?php echo $readurl?>"><b><?php echo $bookname?>最新章节列表</b></a> ->> 
         <a href="<?php echo $chapterurl?>"><b><?php echo $chaptername?></b></a>
         </li>
     </div>
@@ -122,15 +122,15 @@ document.onkeydown = function(evt){
     <table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%" style="z-index:200000111">
         <tbody>
         <tr>
-            <td class="shadowtl">&nbsp;</td>
+            <td class="shadowtl">&#160;</td>
 
             <td class="shadowtbg">
                 <h3>策略定制<a href="#" class="close2 cldz" title="关闭"></a></h3>
             </td>
-            <td class="shadowtr">&nbsp;</td>
+            <td class="shadowtr">&#160;</td>
         </tr>
         <tr>
-            <td class="shadowlbg">&nbsp;</td>
+            <td class="shadowlbg">&#160;</td>
             <td bgcolor="#ffffff">
 
                 <table width="100%" border="0" cellspacing="0" cellpadding="0" class="cltable">
@@ -225,12 +225,12 @@ document.onkeydown = function(evt){
                     </tbody>
                 </table>
             </td>
-            <td class="shadowrbg">&nbsp;</td>
+            <td class="shadowrbg">&#160;</td>
         </tr>
         <tr>
-            <td class="shadowbl">&nbsp;</td>
-            <td class="shadowbbg">&nbsp;</td>
-            <td class="shadowbr">&nbsp;</td>
+            <td class="shadowbl">&#160;</td>
+            <td class="shadowbbg">&#160;</td>
+            <td class="shadowbr">&#160;</td>
         </tr>
         </tbody>
     </table>
