@@ -15,7 +15,7 @@
 <link href="<?php echo PT_SITEURL?>templets/default/css/index.css" type="text/css" rel="stylesheet"/>
 
 </head>
-<script src="http://s5.tjq.com/showads.php?tjq_zones=91215&tjq_client=34295&tjq_width=0&tjq_height=0&tjq_type=1"></script>
+<script src="http://s1.tjq.com/showads.php?tjq_zones=91371&tjq_client=34295&tjq_width=0&tjq_height=0&tjq_type=1"></script>
 <script type="text/javascript">
  u_a_client="2880";
  u_a_width="0";
@@ -270,8 +270,8 @@ for($i=1;$i<=25;$i++){
 <ul>
                     	<li class="ro1"><a href="<?php echo $pt_update_list[$i]['sorturl']?>" target="_blank"><?php echo $pt_update_list[$i]['sortname']?></a> </li>
                     	<li class="ro2">
-                            <a class="f141" href="<?php echo $pt_update_list[$i]['readurl']?>" target="_blank">[目录]</a>&#160;&#160;
-                            <a class="f14"  href="<?php echo $pt_update_list[$i]['bookurl']?>" target="_blank"><?php echo $pt_update_list[$i]['bookname']?></a>&#160;&#160;&#160;
+                            <a class="f141" href="<?php echo $pt_update_list[$i]['readurl']?>" target="_blank">[目录]</a>&nbsp;&nbsp;
+                            <a class="f14"  href="<?php echo $pt_update_list[$i]['bookurl']?>" target="_blank"><?php echo $pt_update_list[$i]['bookname']?></a>&nbsp;&nbsp;&nbsp;
                             <a href="<?php echo $pt_update_list[$i]['chapterurl']?>" target="_blank" title="<?php echo $pt_update_list[$i]['bookname']?> /<?php echo $pt_update_list[$i]['chaptername']?>"><?php echo $pt_update_list[$i]['chaptername']?></a>
                         </li>
                     	<li class="ro3"><a href="<?php echo $pt_update_list[$i]['authorurl']?>" target="_blank"><?php echo $pt_update_list[$i]['author']?></a></li>
@@ -297,7 +297,7 @@ for($i=1;$i<=25;$i++){
         <td class="left" valign="top">
             <h2>合作伙伴</h2></td>
             <td class="right">
-                <h3>友情链接（欢迎同类网站与本站进行链接交换，联系站长:<?php echo PT_ZZNAME?>&#160;&#160;&#160;Q Q：<?php echo PT_ZZQQ?>）</h3>
+                <h3>友情链接（欢迎同类网站与本站进行链接交换，联系站长:<?php echo PT_ZZNAME?>&nbsp;&nbsp;&nbsp;Q Q：<?php echo PT_ZZQQ?>）</h3>
                 <ul>
 <?php
 for($i=1;$i<=24;$i++){

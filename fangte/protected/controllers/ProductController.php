@@ -88,7 +88,7 @@ class ProductController extends CController{
          $class = Yii::app()->db->createCommand("SELECT * FROM news_class WHERE class_id=:class_id")->queryRow(true,array(':class_id'=>$id));
          if(empty ($class)){echo "<script>alert('".  json_encode('数据错误')."');history.go(-1);</script>";exit;}
          $sql = "SELECT news_id,news_name,news_addtime FROM news WHERE news_class_id = ".$id." ORDER BY news_addtime desc";
-         $result = pages::init($sql);
+         $result = pages::init($sql,20);
 		 $this->pageTitle = '株洲方特欢乐世界-新闻资讯';
 		 $this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特欢乐世界门票预订';
 			$this->description = '株洲方特欢乐世界是一个国际一流的第四代主题公园，提供株洲方特欢乐世界门票预订，株洲方特游乐园包含游玩项目、休闲娱乐及景观项目200多项，株洲方特欢乐世界欢迎您！';
