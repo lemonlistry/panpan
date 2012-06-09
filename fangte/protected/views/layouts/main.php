@@ -77,9 +77,9 @@ this.setHomePage('http://fangte.8090goto.com');
 
 	
 <a href="http://www.8090goto.com/" target="_blank" title="8090旅游团购">8090旅游团购</a>
-<a href="http://www.lyygo.com/" target="_blank" title="旅途一家">旅途一家</a>
-<a href="http://www.wang1314.com/" target=_blank><font color="#E6713D">网络收藏夹</font></a>
-<a href="http://www.lysj66.com/" target="_blank" title="旅游世界网">旅游世界网</a>
+<!--<a href="http://www.lyygo.com/" target="_blank" title="旅途一家">旅途一家</a>-->
+<!--<a href="http://www.wang1314.com/" target=_blank><font color="#E6713D">网络收藏夹</font></a>-->
+<!--<a href="http://www.lysj66.com/" target="_blank" title="旅游世界网">旅游世界网</a>-->
 <a href="http://www.sanxiangxing.com/" target="_blank" title="三湘行旅游门户网">三湘行旅游门户网</a>
 </div>
 <div class="bqxx">
@@ -113,7 +113,7 @@ href="javascript:void(0);">收缩</A> </DIV>
         </LI>
         <LI><SPAN class=icoZx>在线咨询</SPAN> </LI>
         <LI><a target=blank href='tencent://message/?uin=783337189'><img border="0" src='http://wpa.qq.com/pa?p=1:783337189:41' alt="点击这里给我发消息" /></a></LI>
-        <LI><a target=blank href='tencent://message/?uin=1790039630'><img border="0" src='http://wpa.qq.com/pa?p=1:1790039630:41' alt="点击这里给我发消息" /></a></LI>
+        <LI><a target=blank href='tencent://message/?uin=295879762'><img border="0" src='http://wpa.qq.com/pa?p=1:295879762:41' alt="点击这里给我发消息" /></a></LI>
       </UL>
       <UL>
       <br/>
