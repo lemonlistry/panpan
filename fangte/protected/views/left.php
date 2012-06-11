@@ -1,3 +1,7 @@
+<?php
+   $wenda = Yii::app()->db->createCommand("SELECT news_id,news_name,news_addtime FROM news WHERE news_class_id=4 order by news_addtime  desc limit 0,5")->queryAll();
+?>
+
 <div class="mid_left">
     	<div class="mid_left_title">
     	  <img src="<?php echo Yii::app()->request->baseUrl?>/images/left_1.jpg" width="203" height="92" />
@@ -53,7 +57,10 @@
         	<ul>
             
 				
-    <li><a href="#" title="怎么坐公交到方特欢乐世界">怎么坐公交到方特欢乐世界</a></li>
+    <?php foreach($wenda as $val){?>
+                                <li><a href="<?php echo $this->createUrl('product/newsview/id/'.$val['news_id'])?>" title="<?php echo $val['news_name'];?>">
+                                    <?php echo mb_substr($val['news_name'],0,'14','UTF-8');?></a></li>
+                                <?php }?>
    
             </ul>
         </div>

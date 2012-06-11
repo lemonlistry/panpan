@@ -18,6 +18,9 @@
 			<dd>
                             <a href="<?= $this->createUrl('message/index')?>" target="mainFrame">留言列表</a>
 			</dd>
+			<dd>
+                            <a href="<?= $this->createUrl('message/comment')?>" target="mainFrame">评论列表</a>
+			</dd>
 		</dl>
 	</div>
 

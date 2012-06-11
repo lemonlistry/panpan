@@ -2,9 +2,8 @@
 /* CSS Document */
 
 * {margin: 0px;padding: 0px;}
-body{color: #000000;font-family: Arial,ËÎÌå,sans-serif;font-size:13px; margin:0 auto;}
+body{color: #000000;font-family: Arial,ï¿½ï¿½ï¿½ï¿½,sans-serif;font-size:13px; margin:0 auto;}
 ul, li {list-style: none outside none;}
-../images {border: medium none;}
 img{border:0px;}
 a {color: #000000;text-decoration: none;}
 a:hover {color: #BA2636;text-decoration: none;}
@@ -23,7 +22,7 @@ a:hover {color: #BA2636;text-decoration: none;}
 .top_main_2 ul li a{ font-size:14px; color:#FFF; font-weight:bold;padding-right:22px;}
 .top_main_2 ul li a:hover{ color:#F30;}
 .top_main_3{ width:980px; height:409px; margin-top:3px; background:url(../images/tu1.jpg) no-repeat;}
-.top_main_3 ../images{ padding-left:200px; padding-top:0px;}
+.top_main_3 img{ padding-left:200px; padding-top:0px;}
 .mid1{ width:980px; height:230px; background-color:#eee; background:url(../images/back.jpg) repeat; margin: 0 auto;}
 .mid1_left{ width:344px; height:214px; padding-left:16px;padding-top:16px; background:url(../images/mid1_back.gif) 10px 10px no-repeat; float:left;}
 .mid1_right{ width:620px; height:220px; padding-top:10px; float:right;}
@@ -61,7 +60,7 @@ a:hover {color: #BA2636;text-decoration: none;}
 .mid_r_1_top span a{color:#F16BD1;}
 .mid_r_1_cont{ width:710px; height:525px; padding-top:10px; display:block;}
 .mid_r_1_cont li{ width:200px; height:230px; padding:10px; float:left; background-color:#FFF; margin-left:5px; margin-right:5px; margin-bottom:10px;}
-.mid_r_1_cont li ../images{ width:200px; height:132px;}
+.mid_r_1_cont li img{ width:200px; height:132px;}
 .mid_r_1_cont li strong{width:100%; height:30px; line-height:30px; color:#006F7F; display:block; text-align:center; font-size:14px;}
 .mid_r_1_cont li strong a{color:#006F7F;}
 .mid_r_1_cont li strong a:hover{ color:#F00;}
@@ -69,7 +68,7 @@ a:hover {color: #BA2636;text-decoration: none;}
 .mid_r_1_cont li span a{color:#931573;}
 .mid_r_2_cont{ width:710px; height:170px;}
 .mid_r_2_cont li{ width:166px; height:144px; padding-top:10px; padding-bottom:10px; float:left; padding-left:5px; padding-right:5px;}
-.mid_r_2_cont li ../images{ width:166px; height:114px;}
+.mid_r_2_cont li img{ width:166px; height:114px;}
 .mid_r_2_cont li span{ width:166px; height:30px; font-size:14px; text-align:center; line-height:30px; display:block;}
 .mid_r_2_cont li span a{color:#006F7F; font-weight:bold;}
 .mid_r_2_cont li span a:hover{ color:#F60;}
@@ -116,10 +115,54 @@ a:hover {color: #BA2636;text-decoration: none;}
 
 .nr_products{width:698px; font-size:14px; display:table; line-height:25px; background-color:#FFF; padding:10px; margin-top:5px; display:table;}
 .nr_products li{ width:200px; height:230px; padding:5px; float:left; background-color: #eee; border:#CCC 1px solid; margin-left:8px; margin-right:8px; margin-bottom:10px;}
-.nr_products li ../images{ width:200px; height:132px;}
+.nr_products li img{ width:200px; height:132px;}
 .nr_products li strong{width:100%; height:30px; line-height:30px; color:#006F7F; display:block; text-align:center; font-size:14px;}
 .nr_products li strong a{color:#006F7F;}
 .nr_products li strong a:hover{ color:#F00;}
 .nr_products li span{ width:100%; line-height:20px; color:#999; display:block;}
 .nr_products li span a{color:#931573;}
-.nr_../images{ width:100%; text-align:center;}
+.nr_img{ width:100%; text-align:center;}
+.inactive {
+    background: url("../images/prod_tow.gif") no-repeat scroll 0 0 transparent;
+    line-height: 33px;
+    text-align: center;
+}
+.active {
+    background: url("../images/prod_one.gif") no-repeat scroll 0 0 transparent;
+    line-height: 33px;
+    text-align: center;
+}
+.rate {
+    line-height: 18px;
+    margin-bottom: 6px;
+    max-width: 360px;
+    overflow: hidden;
+    text-align: justify;
+    word-wrap: break-word;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.buyer {
+    border-bottom: 1px solid #E9E9E9;
+    width: 20.5%;
+}
+.show-rate-table {
+    border-top: 1px solid #E9E9E9;
+    table-layout: fixed;
+}
+.show-rate-table td.cmt {
+    border-bottom: 1px solid #E9E9E9;
+    width: 79.5%;
+}
+ .show-rate-table td {
+    padding: 17px 10px;
+    vertical-align: top;
+}
+ .show-rate-table .cmtInfo {
+    color: #999999;
+}
+.show-rate-table .date, #reviews .show-rate-table .actSku {
+    padding-right: 12px;
+}

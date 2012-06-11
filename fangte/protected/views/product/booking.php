@@ -69,6 +69,28 @@
                             },'json');
                             
                         }
+			function change(id)
+			{
+			    if(id=='1')
+			    {
+				$('#note').show();
+				$('#message').hide();
+				$('#active1').removeClass('active');
+				$('#active1').addClass('inactive');
+				$('#active2').removeClass('inactive');
+				$('#active2').addClass('active');
+			    }
+			    if(id=='2')
+			    {
+				$('#note').hide();
+				$('#message').show();
+				$('#active2').removeClass('active');
+				$('#active2').addClass('inactive');
+				$('#active1').removeClass('inactive');
+				$('#active1').addClass('active');
+			    }
+			}
+   
                     </script>
                         <table width="630px" border="1" cellpadding="0" cellspacing="0" bordercolor="#EBEBEB" bgcolor="#FFFFFF" style="text-align: center; line-height: 20px;">
                             <tr style="height: 30px;">
@@ -124,11 +146,64 @@
                       </table>
 						
 						<div class="conText">
-                    <b style="color: #F00;">订票须知【重要信息】</b> 
-					<?php echo $info['class_content'];?>
+						    <ul>
+			<li id="active1" class="inactive" onclick="change(1)" style="cursor: pointer;cursor:hand;float: left;height: 33px;width: 135px " onclick="_p_nav(1)">订票须知</li>
+			<li id="active2" class="active" onclick="change(2)" style="cursor: pointer;cursor:hand;float: left;height: 33px;width: 135px" onclick="_p_nav(2)">商品评论(<?php echo $pages->_itemCount;?>)</li>
+			</ul>
+						    <div style="clear: both"></div>
+                    <b style="color: #F00;"></b> 
+		    <div id="note"><?php echo $info['class_content'];?></div>
+		    <div id="message" style="display: none">
+                       <div id="all_bonus">
+
+			    <table class="show-rate-table" style="width: 100%;">
+				<tbody>
+                                    <?php foreach($comment as $val){?>
+				    <tr>
+					<td class="cmt">
+					    <p class="rate" style="text-align: left; max-width: 100%;"><?php echo $val['comment_content'];?></p>
+					    <p class="cmtInfo"><span class="date">[<?php if(date('Y-m-d',$val['add_time'])==date('Y-m-d',time())){echo '今天';}else{echo date('Y-m-d',$val['add_time']);}?>]</span><span class="actSku"><?php echo $val['comment_ticketclassname']?>【<?php echo $val['comment_tickname'];?>】</span></p>
+					</td>
+					<td class="buyer">
+					    <p><?php echo $val['comment_name'];?></p>
+					</td>
+				    </tr>
+                                    <?php }?>
+				</tbody>
+			    </table>
+        
+
+                              <div style="float: left;margin-left:35%;margin-bottom: 10px;margin-top: 10px;" align="center" id="bonus_page"><?php $this->widget('CLinkPager',array(
+                                'pages'=>$pages,
+                                'nextPageLabel'=>'下一页',
+                                'prevPageLabel'=>'上一页',
+                                 'lastPageLabel'=>'尾頁',
+                                'firstPageLabel'=>'首頁',
+                            ));?></div>
+                           </div>
+			    <table style="margin-left: 20px;">
+				<tr>
+				    <td>预定人：</td>
+				    <td><input type="text" name="comment_name" id="comment_name"></td>
+				</tr>
+				<tr>
+				    <td>信息：</td>
+				    <td><textarea id="comment_content" name="comment_content" rows="6" cols="60"></textarea></td>
+				</tr>
+				<tr>
+				    <td>验证码：</td>
+				    <td><input id="authcode_content" name="authcode_content" size="15"><img src="<?php echo $this->createUrl('product/Authcode');?>" onclick='captchaImage()' id="authcode" alt="换一张" width="80" height="18"  id="captchaImage"></td>
+				</tr>
+				<tr >
+				     <td></td>
+				    <td style="text-align: right;padding-right: 50%;"><input type="button" value="提交" id="comment_button"></td>
+				</tr>
+			    </table>
+		    </div>		
                 </div>
                     </div>
                 </div>
+        <input type="hidden" value="<?php echo $info['ticket_id'];?>" id="ticket_id">
 <!--联盟结束-->
     
     </div>

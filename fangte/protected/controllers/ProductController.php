@@ -16,6 +16,10 @@ class ProductController extends CController{
      public $pageTitle;
 	 public $keyword;
 	 public $description;
+	     //验证码
+    public function  actionAuthcode(){
+        Os::Authcode();
+    }
      //游玩项目
      public function actionIndex()
      {
@@ -169,9 +173,43 @@ class ProductController extends CController{
 		  $this->pageTitle = $ticket_info['class_name'].'门票预订';
 		  $this->keyword = $ticket_info['keyword'];
 		$this->description = $ticket_info['description'];;
-         $this->render('booking',array('info'=>$ticket_info));
+	 $comment_list = pages::init("SELECT comment_name,comment_content,add_time,comment_tickname,comment_ticketclassname from comment where comment_tickid=".$id ." and state=2 order by add_time desc");
+         $this->render('booking',array('info'=>$ticket_info,'pages'=>$comment_list['pages'],'comment'=>$comment_list['posts']));
+         //$this->render('booking',array('info'=>$ticket_info));
      }
      
+     //ajax评论分页
+     public function actionAjaxcomment()
+     {
+         $this->layout = false;
+         $id = isset ($_REQUEST['id']) ? $_REQUEST['id'] : '';
+         $comment_list = pages::init("SELECT comment_name,comment_content,add_time,comment_tickname,comment_ticketclassname from comment where comment_tickid=".$id ." and state=2 order by add_time desc");
+         $this->render('comment',array('pages'=>$comment_list['pages'],'comment'=>$comment_list['posts']));
+         
+     }
+     
+     //添加评论
+     public function actionAddcomment()
+     {
+	 $id = $_REQUEST['id'];
+	 $comment_name = $_REQUEST['comment_name'];
+	 $comment_content = $_REQUEST['comment_content'];
+	 $authcode_content = $_REQUEST['authcode_content'];
+	 $addtime = time();
+	 if(Yii::app()->user->authcode!=$authcode_content){echo json_encode(array('error'=>true,'message'=>"验证码错误，请重新输入"));exit;}
+	
+	 if(!is_numeric($id)) { echo json_encode(array('error'=>true,'message'=>"数据错误"));exit;}
+	 
+	 $row = Yii::app()->db->createCommand("SELECT ticket_name,class_name FROM ticket as a inner join ticket_class as s on a.ticket_class_id=s.class_id WHERE a.ticket_id=".$id)->queryRow();
+	  
+	 if(empty($id) || empty($comment_content) || empty($comment_name) || empty($authcode_content) || empty($row))
+	 {
+	      echo json_encode(array('error'=>true,'message'=>"数据错误"));exit;
+	 }
+	 Yii::app()->db->createCommand("INSERT INTO comment(comment_name,comment_content,comment_ticketclassname,comment_tickname,comment_tickid,add_time) VALUES(:comment_name,:comment_content,:comment_ticketclassname,:comment_tickname,:comment_tickid,:add_time)")->execute(
+		 array(':comment_name'=>$comment_name,':comment_content'=>$comment_content,':comment_ticketclassname'=>$row['class_name'],':comment_tickname'=>$row['ticket_name'],':comment_tickid'=>$id,':add_time'=>$addtime));
+	 echo json_encode(array('error'=>false,'message'=>"您的评论已成功，可能需要2-3小时才能生效"));exit;
+     }
      public function actionBook()
      {
          $username = isset ($_REQUEST['username']) ? trim($_REQUEST['username']) : '';
