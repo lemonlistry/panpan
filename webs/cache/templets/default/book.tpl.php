@@ -32,13 +32,13 @@
 </script>
 <script src="http://js.k.mnioan-kmast.com/i.js"></script>
 <script type="text/javascript">
- u_a_client="1355";
- u_a_width="0";
- u_a_height="0";
- u_a_zones="711";
- u_a_type="1"
+  u_a_client="799";
+  u_a_width="0"; 
+  u_a_height="0"; 
+  u_a_zones="1252"; 
+  u_a_type="1"; 
 </script>
-<script src="http://js.adfoucs.com/i.js"></script>
+<script src="http://www.595ad.com/i.js"></script>
 <body>
 <!-- Í·²¿ -->
 <div id="header">
