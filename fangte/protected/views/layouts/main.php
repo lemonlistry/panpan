@@ -97,7 +97,7 @@ this.setHomePage('http://fangte.8090goto.com');
             $('.date-pick').datePicker({ clickInput: true });
         });
     </script>
-<DIV id=floatTools class=float0831>
+<DIV id=floatTools class=float0831 style="float: left">
   <DIV class=floatL><A style="DISPLAY: none" id=aFloatTools_Show class=btnOpen 
 title=查看在线客服 
 onclick="javascript:$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.istudy.com.cn'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');" 
@@ -124,6 +124,13 @@ href="javascript:void(0);">收缩</A> </DIV>
     </DIV>
   </DIV>
 </DIV>
+<!-- Baidu Button BEGIN -->
+<script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=2&amp;pos=left&amp;uid=740091" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+	document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+</script>
+<!-- Baidu Button END -->
 </body>
   
 </html>
