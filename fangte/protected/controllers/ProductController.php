@@ -26,7 +26,7 @@ class ProductController extends CController{
          $sql = "SELECT pay_name,pay_id,pay_image,pay_content,pay_remark FROM playproject";
          $result = pages::init($sql);
 		 $this->pageTitle = '株洲方特欢乐世界-游玩项目';
-		 $this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特世界门票预订';
+		 $this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特世界门票预订,株洲方特门票,株洲方特一日游';
 		 $this->description = '株洲方特欢乐世界是一个国际一流的第四代主题公园，提供株洲方特欢乐世界门票预订，株洲方特游乐园包含游玩项目、休闲娱乐及景观项目200多项，株洲方特欢乐世界欢迎您！';
          $this->render('index',array('post'=>$result['posts'],'pages'=>$result['pages']));
      }
@@ -35,7 +35,7 @@ class ProductController extends CController{
      public function actionOther()
      {
 		 $this->pageTitle = '株洲方特欢乐世界-周边景点';
-		 $this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特世界门票预订';
+		 $this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特世界门票预订,株洲方特门票,株洲方特一日游';
 		 $this->description = '株洲方特欢乐世界是一个国际一流的第四代主题公园，提供株洲方特欢乐世界门票预订，株洲方特游乐园包含游玩项目、休闲娱乐及景观项目200多项，株洲方特欢乐世界欢迎您！';
          $sql ="SELECT other_id,other_name,other_image,other_content,other_remark FROM otherscenic";
          $result = pages::init($sql);
@@ -46,7 +46,7 @@ class ProductController extends CController{
      public function actionMessage()
      {
 		 $this->pageTitle = '株洲方特欢乐世界-留言中心';
-		 $this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特世界门票预订';
+		 $this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特世界门票预订,株洲方特门票,株洲方特一日游';
 			$this->description = '株洲方特欢乐世界是一个国际一流的第四代主题公园，提供株洲方特欢乐世界门票预订，株洲方特游乐园包含游玩项目、休闲娱乐及景观项目200多项，株洲方特欢乐世界欢迎您！';
          $this->render('message');
      }
@@ -63,7 +63,7 @@ class ProductController extends CController{
              $tickte_list[] = array($val['class_name'],$list);
          }
 		 $this->pageTitle = '株洲方特欢乐世界-门票预订';
-		 $this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特世界门票预订';
+		 $this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特世界门票预订,株洲方特门票,株洲方特一日游';
 			$this->description = '株洲方特欢乐世界是一个国际一流的第四代主题公园，提供株洲方特欢乐世界门票预订，株洲方特游乐园包含游玩项目、休闲娱乐及景观项目200多项，株洲方特欢乐世界欢迎您！';
          $this->render('ticket',array('list'=>$tickte_list));
      }
@@ -94,7 +94,7 @@ class ProductController extends CController{
          $sql = "SELECT news_id,news_name,news_addtime FROM news WHERE news_class_id = ".$id." ORDER BY news_addtime desc";
          $result = pages::init($sql,20);
 		 $this->pageTitle = '株洲方特欢乐世界-新闻资讯';
-		 $this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特欢乐世界门票预订';
+		 $this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特欢乐世界门票预订,株洲方特门票,株洲方特一日游';
 			$this->description = '株洲方特欢乐世界是一个国际一流的第四代主题公园，提供株洲方特欢乐世界门票预订，株洲方特游乐园包含游玩项目、休闲娱乐及景观项目200多项，株洲方特欢乐世界欢迎您！';
          $this->render('news',array('post'=>$result['posts'],'pages'=>$result['pages']));
      }
@@ -115,7 +115,7 @@ class ProductController extends CController{
          $next_id = Yii::app()->db->createCommand("SELECT news_id,news_name FROM news WHERE news_id>:id AND news_class_id=:class_id order by news_id limit 0,1")->queryRow(true,array(':id'=>$id,':class_id'=>$info['news_class_id']));
          Yii::app()->db->createCommand("UPDATE news SET news_click=news_click+1 WHERE news_id=:news_id")->execute(array(':news_id'=>$id));
 	 $this->pageTitle = '株洲方特欢乐世界-新闻资讯-'.$info['news_name'];
-		 $this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特欢乐世界门票预订';
+		 $this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特欢乐世界门票预订,株洲方特门票,株洲方特一日游';
 			$this->description = '株洲方特欢乐世界是一个国际一流的第四代主题公园，提供株洲方特欢乐世界门票预订，株洲方特游乐园包含游玩项目、休闲娱乐及景观项目200多项，株洲方特欢乐世界欢迎您！';
          $this->render('news_view',array('info'=>$info,'before'=>$befor_id,'next'=>$next_id));
      }

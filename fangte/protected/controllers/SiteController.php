@@ -42,7 +42,7 @@ class SiteController extends Controller
             //旅游攻略
             $gonglue = Yii::app()->db->createCommand("SELECT news_id,news_name,news_addtime FROM news WHERE news_class_id=2 order by news_addtime desc limit 0,5")->queryAll();
 			$this->pageTitle = '株洲方特欢乐世界-株洲方特欢乐世界门票预订';
-			$this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特欢乐世界门票预订';
+			$this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特欢乐世界门票预订,株洲方特门票,株洲方特一日游';
 			$this->description = '株洲方特欢乐世界是一个国际一流的第四代主题公园，提供株洲方特欢乐世界门票预订，株洲方特游乐园包含游玩项目、休闲娱乐及景观项目200多项，株洲方特欢乐世界欢迎您！';
             $this->render('index',array('tick_list'=>$tick_list,'pay_list'=>$pay_list,'other'=>$other,'new_list'=>$new_list,'gonglue'=>$gonglue));
 	}
@@ -51,7 +51,7 @@ class SiteController extends Controller
         public function actionCustom()
         {
 			$this->pageTitle = '株洲方特欢乐世界-简介';
-			$this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特欢乐世界门票预订';
+			$this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特欢乐世界门票预订,株洲方特门票,株洲方特一日游';
 			$this->description = '株洲方特欢乐世界是一个国际一流的第四代主题公园，提供株洲方特欢乐世界门票预订，株洲方特游乐园包含游玩项目、休闲娱乐及景观项目200多项，株洲方特欢乐世界欢迎您！';
             $this->render('custom');
         }
@@ -60,7 +60,7 @@ class SiteController extends Controller
         public function actionNotes()
         {
 			$this->pageTitle = '株洲方特欢乐世界-游玩须知';
-			$this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特欢乐世界门票预订';
+			$this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特欢乐世界门票预订,株洲方特门票,株洲方特一日游';
 			$this->description = '株洲方特欢乐世界是一个国际一流的第四代主题公园，提供株洲方特欢乐世界门票预订，株洲方特游乐园包含游玩项目、休闲娱乐及景观项目200多项，株洲方特欢乐世界欢迎您！';
             $this->render('notes');
         }
@@ -69,7 +69,7 @@ class SiteController extends Controller
         public function actionAbout()
         {
 			$this->pageTitle = '株洲方特欢乐世界-联系我们';
-			$this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特欢乐世界门票预订';
+			$this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特欢乐世界门票预订,株洲方特门票,株洲方特一日游';
 			$this->description = '株洲方特欢乐世界是一个国际一流的第四代主题公园，提供株洲方特欢乐世界门票预订，株洲方特游乐园包含游玩项目、休闲娱乐及景观项目200多项，株洲方特欢乐世界欢迎您！';
             $this->render('about');
         }
@@ -78,7 +78,7 @@ class SiteController extends Controller
 	public function actionRoute()
 	{
 		$this->pageTitle = '株洲方特欢乐世界-联系我们';
-			$this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特欢乐世界门票预订';
+			$this->keyword = '株洲方特,株洲方特欢乐世界,株洲方特欢乐世界门票,株洲方特游乐园,株洲方特欢乐世界门票预订,株洲方特门票,株洲方特一日游';
 			$this->description = '株洲方特欢乐世界是一个国际一流的第四代主题公园，提供株洲方特欢乐世界门票预订，株洲方特游乐园包含游玩项目、休闲娱乐及景观项目200多项，株洲方特欢乐世界欢迎您！';
             $this->render('luxian');
 	}
