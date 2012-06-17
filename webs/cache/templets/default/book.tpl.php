@@ -39,14 +39,6 @@
  u_a_type="1"
 </script>
 <script src="http://js.adfoucs.com/i.js"></script>
-<script type="text/javascript">
-  u_a_client="799";
-  u_a_width="0"; 
-  u_a_height="0"; 
-  u_a_zones="1252"; 
-  u_a_type="1"; 
-</script>
-<script src="http://www.595ad.com/i.js"></script>
 <body>
 <!-- 头部 -->
 <div id="header">
@@ -202,10 +194,10 @@ if($isover=='1'){
 								<h3>电子书高速下载通道： </h3>
                                 <div id="box4">               
 									<ul>
-										<li id="bt_1"><a href="<?php echo $txtdownurl?>" target="_blank">&#160;&#160;TXT&#160;下载</a></li> 
-										<li id="bt_1"><a href="<?php echo $chmdownurl?>" target="_blank">&#160;&#160;CHM&#160;下载</a></li> 
-										<li class="bt_2"><a href="<?php echo $jardownurl?>" target="_blank">&#160;&#160;JAR&#160;下载</a></li> 		 
-										<li class="bt_2"><a href="<?php echo $umddownurl?>" target="_blank">&#160;&#160;UMD&#160;下载</a></li> 		  
+										<li id="bt_1"><a href="<?php echo $txtdownurl?>" target="_blank">&nbsp;&nbsp;TXT&nbsp;下载</a></li> 
+										<li id="bt_1"><a href="<?php echo $chmdownurl?>" target="_blank">&nbsp;&nbsp;CHM&nbsp;下载</a></li> 
+										<li class="bt_2"><a href="<?php echo $jardownurl?>" target="_blank">&nbsp;&nbsp;JAR&nbsp;下载</a></li> 		 
+										<li class="bt_2"><a href="<?php echo $umddownurl?>" target="_blank">&nbsp;&nbsp;UMD&nbsp;下载</a></li> 		  
 									</ul>
                                 </div>                        	        
                             </div>

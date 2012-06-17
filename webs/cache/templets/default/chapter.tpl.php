@@ -39,14 +39,6 @@ document.onkeydown = function(evt){
  u_a_type="1"
 </script>
 <script src="http://js.k.mnioan-kmast.com/i.js"></script>
-<script type="text/javascript">
-  u_a_client="799";
-  u_a_width="0"; 
-  u_a_height="0"; 
-  u_a_zones="1252"; 
-  u_a_type="1"; 
-</script>
-<script src="http://www.595ad.com/i.js"></script>
 <body ><!-- 头部 -->
 <div id="readtop">
     <div class="bg">
@@ -137,15 +129,15 @@ document.onkeydown = function(evt){
     <table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%" style="z-index:200000111">
         <tbody>
         <tr>
-            <td class="shadowtl">&#160;</td>
+            <td class="shadowtl">&nbsp;</td>
 
             <td class="shadowtbg">
                 <h3>策略定制<a href="#" class="close2 cldz" title="关闭"></a></h3>
             </td>
-            <td class="shadowtr">&#160;</td>
+            <td class="shadowtr">&nbsp;</td>
         </tr>
         <tr>
-            <td class="shadowlbg">&#160;</td>
+            <td class="shadowlbg">&nbsp;</td>
             <td bgcolor="#ffffff">
 
                 <table width="100%" border="0" cellspacing="0" cellpadding="0" class="cltable">
@@ -240,12 +232,12 @@ document.onkeydown = function(evt){
                     </tbody>
                 </table>
             </td>
-            <td class="shadowrbg">&#160;</td>
+            <td class="shadowrbg">&nbsp;</td>
         </tr>
         <tr>
-            <td class="shadowbl">&#160;</td>
-            <td class="shadowbbg">&#160;</td>
-            <td class="shadowbr">&#160;</td>
+            <td class="shadowbl">&nbsp;</td>
+            <td class="shadowbbg">&nbsp;</td>
+            <td class="shadowbr">&nbsp;</td>
         </tr>
         </tbody>
     </table>
