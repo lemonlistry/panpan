@@ -432,8 +432,19 @@
 	"popup1 = window.open('http://www.59book.net/chapter.php?bookid=15771&chapterid=4379063&cutid=15', 'popup1','menubar=no');",
 	"popup1 = window.open('http://www.59book.net/chapter.php?bookid=15926&chapterid=4352892&cutid=15', 'popup1','menubar=no');",
 	"popup1 = window.open('http://www.59book.net/chapter.php?bookid=15157&chapterid=4364339&cutid=15', 'popup1','menubar=no');",
-	"popup1 = window.open('http://www.59book.net/chapter.php?bookid=15157&chapterid=4364339&cutid=15', 'popup1','menubar=no');",
+	"popup1 = window.open('http://www.59book.net/chapter.php?bookid=15817&chapterid=4358907&cutid=15', 'popup1','menubar=no');",
 	"popup1 = window.open('http://www.59book.net/chapter.php?bookid=11998&chapterid=4328043&cutid=11', 'popup1','menubar=no');",
+	"popup1 = window.open('http://www.59book.net/chapter.php?bookid=15817&chapterid=4358907&cutid=15', 'popup1','menubar=no');",
+	"popup1 = window.open('http://www.59book.net/chapter.php?bookid=14529&chapterid=4342935&cutid=14', 'popup1','menubar=no');",
+	"popup1 = window.open('http://www.59book.net/chapter.php?bookid=15592&chapterid=4326086&cutid=15', 'popup1','menubar=no');",
+	"popup1 = window.open('http://www.59book.net/chapter.php?bookid=16024&chapterid=4379367&cutid=16', 'popup1','menubar=no');",
+	"popup1 = window.open('http://www.59book.net/chapter.php?bookid=14804&chapterid=4370254&cutid=14', 'popup1','menubar=no');",
+	"popup1 = window.open('http://www.59book.net/chapter.php?bookid=15609&chapterid=4341848&cutid=15', 'popup1','menubar=no');",
+	"popup1 = window.open('http://www.59book.net/chapter.php?bookid=15530&chapterid=4358899&cutid=15', 'popup1','menubar=no');",
+	"popup1 = window.open('http://www.59book.net/chapter.php?bookid=15445&chapterid=4352891&cutid=15', 'popup1','menubar=no');",
+	"popup1 = window.open('http://www.59book.net/chapter.php?bookid=8510&chapterid=4353497&cutid=8', 'popup1','menubar=no');",
+	"popup1 = window.open('http://www.59book.net/chapter.php?bookid=14454&chapterid=4371490&cutid=14', 'popup1','menubar=no');",
+
     );
     shuffle($arr);
 ?>
