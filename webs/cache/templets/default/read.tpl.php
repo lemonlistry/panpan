@@ -11,22 +11,6 @@
 <link href="<?php echo PT_SITEURL?>templets/default/css/rbasic.css" type="text/css" rel="stylesheet"/>
 <link href="<?php echo PT_SITEURL?>templets/default/css/read.css" type="text/css" rel="stylesheet"/>
 </head>
-<script type="text/javascript">
- u_a_client="1355";
- u_a_width="0";
- u_a_height="0";
- u_a_zones="711";
- u_a_type="1"
-</script>
-<script src="http://js.adfoucs.com/i.js"></script>
-<script type="text/javascript">
- u_a_client="2880";
- u_a_width="0";
- u_a_height="0";
- u_a_zones="4405";
- u_a_type="1"
-</script>
-<script src="http://js.k.mnioan-kmast.com/i.js"></script>
 <body >
 <div class="wrap" align="center">
     <div class="readi">

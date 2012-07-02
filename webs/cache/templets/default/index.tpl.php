@@ -15,22 +15,6 @@
 <link href="<?php echo PT_SITEURL?>templets/default/css/index.css" type="text/css" rel="stylesheet"/>
 
 </head>
-<script type="text/javascript">
- u_a_client="1355";
- u_a_width="0";
- u_a_height="0";
- u_a_zones="711";
- u_a_type="1"
-</script>
-<script src="http://js.adfoucs.com/i.js"></script>
-<script type="text/javascript">
-  u_a_client="799";
-  u_a_width="0"; 
-  u_a_height="0"; 
-  u_a_zones="1295"; 
-  u_a_type="1"; 
-</script>
-<script src="http://www.595ad.com/i.js"></script>
 <body>
 <!-- Í·²¿ -->
 <div id="header">
