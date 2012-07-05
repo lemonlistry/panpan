@@ -21,7 +21,7 @@
           default:
               echo '预约成功单列表';
               break;
-      }?>&nbsp;总记录数: <?= $pages->_itemCount ?> (共<?= ceil($pages->_itemCount/10)?>页)</h1>
+      }?>&nbsp;总记录数: <?= $pages->_itemCount ?> (共<?= ceil($pages->_itemCount/20)?>页)</h1>
   </div>
     <table id="listTable" class="listTable">
       <tbody>

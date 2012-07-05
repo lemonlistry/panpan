@@ -21,7 +21,7 @@ class OrderController  extends CController{
         $sql = "SELECT order_id,order_mobile,order_username,order_sn,order_state,order_time,order_number,order_addtime,ticket_name,class_name FROM order_list AS a 
                 INNER JOIN ticket AS c ON a.order_ticket_id=c.ticket_id 
                 INNER JOIN ticket_class AS s ON a.order_ticket_class_id=s.class_id WHERE order_state=".$status;
-        $result = pages::init($sql);
+        $result = pages::init($sql,20);
         $this->render('index',array('post'=>$result['posts'],'pages'=>$result['pages'],'status'=>$status));
     }
     
