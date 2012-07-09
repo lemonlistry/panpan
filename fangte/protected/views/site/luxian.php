@@ -12,7 +12,7 @@
 <p class="fwb blue mb5">&nbsp;</p>
 <p class="fwb blue mb5"><span style="color: #339966"><strong><span style="font-size: 16px">公交线路：</span></strong></span></p>
 <p class="ti2e lh25 mb10"><span style="font-size: 16px">株洲市区&ldquo;<span style="color: #ff6600"><span class="cF30">钻石路</span></span>&rdquo;站上车，乘坐云田专线在&ldquo;<span style="color: #ff6600"><span class="cF30">云田</span></span>&rdquo;站下车，往北前行<span class="cF30">300米</span>左右即可到达</span></p>
-<p class="ti2e lh25 mb10"><span style="font-size: 16px">株洲市区&ldquo;<span style="color: #ff6600"><span class="cF30">车站西路</span></span>&rdquo;站上车，乘坐<span style="color: #ff6600"><span class="cF30">T6路</span></span>公交车至终点站<a href="http://www.ncmtl.com/">株洲方特欢乐世界</a></span>&nbsp;</p>
+<p class="ti2e lh25 mb10"><span style="font-size: 16px">株洲市区&ldquo;<span style="color: #ff6600"><span class="cF30">车站西路</span></span>&rdquo;站上车，乘坐<span style="color: #ff6600"><span class="cF30">T6路</span></span>公交车至终点站<a href="http://fangte.8090goto.com/site/Route">株洲方特欢乐世界</a></span>&nbsp;</p>
 <p class="fwb blue mb5"><span style="color: #339966"><strong><span style="font-size: 16px">高速通道：</span></strong></span></p>
 <p class="ti2e lh25 mb10"><span style="font-size: 16px">你可以走长株潭高速在&ldquo;<span style="color: #ff6600"><span class="cF30">云龙新城</span></span>&rdquo;出口下，根据指示牌指示方向，前行大约<span style="color: #ff6600"><span class="cF30">700米</span></span>，即可到达目的地。</span></p>
 <p class="ti2e lh25 mb10"><span style="color: #339966"><strong><span style="font-size: 16px">外地游客前往路线：</span></strong></span></p>

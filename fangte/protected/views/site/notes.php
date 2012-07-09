@@ -18,7 +18,7 @@ style="FONT-SIZE: 16px">直通车门票说明：</SPAN></P>
 <P><SPAN style="FONT-SIZE: 16px">&nbsp;&nbsp;&nbsp; 
 <STRONG>直通车小孩票要求：</STRONG>1.2M-1.4M；</SPAN></P>
 <P><SPAN style="FONT-SIZE: 16px"><STRONG>2、</STRONG><A 
-href="http://www.ncmtl.com">株洲方特欢乐世界</A>景区门票类型：通票；</SPAN></P>
+href="http://fangte.8090goto.com/site/notes">株洲方特欢乐世界</A>景区门票类型：通票；</SPAN></P>
 <P><STRONG><SPAN style="FONT-SIZE: 16px">3、</SPAN></STRONG><SPAN 
 style="FONT-SIZE: 16px">取票：提前电话工作人员至景区门口取票；</SPAN></P>
 <P><STRONG><SPAN style="FONT-SIZE: 16px">4、</SPAN></STRONG><SPAN 
