@@ -20,7 +20,9 @@
 <p class="ti2e lh25 mb10"><span style="font-size: 16px">2.岳阳等地出发，经<span style="color: #ff6600"><span class="cF30">京港澳高速</span></span>、<span style="color: #ff6600"><span class="cF30">长浏高速</span></span>，转<span style="color: #ff6600"><span class="cF30">长株高速</span></span>至&ldquo;<span style="color: #ff6600"><span class="cF30">云龙新城</span></span>&rdquo;出口下。</span></p>
 <p class="ti2e lh25 mb10"><span style="font-size: 16px">3.江西等地出发，经<span style="color: #ff6600"><span class="cF30">沪昆高速</span></span>，转<span style="color: #ff6600"><span class="cF30">长株高速</span></span>至&ldquo;<span style="color: #ff6600"><span class="cF30">云龙新城</span></span>&rdquo;出口下。</span></p>
 <p class="ti2e lh25 mb10"><span style="font-size: 16px">4.怀化等地出发，经<span style="color: #ff6600"><span class="cF30">沪昆高速</span></span>，转<span style="color: #ff6600"><span class="cF30">长株高速</span></span>至&ldquo;<span style="color: #ff6600"><span class="cF30">云龙新城</span></span>&rdquo;出口下。</span></p>
-<p class="ti2e lh25 mb10"><span style="font-size: 16px">5.常德、益阳等地出发，经<span style="color: #ff6600"><span class="cF30">长常高速</span></span>、<span style="color: #ff6600"><span class="cF30">长沙绕城高速</span></span>，转<span style="color: #ff6600"><span class="cF30">长株高速</span></span>至&ldquo;<span style="color: #ff6600"><span class="cF30">云龙新城</span></span>&rdquo;出口下。</span></p></div>
+<p class="ti2e lh25 mb10"><span style="font-size: 16px">5.常德、益阳等地出发，经<span style="color: #ff6600"><span class="cF30">长常高速</span></span>、<span style="color: #ff6600"><span class="cF30">长沙绕城高速</span></span>，转<span style="color: #ff6600"><span class="cF30">长株高速</span></span>至&ldquo;<span style="color: #ff6600"><span class="cF30">云龙新城</span></span>&rdquo;出口下。</span></p>
+<img src='<?php Yii::app()->request->baseUrl?>/images/luxian.jpg'>
+</div>
     <div class="nr_bottom"></div>
   </div>
 </div>
