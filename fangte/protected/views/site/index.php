@@ -61,7 +61,7 @@
         </div>
         
         <div class="mid_r_1_top">
-       	  <h2>周边景点</h2>
+       	  <h2>周边景点及酒店</h2>
             <span><a href="<?php echo $this->createUrl('product/other');?>" title="株洲方特欢乐世界周边景点"> >> 更多</a></span>
         </div>
         <div class="mid_r_2_cont">

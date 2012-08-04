@@ -45,9 +45,10 @@ a:hover {color: #BA2636;text-decoration: none;}
 .mid_left_cont li{height:25px; width:100%; line-height:25px;}
 .mid_left_cont li a{ color:#931573;}
 .mid_left_cont li a:hover{ color:#007181;}
-.mid_left_wd_title{ width:100%; height:26px; line-height:26px; background:url(../images/wd_back.jpg) 0px 10px no-repeat; padding-top:10px;}
-.mid_left_wd_title h3{ width:80px; padding-left:40px; font-size:16px;}
-.mid_left_wd_title h3 a{ color:#000; color:#F16BD1;}
+.mid_left_wd_title{ width:100%; line-height:26px; padding-top:10px; border: 2px solid #bfceff; margin-top:10px;}
+.demo_mid_left_wd_title{overflow:hidden;height:200px;width:183px;border: 2px solid #bfceff;font-size:14px;color:#336699;line-height:22px;text-align:left;padding:10px}
+.demo_mid_left_wd_title_p {font-size:12px; margin-top:5px;margin-bottom: 5px;}
+.mid_left_wd_title h3{ width:180px; padding-left:10px; font-size:16px;}
 .mid_left_wd_cont{ width:100%;font-size:14px; display:block; padding-top:10px;}
 .mid_left_wd_cont li{ width:100%; height:25px; line-height:25px;}
 .mid_left_wd_cont li a{ color:#931573;}
