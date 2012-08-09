@@ -1,4 +1,4 @@
-@charset "gb2312";
+﻿@charset "gb2312";
 /* CSS Document */
 
 * {margin: 0px;padding: 0px;}
@@ -31,9 +31,9 @@ a:hover {color: #BA2636;text-decoration: none;}
 .mid1_right_top span{ width:50px; float:right; padding-right:10px;}
 .mid1_right_top span a{ color:#333; font-weight:bold;}
 .mid1_right_top span a:hover{ color:#F60;}
-.mid1_right_content{ width:610px; line-height:25px; color:#666; font-size:13px; padding-top:10px;}
+.mid1_right_content{ width:610px; line-height:20px; color:#666; font-size:13px; padding-top:10px;}
 .mid2{ width:980px; height:152px; background-color:#eee; background:url(../images/back.jpg) repeat; margin: 0 auto;}
-.mid2_nr{ width:950px; height:105px; background:url(../images/mid2_back.gif) 15px 0px  no-repeat; padding-left:15px;padding-top:7px;}
+.mid2_nr{ width:950px; height:145px; background:url(../images/mid2_back.gif) 15px 0px  no-repeat; padding-left:15px;padding-top:7px;}
 .mid2_nr_left{ width:520px; float:left;padding-left:10px;}
 .mid2_nr_right{ width:400px;  float:right; font-size:13px; color:#666; line-height:18px; padding-right:10px;}
 .mid2_nr_right b{ color:#F00;}
