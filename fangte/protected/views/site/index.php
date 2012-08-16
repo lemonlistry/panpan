@@ -26,8 +26,8 @@
   	      </tr>
     	    <?php foreach($tick_list as $val){?>
     	    <tr style="color:#931573">
-    	      <td height="18"><?php echo $val['ticket_name']?></td>
-    	      <td>￥<?php echo $val['ticket_market_price']?></td>
+    	      <td height="30"><?php echo $val['ticket_name']?></td>
+    	      <td><del>￥<?php echo $val['ticket_market_price']?></del></td>
     	      <td>￥<?php echo $val['ticket_shop_price']?></td>
 	      <td>景点支付</td>
     	      <td><a href="<?php echo $this->createUrl('product/booking/id/'.$val['ticket_id'])?>" title="<?php echo $val['ticket_name']?>"><img src="<?php echo Yii::app()->request->baseUrl?>/images/yuding.jpg" /></a></td>

@@ -32,7 +32,7 @@ class SiteController extends Controller
 	public function actionIndex()
 	{
             //查询方特世界的门票信息  方特世界门票类型默认为1
-            $tick_list = Yii::app()->db->createCommand("SELECT ticket_name,ticket_market_price,ticket_shop_price,ticket_id FROM ticket WHERE ticket_class_id=1")->queryAll();
+            $tick_list = Yii::app()->db->createCommand("SELECT ticket_name,ticket_market_price,ticket_shop_price,ticket_id,group_by FROM ticket WHERE ticket_class_id=1 ORDER BY sort")->queryAll();
             //查询方特世界游玩项目
             $pay_list = Yii::app()->db->createCommand("SELECT pay_id,pay_name,pay_image,pay_content,pay_remark  FROM playproject ORDER BY pay_addtime DESC LIMIT 0,6 ")->queryAll();
             //查询周边景点
