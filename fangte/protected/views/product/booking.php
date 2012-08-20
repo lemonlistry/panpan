@@ -43,6 +43,7 @@
                         <h2>
                             预订提交</h2>
                         <script type="text/javascript">
+			var num=0;
                         function Check(obj) {
                             var startTime = $("#startTime").val();
                             var usernames = $("#usernames").val();
@@ -54,16 +55,20 @@
                             if (number <= 0 || isNaN(number)) { alert("尊敬的游客您好，请输入正确的人数！"); return false; }
                             if (usernames == '') { alert("尊敬的游客您好，请输入正确的姓名！"); return false; }
                             if (phone == '' || phone.length != 11 || isNaN(phone)) { alert("请填入正确的手机号！"); return false; }
+				if(num==1){alert('系统正在处理您的请求，请不要重复提交'); return false;}
                             var  url = $.baseurl+"product/book";
                             var data ="addtime=" + startTime + "&username=" + usernames + "&phone=" + phone + "&number=" +number +"&tid="+<?php echo $info['ticket_id']?>;
+				 num=1;
                             $.post(url,data,function(result){
                                 if(result.error)
                                 {
+					num = 0;
                                     alert(result.message);
                                 }
                                 else
                                 {
                                     alert(result.message);
+					num = 0;
                                     location.href=$.baseurl+'site/index';
                                 }
                             },'json');
