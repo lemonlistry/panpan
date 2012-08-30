@@ -1,0 +1,15 @@
+<?php
+$username='phgo1';
+$password='c710ef33f0e85cc657def5d5d71e4316';
+$email='ssdf@163.com';
+$qq='';
+$turename='';
+$sex='ÄÐ';
+$birthday='';
+$userimg='';
+$usercity='±±¾©';
+$telephone='';
+$msn='';
+$myurl='';
+$regdate='2012-08-30';
+?>
