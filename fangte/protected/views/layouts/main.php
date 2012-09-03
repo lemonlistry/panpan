@@ -76,8 +76,8 @@ this.setHomePage('http://fangte.8090goto.com');
 <div class="foot">
 
 	
-<a href="http://www.8090goto.com/" target="_blank" title="8090旅游团购">8090旅游团购</a>
-<a href="http://www.sanxiangxing.com/" target="_blank" title="三湘行旅游门户网">三湘行旅游门户网</a>
+<a href="http://fangte.8090goto.com/" target="_blank" title="株洲方特欢乐世界">株洲方特欢乐世界</a>
+<!--<a href="http://www.sanxiangxing.com/" target="_blank" title="三湘行旅游门户网">三湘行旅游门户网</a>-->
 <a href="http://www.zjjslgy.com" target="_blank" title="张家界旅游">张家界旅游</a>
 <a href="http://www.xiaochouyu888.com" target=_blank title='三亚家庭旅馆'>三亚家庭旅馆</a>
 <!--<a href="http://www.lysj66.com/" target="_blank" title="旅游世界网">旅游世界网</a>-->

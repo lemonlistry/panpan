@@ -304,7 +304,7 @@ for($i=1;$i<=24;$i++){
         </tbody>
     </table>
 </div>
-
+<a href="http://www.28k.com">28kะกหตอ๘</a>
 <div class="spline"></div>
 <div id="foot">
     <div class="footlink">
