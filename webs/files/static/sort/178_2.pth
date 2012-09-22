@@ -24,7 +24,7 @@
 
 
     var back_page = "http://www.59book.net/sort.php?sortid=178&page=1"; 
-    var next_page = "http://www.59book.net/sort.php?sortid=178&page=2"; 
+    var next_page = "http://www.59book.net/sort.php?sortid=178&page=3"; 
     document.onkeydown = function(evt){
     	var e = window.event || evt; 
     	if (e.keyCode == 37) location.href = back_page; 
@@ -84,7 +84,7 @@
 <a  href="http://www.59book.net/sort.php?sortid=8&page=1">动画·漫画</a>
 </div>
 	<div class="searchbar">
-		<div class="key">关键词：<a href="http://www.59book.net/search.php?type=bookname&key=甄嬛传" target="_blank">甄嬛传</a> <a href="http://www.59book.net/search.php?type=bookname&key=超级医生" target="_blank">超级医生</a> <a href="http://www.59book.net/search.php?type=bookname&key=医道官途" target="_blank">医道官途</a> <a href="http://www.59book.net/search.php?type=bookname&key=修真世界" target="_blank">修真世界</a> <a href="http://www.59book.net/search.php?type=bookname&key=倚天屠龙记" target="_blank">倚天屠龙记</a> <a href="http://www.59book.net/search.php?type=bookname&key=官神" target="_blank">官神</a> </div>
+		<div class="key">关键词：<a href="http://www.59book.net/search.php?type=bookname&key=剑道独尊" target="_blank">剑道独尊</a> <a href="http://www.59book.net/search.php?type=bookname&key=大周皇族" target="_blank">大周皇族</a> <a href="http://www.59book.net/search.php?type=bookname&key=金瓶梅" target="_blank">金瓶梅</a> <a href="http://www.59book.net/search.php?type=bookname&key=召唤万岁" target="_blank">召唤万岁</a> <a href="http://www.59book.net/search.php?type=bookname&key=超级医生" target="_blank">超级医生</a> <a href="http://www.59book.net/search.php?type=bookname&key=那些年 我们一起追的女孩" target="_blank">那些年 我们一起追的女孩</a> </div>
 		<div class="search">
         
 		<form action="http://www.59book.net/search.php" method="get" target="_blank">
@@ -204,33 +204,265 @@
 <ul>
                     <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
                     <li class="ro2">
-                        <a class="f141" href="http://www.59book.net/read.php?cutid=13&bookid=13869" target="_blank">[目录]</a>&#160;&#160;
-                        <a class="f14"  href="http://www.59book.net/book.php?bookid=13869" target="_blank">空骑</a>&#160;&#160;&#160;
-                        <a href="http://www.59book.net/chapter.php?cutid=13&bookid=13869&chapterid=3461918" target="_blank" title="空骑 /第三百五十八章 乱局迷雾，诸人角力">第三百五十八章 乱局迷雾，诸人角力</a>
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=17&bookid=17186" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=17186" target="_blank">美女收藏家</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=17&bookid=17186&chapterid=4928237" target="_blank" title="美女收藏家 /第425章 不欢而散">第425章 不欢而散</a>
                     </li>
-                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%CF%C4%D4%C9" target="_blank">夏陨</a></li>
-                    <li class="ro4">9月6日</li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%CE%F7%D3%F2%C0%CB%D7%D3" target="_blank">西域浪子</a></li>
+                    <li class="ro4">9月20日</li>
                 </ul>
 <ul>
                     <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
                     <li class="ro2">
-                        <a class="f141" href="http://www.59book.net/read.php?cutid=13&bookid=13461" target="_blank">[目录]</a>&#160;&#160;
-                        <a class="f14"  href="http://www.59book.net/book.php?bookid=13461" target="_blank">局长沉浮录</a>&#160;&#160;&#160;
-                        <a href="http://www.59book.net/chapter.php?cutid=13&bookid=13461&chapterid=3084829" target="_blank" title="局长沉浮录 /第319章 秘密情报掀起轩然大波">第319章 秘密情报掀起轩然大波</a>
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=16&bookid=16498" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=16498" target="_blank">最特攻</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=16&bookid=16498&chapterid=4926722" target="_blank" title="最特攻 /第一百九十九章【尸体不见了】（求订阅！）  图">第一百九十九章【尸体不见了】（求订阅！）  图</a>
                     </li>
-                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%CA%E9%C9%FA%B7%DC%B7%A2" target="_blank">书生奋发</a></li>
-                    <li class="ro4">6月17日</li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%CF%F4%C9%AA%C0%CA" target="_blank">萧瑟朗</a></li>
+                    <li class="ro4">9月19日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=17&bookid=17299" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=17299" target="_blank">极品花都战神</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=17&bookid=17299&chapterid=4925133" target="_blank" title="极品花都战神 /第123章 艾米">第123章 艾米</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%C4%E1%B9%C3%E2%D6%B5%C4%BA%CD%C9%D0" target="_blank">尼姑庵的和尚</a></li>
+                    <li class="ro4">9月19日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=17&bookid=17050" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=17050" target="_blank">野医</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=17&bookid=17050&chapterid=4918154" target="_blank" title="野医 /第一八三 这Ｓ……是谁  图">第一八三 这Ｓ……是谁  图</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%C3%E6%B1%DA%B5%C4%BA%CD%C9%D0" target="_blank">面壁的和尚</a></li>
+                    <li class="ro4">9月17日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=17&bookid=17318" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=17318" target="_blank">与美女老总的暧昧生活</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=17&bookid=17318&chapterid=4917770" target="_blank" title="与美女老总的暧昧生活 /第五百九十八章">第五百九十八章</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%C1%BA%B2%BB%B7%B2" target="_blank">梁不凡</a></li>
+                    <li class="ro4">9月17日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=17&bookid=17062" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=17062" target="_blank">最强战神</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=17&bookid=17062&chapterid=4914245" target="_blank" title="最强战神 /第1812章：证据">第1812章：证据</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%B4%D4%C1%D6%C0%C7" target="_blank">丛林狼</a></li>
+                    <li class="ro4">9月16日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=17&bookid=17148" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=17148" target="_blank">功夫之皇</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=17&bookid=17148&chapterid=4911119" target="_blank" title="功夫之皇 /第一百四十六章倾国倾城白素心">第一百四十六章倾国倾城白素心</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%CD%F5%D2%ED%C1%FA" target="_blank">王翼龙</a></li>
+                    <li class="ro4">9月15日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=17&bookid=17196" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=17196" target="_blank">零之力</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=17&bookid=17196&chapterid=4874273" target="_blank" title="零之力 /第二百二十五章 陈林书的挑衅">第二百二十五章 陈林书的挑衅</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%D0%A1%D0%A1%C4%BE%BE%C5" target="_blank">小小木九</a></li>
+                    <li class="ro4">9月10日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=17&bookid=17041" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=17041" target="_blank">校园邪少纵横</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=17&bookid=17041&chapterid=4872727" target="_blank" title="校园邪少纵横 /第四百七十四章、尘埃落定（大结局）">第四百七十四章、尘埃落定（大结局）</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%D2%FE%BE%D3%C7%D8%C2%A5" target="_blank">隐居秦楼</a></li>
+                    <li class="ro4">9月9日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=17&bookid=17047" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=17047" target="_blank">超级环境改造仪</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=17&bookid=17047&chapterid=4849398" target="_blank" title="超级环境改造仪 /第一四七章意外的开业典礼">第一四七章意外的开业典礼</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%BE%C5%C3%FC%C8%CD%C3%A8" target="_blank">九命韧猫</a></li>
+                    <li class="ro4">9月5日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=17&bookid=17100" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=17100" target="_blank">都市土地爷</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=17&bookid=17100&chapterid=4823976" target="_blank" title="都市土地爷 /【29】 黄金门">【29】 黄金门</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%D7%ED%BE%C6%CB%BC%B7%B2%B3%BE" target="_blank">醉酒思凡尘</a></li>
+                    <li class="ro4">8月28日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=14&bookid=14394" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=14394" target="_blank">超级进化</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=14&bookid=14394&chapterid=4806507" target="_blank" title="超级进化 /第六百二十六章 大结局：诛天（下）">第六百二十六章 大结局：诛天（下）</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%BA%DE%B5%BD%B9%E9%CA%B1%B7%BD%CA%BC%D0%DD" target="_blank">恨到归时方始休</a></li>
+                    <li class="ro4">8月22日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=17&bookid=17034" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=17034" target="_blank">黑客江湖</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=17&bookid=17034&chapterid=4779838" target="_blank" title="黑客江湖 /第六十四章 天才vs天才">第六十四章 天才vs天才</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%B3%F6%CB%AE%D0%A1%B4%D0%CB%AE%C9%CF%C6%AE" target="_blank">出水小葱水上飘</a></li>
+                    <li class="ro4">8月12日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=16&bookid=16130" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=16130" target="_blank">官道之枭雄</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=16&bookid=16130&chapterid=4590597" target="_blank" title="官道之枭雄 /第350章：洞房花烛夜-">第350章：洞房花烛夜-</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%C9%CC%C9%D9" target="_blank">商少</a></li>
+                    <li class="ro4">6月24日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=14&bookid=14674" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=14674" target="_blank">香港小亨</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=14&bookid=14674&chapterid=4427157" target="_blank" title="香港小亨 /第380章 他的时代　图">第380章 他的时代　图</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%CF%E3%B8%DB%B4%F3%BA%E0" target="_blank">香港大亨</a></li>
+                    <li class="ro4">5月18日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=14&bookid=14660" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=14660" target="_blank">能力起源</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=14&bookid=14660&chapterid=4363633" target="_blank" title="能力起源 /后记">后记</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%CE%F2%D5%AC" target="_blank">悟宅</a></li>
+                    <li class="ro4">5月2日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=14&bookid=14420" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=14420" target="_blank">都市仙医</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=14&bookid=14420&chapterid=4352629" target="_blank" title="都市仙医 /770 一瞬永别（大结局）">770 一瞬永别（大结局）</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%CE%DE%D3%B0%B5%C6%B5%C4%D3%D5%BB%F3" target="_blank">无影灯的诱惑</a></li>
+                    <li class="ro4">4月30日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=13&bookid=13632" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=13632" target="_blank">末日咆哮</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=13&bookid=13632&chapterid=4269762" target="_blank" title="末日咆哮 /349 三才挑战">349 三才挑战</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%B7%E7%C9%CF%C8%CC" target="_blank">风上忍</a></li>
+                    <li class="ro4">4月4日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=14&bookid=14676" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=14676" target="_blank">娱乐圈外挂光环</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=14&bookid=14676&chapterid=4260102" target="_blank" title="娱乐圈外挂光环 /最终章Ⅱ《霎那芳华》">最终章Ⅱ《霎那芳华》</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%E8%F3%B3%BD" target="_blank">梵辰</a></li>
+                    <li class="ro4">4月1日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=14&bookid=14396" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=14396" target="_blank">极品男人</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=14&bookid=14396&chapterid=3921167" target="_blank" title="极品男人 /第五百四十六章 周天（大结局！）">第五百四十六章 周天（大结局！）</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=L%CC%BD%CC%BD" target="_blank">L探探</a></li>
+                    <li class="ro4">12月31日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=14&bookid=14665" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=14665" target="_blank">无敌异能卡</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=14&bookid=14665&chapterid=3732399" target="_blank" title="无敌异能卡 /第一百五十六章 陆风，再见！">第一百五十六章 陆风，再见！</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%B7%CA%D6%ED%D5%AA%BB%A8" target="_blank">肥猪摘花</a></li>
+                    <li class="ro4">11月1日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=14&bookid=14626" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=14626" target="_blank">天网入侵者</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=14&bookid=14626&chapterid=3718847" target="_blank" title="天网入侵者 /【第三十六章小白—进化中…】">【第三十六章小白—进化中…】</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%B1%E0%D6%AF%B3%C9%B5%C4%C3%CE" target="_blank">编织成的梦</a></li>
+                    <li class="ro4">10月27日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=14&bookid=14657" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=14657" target="_blank">重生作家</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=14&bookid=14657&chapterid=3718841" target="_blank" title="重生作家 /第六十二章 平淡与学习">第六十二章 平淡与学习</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%B3%A4%BA%CD%D4%B0%B3%A4%BA%D3%C2%E4%C8%D5%D4%B2" target="_blank">长和园长河落日圆</a></li>
+                    <li class="ro4">10月27日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=14&bookid=14640" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=14640" target="_blank">重生之超级富二代</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=14&bookid=14640&chapterid=3717933" target="_blank" title="重生之超级富二代 /第148章 今晚，留下你两只手！">第148章 今晚，留下你两只手！</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%D7%F3%CA%D6" target="_blank">左手</a></li>
+                    <li class="ro4">10月27日</li>
+                </ul>
+<ul>
+                    <li class="ro1"><a href="http://www.59book.net/sort.php?sortid=178&page=1" target="_blank">[其他]</a> </li>
+                    <li class="ro2">
+                        <a class="f141" href="http://www.59book.net/read.php?cutid=14&bookid=14703" target="_blank">[目录]</a>&#160;&#160;
+                        <a class="f14"  href="http://www.59book.net/book.php?bookid=14703" target="_blank">超级调教系统</a>&#160;&#160;&#160;
+                        <a href="http://www.59book.net/chapter.php?cutid=14&bookid=14703&chapterid=3716138" target="_blank" title="超级调教系统 /第七十二章 调教与执念">第七十二章 调教与执念</a>
+                    </li>
+                    <li class="ro3"><a href="http://www.59book.net/search.php?type=author&key=%D4%C6%D6%AE%BA%AC%D0%C7" target="_blank">云之含星</a></li>
+                    <li class="ro4">10月26日</li>
                 </ul>
                     
                    	
                 <div class="bookpage">
-                    <span class="fl">当前第<span class="fred">2</span>页&#160;共有<span class="fred">2</span>页&#160;<span class="fred">27</span>篇</span> 
+                    <span class="fl">当前第<span class="fred">2</span>页&#160;共有<span class="fred">3</span>页&#160;<span class="fred">57</span>篇</span> 
                     <div class="page" >                        
                         <a title="首页" href="http://www.59book.net/sort.php?sortid=178&orderbyid=&page=1">首页</a>
 <a title="上一页" href="http://www.59book.net/sort.php?sortid=178&orderbyid=&page=1">上一页</a>
                         <a href="http://www.59book.net/sort.php?sortid=178&orderbyid=&page=1">1</a>
 <a class="current">2</a>
-                        <a title="最后一页" href="http://www.59book.net/sort.php?sortid=178&orderbyid=&page=2">末页</a> 
+                        <a href="http://www.59book.net/sort.php?sortid=178&orderbyid=&page=3">3</a>
+<a title="下一页" href="http://www.59book.net/sort.php?sortid=178&orderbyid=&page=3">下一页</a>
+                        <a title="最后一页" href="http://www.59book.net/sort.php?sortid=178&orderbyid=&page=3">末页</a> 
                         <span class="jump"></span>
                     </div>						
                 </div>
