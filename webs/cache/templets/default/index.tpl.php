@@ -305,6 +305,7 @@ for($i=1;$i<=24;$i++){
     </table>
 </div>
 <a href="http://www.28k.com">28k小说网</a>
+<a href="http://www.aisapk.com/">小说阅读网</a>
 <div class="spline"></div>
 <div id="foot">
     <div class="footlink">
