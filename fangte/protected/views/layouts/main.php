@@ -35,7 +35,8 @@ this.setHomePage('http://fangte.8090goto.com');
 <div class="top">
 	
 	<div class="top_main">
-    <div class="logo"><a href="<?php echo $this->createUrl('site/index')?>" title="株洲方特欢乐世界"><img src="<?echo Yii::app()->request->baseUrl?>/images/logo.gif" width="202" height="80" /></a></div>
+    <div class="logo"><a href="<?php echo $this->createUrl('site/index')?>" title="株洲方特欢乐世界"><img src="<?echo Yii::app()->request->baseUrl?>/images/logo.gif" width="
+220" height="58" /></a></div>
     	<div class="top_main_1">
         <span class="top_main_1_3">0731-28827739</span>
         <span class="top_main_1_2"><a target=_top href="javascript:void(0)" onclick="addfavorite()">加入收藏</a></span>
