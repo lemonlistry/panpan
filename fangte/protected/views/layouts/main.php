@@ -83,6 +83,7 @@ this.setHomePage('http://fangte.8090goto.com');
 <!--<a href="http://www.zjjslgy.com" target="_blank" title="张家界旅游">张家界旅游</a>-->
 <a href="http://www.xiaochouyu888.com" target=_blank title='三亚家庭旅馆'>三亚家庭旅馆</a>
 <!--<a href="http://www.lysj66.com/" target="_blank" title="旅游世界网">旅游世界网</a>-->
+<a href="http://shanghai.liebiao.com/lvyou/" target=_blank title='上海旅游景点'>上海旅游景点</a>
 </div>
 <div class="bqxx">
 &copy; Copyright 2010-2012 株洲方特欢乐世界 All rights reserved 版权所有，网站预订系统由8090旅游团购网提供技术支持<br/>
