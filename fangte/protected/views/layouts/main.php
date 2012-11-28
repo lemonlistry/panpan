@@ -79,7 +79,7 @@ this.setHomePage('http://fangte.8090goto.com');
 	
 <a href="http://fangte.8090goto.com/" target="_blank" title="株洲方特欢乐世界">株洲方特欢乐世界</a>
 <a href="http://www.wenquan8090.com/" target="_blank" title="灰汤温泉">灰汤温泉</a>
-<a href="http://www.7998travels.com" target="_blank" title="沙发客">沙发客</a>
+<!--<a href="http://www.7998travels.com" target="_blank" title="沙发客">沙发客</a>-->
 <!--<a href="http://www.zjjslgy.com" target="_blank" title="张家界旅游">张家界旅游</a>-->
 <a href="http://www.xiaochouyu888.com" target=_blank title='三亚家庭旅馆'>三亚家庭旅馆</a>
 <!--<a href="http://www.lysj66.com/" target="_blank" title="旅游世界网">旅游世界网</a>-->
