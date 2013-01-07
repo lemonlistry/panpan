@@ -1856,3 +1856,129 @@ Stack trace:
 #1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
 #2 /var/www/panpan/fangte/index.php(15): CApplication->run()
 #3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 09:47:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 10:18:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 12:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 13:49:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 13:49:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 13:49:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 13:50:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 13:50:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 13:53:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 13:55:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 14:45:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 16:12:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 16:48:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 17:25:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 18:32:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 20:28:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 20:35:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 20:36:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 22:10:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 22:26:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2013/01/07 22:55:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/panpan/fangte/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/panpan/fangte/framework/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/panpan/fangte/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/panpan/fangte/index.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
