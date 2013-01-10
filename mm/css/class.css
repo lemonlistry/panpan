@@ -1,0 +1,48 @@
+d.c_inner {
+    border:1px #C6C6C6 solid; background:#FFF; display:block; width:942px; margin:0 8px 8px; padding:10px; 
+}
+.c_inner ul {
+    height:195px; padding:5px 0; 
+}
+.topBox {
+    width:970px; overflow:hidden; margin:0 auto; 
+}
+.topBox .reclist {
+	border-right: 6px #EEEEEE solid; width: 964px;
+}
+.topBox .title {
+    background:url(../images/recbox_top.gif); height:45px;
+}
+.topBox .title strong {
+    float:right; font-size:12px; margin:17px 15px 0 0; 
+}
+.topBox .title strong a {
+    color:#C00000; 
+}
+.topBox .c_inner {
+    border:6px #EEE solid; border-top:none; border-right: none;
+}
+.topBox ul {
+    height:165px; padding-top:0; margin: 0 3px; overflow: hidden;
+}
+.topBox ul.pic li {
+    width:136px; margin:0; 
+}
+.ShowPage {
+    height:20px; display:block; clear:both; text-align:center; margin:0 1px; padding:8px 0; 
+}
+.ShowPage a,.ShowPage em {
+    width:15px; height:18px; display:inline-block; border:1px solid #E6E6E6; text-align:center; line-height:18px; background:#F2F2F2; font-weight:800; margin:0 1px; padding:0 5px; 
+}
+.ShowPage span {
+    color:#BE5A5A; 
+}
+.ShowPage em {
+    background:url(../images/menubg_cur.gif) center 0; border:1px #E28282 solid; color:#960000; 
+}
+.ShowPage a:hover {
+    border:1px solid #E78787; text-align:center; font-family:Arial; text-decoration:none; background:#F2B0B0; font-weight:700; color:#fff; position:relative; width:23px; height:24px; line-height:24px; font-size:16px; margin:-4px -3px; 
+}
+.box_adv1 {
+    overflow:hidden; display:block; margin:0 auto; 
+}

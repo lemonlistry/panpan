@@ -1,0 +1,157 @@
+.todayfocus #focusImg {
+    float:left; background:url(../images/focus_l_bg.gif); width:662px; height:440px; 
+}
+.todayfocus #focusImg #imgbox {
+    height:400px; width:650px; overflow:hidden; margin:6px 6px 0; 
+}
+.todayfocus #focusImg #imgbox img {
+    height:400px; width:650px; 
+}
+.todayfocus #focusImg #recshowBox {
+    height:400px; overflow:hidden; 
+}
+.todayfocus #focusImg dl {
+    display:block; margin:3px 8px 0; 
+}
+.todayfocus #focusImg dl dt {
+    float:left; margin-left:24px; 
+}
+.todayfocus #focusImg dl dt a {
+    color:#FFF; font-size:20px; font-family:Î¢ÈíÑÅºÚ,ºÚÌå; font-weight:700; 
+}
+.todayfocus #focusImg dl dd {
+    float:right; margin-top:3px; font-weight:700; 
+}
+.todayfocus #focusImg dl dd a {
+    float:left; font-size:17px; font-family:Arial, Helvetica, sans-serif; width:22px; height:22px; line-height:22px; text-align:center; color:#B62D2D; background:url(../images/focus_key.gif); margin:0 3px; 
+}
+.todayfocus #focusImg dl dd a.cur,.todayfocus #focusImg dl dd a:hover {
+    display:block; text-decoration:none; background-position:0 -23px; color:#FFF; 
+}
+.todayfocus .focusList {
+    float:right; background:url(../images/focus_r_bg.gif); width:301px; height:428px; padding:12px 6px 0; 
+}
+.todayfocus .focusList .morebest {
+    text-align:right; height:24px; padding-right:5px; 
+}
+.todayfocus .focusList .morebest a {
+    font-weight:700; color:#C41111; 
+}
+.todayfocus .focusList ul.pic {
+    overflow:hidden; height:180px; 
+}
+.todayfocus .focusList ul.pic li {
+    overflow:hidden; width:140px; margin:12px 5px 0; 
+}
+.todayfocus .focusList .text {
+    border-top:#EFABAB 1px solid; padding-top:5px; height:162px; overflow:hidden; margin:8px 5px 0; 
+}
+.todayfocus .focusList .text li {
+    width:128px; float:left; background:no-repeat url(../images/icon_4.gif) 0 4px; overflow:hidden; padding-left:14px; height:22px; line-height:22px; margin:0 1px; 
+}
+.todayfocus .searchbox {
+    background:#F0F0F0; border-top:#DEDEDE 1px solid; height:28px; margin-top:3px; overflow:hidden; padding:5px; 
+}
+.searchbox form input {
+    border:#F88888 2px solid; width:198px; margin-right:5px; color:#C1C1C1; background:#FFF no-repeat url(../images/icon_search.gif) 2px 4px; vertical-align:middle; display:inline-block; padding:3px 3px 3px 18px; 
+}
+.searchbox form input.isOver {
+    color:#000; 
+}
+.searchbox form button {
+    vertical-align:middle; background:url(../images/btn_search_go.gif); border:none; height:25px; width:60px; color:#FFF; font-weight:700; display:inline-block; 
+}
+.box_adv1 {
+    width:640px; overflow:hidden; display:block; margin:0; padding:5px 0 0; 
+}
+.c_box .bLeft {
+    float:left; margin:3px 4px 0 0; 
+}
+.c_box .bRight {
+    width:700px; overflow:hidden; 
+}
+.c_box .bRight .pic li {
+    height:175px; 
+}
+.c_box .bRight .pic li a {
+    color:#C00; 
+}
+.cbHead {
+    background:no-repeat url(../images/cb_headimg.gif) 3px 0; width:250px; height:356px; text-align:center; padding:6px 15px 0 11px; 
+}
+.cbHead img {
+    height:320px; width:250px; display:block; margin-bottom:4px; 
+}
+.cbHead a {
+    font-weight:700; color:#FFF; font-size:14px; 
+}
+.l_box {
+    margin-top:15px; display:block; clear:both; 
+}
+.l_box .c_title span {
+    font-size:12px; float:right; margin-top:14px; color:#797979; 
+}
+.l_box ul {
+    display:block; 
+}
+.l_box .imglink {
+    clear:both; display:block; width:980px; 
+}
+.l_box .imglink li {
+    float:left; height:37px; width:94px; overflow:hidden; display:inline; margin:0 2px; 
+}
+.l_box .imglink li img {
+    border:solid 1px #D7D7D7; height:31px; width:88px; padding:2px; 
+}
+.l_box .imglink li a:hover img {
+    border:solid 2px #EE7F7F; padding:1px; 
+}
+.l_box .textlink {
+    border-top:#DADADA 1px solid; margin-top:4px; clear:both; display:block; width:976px; padding:2px; 
+}
+.l_box .textlink li {
+    float:left; white-space:nowrap; height:18px; line-height:18px; margin:0 4px; 
+}
+.magazinecol {
+    margin-left:15px; float:left; margin-top:7px; 
+}
+.magazinecol dl dd {
+    float:right; width:105px; 
+}
+.magazinecol dl dd strong {
+    font-size:13px; display:block; 
+}
+.magazinecol dl dd h4 {
+    font-size:13px; margin-top:5px; 
+}
+.magazinecol dl dd h4 a {
+    color:#D03636; 
+}
+.magazinecol dl dd small {
+    margin-top:5px; display:block; color:#BDBDBD; 
+}
+.magazinecol dl dd img {
+    margin-top:5px; 
+}
+.c_box .bRight,.magazinecol dl dt {
+    float:left; 
+}
+
+#area_xiuna {
+	RIGHT: 5px; width: 298px; BOTTOM: 0px; POSITION: fixed; BACKGROUND: url(../images/xiuna_images.gif);
+}
+.ie6 #area_xiuna {
+	BOTTOM: auto; POSITION: absolute;
+}
+#area_xiuna .topBar {
+	height: 24px;  cursor: pointer;
+}
+.xiuna_wrapper {
+	padding: 5px 8px 5px 9px;
+}
+#area_xiuna .topBar a {
+	width: 15px; height: 15px; background: url(../images/xiuna_op_images.gif); float: right; margin: 5px 5px 0 0
+}
+#area_xiuna .topBar a.enlarge {
+	background-position: -15px 0;
+}

@@ -1,0 +1,51 @@
+@import url(command.css); 
+@import url(class.css); 
+
+.topBox {
+	height: 454px;
+}
+.topBox .t_box ul li {
+	margin: 0 6px 5px;
+}
+.topBox .c_inner {
+	width: auto; border-right: none;
+}
+.topBox .t_box {
+	border-right: 6px #EEEEEE solid;
+}
+.topBox .reclist {
+	float: left; width: 620px;
+}
+.topBox ul {
+    height:398px; margin: 0 auto;
+}
+.topBox .reclist ul {
+	width: 592px;
+}
+.topBox .bestlist {
+	float: right; width: 330px;
+}
+.topBox .bestlist ul {
+	width: 296px;
+}
+.topBox .title {
+    background:url(../images/top_bar_2.gif);
+}
+.topBox .bestlist .title {
+	background-position: 0 -45px;
+}
+.b_box {
+    background:#FFF; margin-top:10px; display:block; clear:both; width:980px; 
+}
+.b_box .b_inner {
+    display:block; clear:both; width: 965px; margin: 0 auto; overflow: hidden;
+}
+.b_title {
+    height:42px; font-size:18px; border-top: 2px #F1AAAB solid; background: transparent; margin: 0 5px;
+}
+.b_title strong {
+    float:left; text-indent:-900px; width:210px; height:22px; overflow:hidden; display:inline-block; margin:10px 0 0 0px; 
+}
+.b_box a .hover-bg{position:absolute; display:inline-block;}
+
+.b_box a:hover .hover-bg{opacity: 0.5; filter:Alpha(style=0,opacity=50,finishOpacity=0); z-index:999;}
