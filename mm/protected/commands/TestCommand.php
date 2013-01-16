@@ -12,6 +12,38 @@
  */
 class TestCommand extends CConsoleCommand{
     //put your code here
+	private $pidfile = null;
+	public function beforeAction($action)/*{{{*/
+	{
+		$pidfile = dirname(__FILE__).'/'.$action;
+               
+		if(file_exists($pidfile))
+		{
+			$pid = file_get_contents($pidfile);
+
+			//获取脚本文件名
+			$pname = exec("ps up $pid  | awk '{print $12}'");
+			#如果進程存在 且 腳本文件名包含user_cookie.php 且 index參數相同
+			if(posix_getsid($pid))
+			{
+				exit();
+			}
+		}
+		file_put_contents($pidfile,posix_getpid());
+
+		$this->pidfile = $pidfile;
+
+		register_shutdown_function(array($this,'cleanFile'));
+		return true;
+	}/*}}}*/
+
+	public function cleanFile()/*{{{*/
+	{
+		if($this->pidfile != null)
+		{
+			@unlink($this->pidfile);
+		}
+	}/*}}}*/
     //清凉美女
     public function actionQLurl()
     {
