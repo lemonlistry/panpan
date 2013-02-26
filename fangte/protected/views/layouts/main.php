@@ -117,8 +117,8 @@ href="javascript:void(0);">收缩</A> </DIV>
           <H3 class=titZx>QQ咨询</H3>
         </LI>
         <LI><SPAN class=icoZx>在线咨询</SPAN> </LI>
-        <LI><a target=blank href='tencent://message/?uin=783337189'><img border="0" src='http://wpa.qq.com/pa?p=1:783337189:41' alt="点击这里给我发消息" /></a></LI>
         <LI><a target=blank href='tencent://message/?uin=295879762'><img border="0" src='http://wpa.qq.com/pa?p=1:295879762:41' alt="点击这里给我发消息" /></a></LI>
+        <LI><a target=blank href='tencent://message/?uin=18873355005'><img border="0" src='http://wpa.qq.com/pa?p=1:18873355005:41' alt="点击这里给我发消息" /></a></LI>
       </UL>
       <UL>
       <br/>
