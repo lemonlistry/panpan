@@ -24,6 +24,20 @@ class SiteController extends Controller
 			),
 		);
 	}
+	
+	public function filters()
+        {
+                return array(
+                                array(
+                                                'system.web.widgets.COutputCache + index',
+                                                'duration'=>86400,
+                                                'cacheID'=>'file',
+                                                'varyByExpression' => $_SERVER['HTTP_HOST'],
+                                )
+
+                );
+        }
+
 
 	/**
 	 * This is the default 'index' action that is invoked
