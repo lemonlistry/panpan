@@ -234,7 +234,7 @@ class ProductController extends CController{
 	$sql = ("INSERT INTO order_list (order_sn,order_ticket_class_id,order_ticket_id,order_mobile,order_username,order_time,order_number,order_state,order_addtime)
                                     VALUES('{$order_number}','{$row['ticket_class_id']}','{$row['ticket_id']}','{$phone}','{$username}','{$starttime}','{$number}','0','{$addtime}')");
          Yii::app()->db->createCommand($sql)->execute();
-	smsApi::sendSms(iconv('UTF-8','GB2312',"{$username}预订{$_REQUEST['addtime']}{$row['ticket_name']}{$number}张成功,订单号为{$order_number},预订人电话号码为{$phone}【方特直通车】"),'13873387887');
+	smsApi::sendSms(iconv('UTF-8','GB2312',"{$username}预订{$_REQUEST['addtime']}{$row['ticket_name']}{$number}张成功,订单号为{$order_number},预订人电话号码为{$phone}【方特直通车】"),'18673348005');
 	 smsApi::sendSms(iconv('UTF-8','GB2312',"{$username}您好！我们已收到您的预订信息，出游的前一天下午会有工作人员与您联系！感谢您的支持！【方特直通车】"),$phone);
          echo json_encode(array('error'=>false,'message'=>'欢迎您预订方特门票，我们已收到您的预订信息，我们工作人员稍晚会与您联系确认！感谢您的支持！'));
      }
