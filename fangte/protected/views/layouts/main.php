@@ -91,7 +91,7 @@ this.setHomePage('http://fangte.8090goto.com');
 <div class="bqxx">
 &copy; Copyright 2010-2012 株洲方特欢乐世界 All rights reserved 版权所有，网站预订系统由8090旅游团购网提供技术支持<br/>
 预定电话：0731-28827739 预定手机：13873387887客服经理 QQ：783337189 邮件：783337189@qq.com 地址：湖南省株洲市芦淞区中心广场家润多<br/>
-<a href='http://www.miitbeian.gov.cn' target='_blank'>湘ICP备12002401号-1</a> 访问统计：<script src="http://s94.cnzz.com/stat.php?id=4118223&web_id=4118223&show=pic" language="JavaScript"></script>程序开发：<a href="http://www.8090goto.com/">8090旅游团购</a><br/>
+<a href='http://www.miitbeian.gov.cn' target='_blank'>湘ICP备12002401号-1</a> 访问统计：<script src="http://s94.cnzz.com/stat.php?id=4118223&web_id=4118223&show=pic" language="JavaScript"></script><br/>
 </div>
 <!-- Baidu Button END -->
 <SCRIPT type="text/javascript" src="<?php echo Yii::app()->request->baseUrl?>/js/jquery.js"></SCRIPT>

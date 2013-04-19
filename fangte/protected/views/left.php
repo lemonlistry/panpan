@@ -58,9 +58,9 @@
                         <li><a href="<?php echo $this->createUrl('product/news/cid/3')?>" title="跟团线路">跟团线路</a></li>
         </ul>
         </div>
-	<div class="mid_left_title">
+	<!--<div class="mid_left_title">
    	    	<h3><a href="http://www.8090goto.com/?view=147" title="预付款" style="color:#FFFFFF;" target='_blank'><img src="<?php echo Yii::app()->request->baseUrl?>/images/yufukuan.gif" width="203" height="92" /></a></h3>
-        </div>
+        </div>-->
 	
         <div class="mid_left_wd_title">
         	<h3>今日最新门票预订信息</h3>
