@@ -17,19 +17,19 @@
 	<div class="mid2_nr">
     	
     	  <table width='800px' border="0" cellpadding="0" cellspacing="1" style='margin-left:70px;'>
-    	    <tr>
-    	      <td width="50%" height="18"><strong>门票类型</strong></td>
+    	    <tr style='font-size:15px;'>
+    	      <td width="50%" height="20"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;门票类型</strong></td>
     	      <td width="15%"><strong>门票挂牌价</strong></td>
     	      <td width="15%"><strong>折扣价</strong></td>
 	      <td width="15%"><strong>支付方式</strong></td>
     	      <td width="5%" align="center"><strong>预订</strong></td>
   	      </tr>
     	    <?php foreach($tick_list as $val){?>
-    	    <tr style="color:#931573">
-    	      <td height="30"><?php echo $val['ticket_name']?></td>
-    	      <td><del>￥<?php echo $val['ticket_market_price']?></del></td>
-    	      <td>￥<?php echo $val['ticket_shop_price']?></td>
-	      <td>景点支付</td>
+    	    <tr style="color:#931573;height:45px;">
+    	      <td height="30" style="font-size:18px;"><?php echo $val['ticket_name']?></td>
+    	      <td style='font-size:17px;'><del>￥<?php echo $val['ticket_market_price']?></del></td>
+    	      <td style='font-size:17px;'>￥<?php echo $val['ticket_shop_price']?></td>
+	      <td style='font-size:17px;'>景点支付</td>
     	      <td><a href="<?php echo $this->createUrl('product/booking/id/'.$val['ticket_id'])?>" title="<?php echo $val['ticket_name']?>"><img src="<?php echo Yii::app()->request->baseUrl?>/images/yuding.jpg" /></a></td>
           </tr>
           <?php }?>
